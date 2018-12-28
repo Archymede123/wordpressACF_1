@@ -7,7 +7,7 @@ define( 'WP_DEBUG_DISPLAY', false ); // Added by SecuPress.
 
 # BEGIN SecuPress unfiltered_html
 define('WP_CACHE', true);
-define( 'WPCACHEHOME', '/Users/timotheereynaud/code/MyBrian/public_html/wp-content/plugins/wp-super-cache/' );
+define( 'WPCACHEHOME', '/Users/timotheereynaud/code/Archymede123/wordpressACF_1/public_html/wp-content/plugins/wp-super-cache/' );
 define( 'DISALLOW_UNFILTERED_HTML', true );
 # END SecuPress
 
