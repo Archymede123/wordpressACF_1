@@ -1,0 +1,5 @@
+drwx---r-x    3 23011      users               5 Dec 18 09:43 .
+drwx---r-x    8 23011      users              12 Dec 18 09:41 ..
+drwx---r-x    3 23011      users               7 Dec 18 09:45 inc
+-rw----r--    1 23011      users              64 Dec 18 09:41 index.php
+-rw----r--    1 23011      users            1049 Dec 18 09:41 readme.txt

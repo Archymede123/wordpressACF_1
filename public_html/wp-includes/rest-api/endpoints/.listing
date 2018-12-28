@@ -1,0 +1,13 @@
+drwx---r-x    2 23011      users              13 Dec 18 09:52 .
+drwx---r-x    4 23011      users               7 Dec 18 09:52 ..
+-rw----r--    1 23011      users           23565 Dec 18 09:52 class-wp-rest-attachments-controller.php
+-rw----r--    1 23011      users           53746 Dec 18 09:52 class-wp-rest-comments-controller.php
+-rw----r--    1 23011      users           18049 Dec 18 09:52 class-wp-rest-controller.php
+-rw----r--    1 23011      users            9119 Dec 18 09:52 class-wp-rest-post-statuses-controller.php
+-rw----r--    1 23011      users            8902 Dec 18 09:52 class-wp-rest-post-types-controller.php
+-rw----r--    1 23011      users           73947 Dec 18 09:52 class-wp-rest-posts-controller.php
+-rw----r--    1 23011      users           17041 Dec 18 09:52 class-wp-rest-revisions-controller.php
+-rw----r--    1 23011      users           10155 Dec 18 09:52 class-wp-rest-settings-controller.php
+-rw----r--    1 23011      users            9947 Dec 18 09:52 class-wp-rest-taxonomies-controller.php
+-rw----r--    1 23011      users           30497 Dec 18 09:52 class-wp-rest-terms-controller.php
+-rw----r--    1 23011      users           43594 Dec 18 09:52 class-wp-rest-users-controller.php

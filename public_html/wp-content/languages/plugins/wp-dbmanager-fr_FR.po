@@ -1,0 +1,866 @@
+# Translation of Plugins - WP-DBManager - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - WP-DBManager - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-05-21 15:37:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - WP-DBManager - Stable (latest release)\n"
+
+#: database-backup.php:171 database-backup.php:180 database-backup.php:189
+msgid "missing"
+msgstr "manquant"
+
+#: database-backup.php:199
+msgid "I'm sorry, your server administrator has disabled passthru(), system() and/or exec(), thus you cannot use this plugin. Please find an alternative plugin."
+msgstr "Je suis désolé, votre administrateur serveur a désactivé passthru(), system() et / ou exec(), vous ne pouvez donc pas utiliser cette extension. Veuillez chercher une autre extension."
+
+#: database-manage.php:114 database-manager.php:65
+msgid "No."
+msgstr "Non."
+
+#: wp-dbmanager.php:702 wp-dbmanager.php:732 wp-dbmanager.php:757
+msgid "N/A"
+msgstr "N/D"
+
+#: database-empty.php:71 database-manager.php:66 database-optimize.php:59
+#: database-repair.php:60
+msgid "Tables"
+msgstr "Tables"
+
+#: database-empty.php:72 database-empty.php:86
+msgid "Empty"
+msgstr "Vide"
+
+#: database-empty.php:72
+msgid "1"
+msgstr "1"
+
+#: database-empty.php:73
+msgid "2"
+msgstr "2"
+
+#: database-manage.php:30 database-manage.php:172
+msgid "Restore"
+msgstr "Restaurer"
+
+#: database-manage.php:81 database-manage.php:171 wp-dbmanager.php:510
+msgid "Download"
+msgstr "Télécharger"
+
+#: database-manage.php:86 database-manage.php:173
+msgid "Delete"
+msgstr "Supprimer"
+
+#: database-manage.php:116
+msgid "Date/Time"
+msgstr "Date /  Heure"
+
+#: database-manage.php:117
+msgid "Size"
+msgstr "Taille"
+
+#: database-manage.php:153 database-manage.php:156
+msgid "There Are No Database Backup Files Available."
+msgstr "Aucun fichier de sauvegarde disponibles"
+
+#: database-manager.php:25 wp-dbmanager.php:43
+msgid "Database"
+msgstr "Base de données"
+
+#: database-manager.php:26
+msgid "Database Information"
+msgstr "Informations de la base de données"
+
+#: database-manager.php:36
+msgid "Database Host"
+msgstr "Hébergeur de la base"
+
+#: database-manager.php:40
+msgid "Database Name"
+msgstr "Nom de la base"
+
+#: database-manager.php:44
+msgid "Database User"
+msgstr "Utilisateur de la base"
+
+#: database-manager.php:48
+msgid "Database Type"
+msgstr "Type de base"
+
+#: database-manager.php:52
+msgid "Database Version"
+msgstr "Version de la base"
+
+#: database-manager.php:60
+msgid "Tables Information"
+msgstr "Informations concernant les tables"
+
+#: database-manager.php:67
+msgid "Records"
+msgstr "Enregistrements"
+
+#: database-manager.php:68
+msgid "Data Usage"
+msgstr "Utilisation des données"
+
+#: database-optimize.php:19 database-optimize.php:80
+msgid "Optimize"
+msgstr "Optimiser"
+
+#: database-optimize.php:54
+msgid "Optimize Database"
+msgstr "Optimiser la base de données"
+
+#: database-optimize.php:60 database-repair.php:61
+msgid "Options"
+msgstr "Options"
+
+#: database-repair.php:20 database-repair.php:78
+msgid "Repair"
+msgstr "Réparer"
+
+#: database-repair.php:55
+msgid "Repair Database"
+msgstr "Réparer la base de données"
+
+#: database-run.php:24 database-run.php:85
+msgid "Run"
+msgstr "Exécuter"
+
+#: wp-dbmanager.php:329
+msgid "MiB"
+msgstr "MiB"
+
+#: wp-dbmanager.php:808
+msgid "Miscellaneous Options"
+msgstr "Options diverses"
+
+#: database-run.php:60 database-run.php:63
+msgid "Empty Query"
+msgstr "Requête vide"
+
+#: wp-dbmanager.php:46
+msgid "Backup DB"
+msgstr "Sauvegarder la base"
+
+#: wp-dbmanager.php:48
+msgid "Optimize DB"
+msgstr "Optimiser la base"
+
+#: wp-dbmanager.php:49
+msgid "Repair DB"
+msgstr "Réparer la base"
+
+#: wp-dbmanager.php:52
+msgid "DB Options"
+msgstr "Options de la base"
+
+#: wp-dbmanager.php:309 wp-dbmanager.php:402
+msgid "Administrator"
+msgstr "Administrateur"
+
+#: wp-dbmanager.php:575
+msgid "Database Options Updated"
+msgstr "Options de la base mises à jour"
+
+#: wp-dbmanager.php:635
+msgid "Database Options"
+msgstr "Options de la base"
+
+#: wp-dbmanager.php:679
+msgid "Linux Server"
+msgstr "Serveur Linux"
+
+#: wp-dbmanager.php:692
+msgid "Automatic Scheduling"
+msgstr "Planification Auto"
+
+#: wp-dbmanager.php:708 wp-dbmanager.php:738 wp-dbmanager.php:763
+msgid "Disable"
+msgstr "Désactiver"
+
+#: wp-dbmanager.php:753
+msgid "Next repair date: "
+msgstr "Prochaine date de réparation :"
+
+#: wp-dbmanager.php:788
+msgid "From"
+msgstr "De"
+
+#: wp-dbmanager.php:791
+msgid "From Name"
+msgstr "Nom de l'expéditeur"
+
+#: wp-dbmanager.php:794 wp-dbmanager.php:803
+msgid "(Leave blank to use the default)"
+msgstr "(Laisser vide pour conserver les valeurs par défaut)"
+
+#: wp-dbmanager.php:811
+msgid "Hide Admin Notices"
+msgstr "Masquer les notifications admin"
+
+#. Plugin Name of the plugin/theme
+msgid "WP-DBManager"
+msgstr "WP-DBManager"
+
+#: wp-dbmanager.php:713 wp-dbmanager.php:743 wp-dbmanager.php:768
+msgid "Month(s)"
+msgstr "Mois"
+
+#: wp-dbmanager.php:715
+msgid "Gzip"
+msgstr "Gzip"
+
+#. Author of the plugin/theme
+msgid "Lester 'GaMerZ' Chan"
+msgstr "Lester 'GaMerZ' Chan"
+
+#: database-empty.php:66 wp-dbmanager.php:50
+msgid "Empty/Drop Tables"
+msgstr "Vider / Supprimer les tables"
+
+#: wp-dbmanager.php:636
+msgid "Paths"
+msgstr "Chemins"
+
+#: database-run.php:78
+msgid "Use Only INSERT, UPDATE, REPLACE, DELETE, CREATE and ALTER statements."
+msgstr "N'utiliser que les commandes INSERT, UPDATE, REPLACE, DELETE, CREATE et ALTER."
+
+#: wp-dbmanager.php:771
+msgid "WP-DBManager can automatically repair your database after a certain period."
+msgstr "WP-DBManager peut réparer votre base de données périodiquement"
+
+#: database-empty.php:73 database-empty.php:87
+msgid "Drop"
+msgstr "Drop"
+
+#: database-manage.php:60
+msgid "Database On '%s' Failed To Restore"
+msgstr "La base de données « %s » n'a pas pu être restaurée."
+
+#: database-manage.php:62
+msgid "Database On '%s' Restored Successfully"
+msgstr "La base de données « %s » a bien été restaurée."
+
+#: database-manage.php:75
+msgid "Unable To E-Mail Database Backup File For '%s' To '%s'"
+msgstr "Impossible d'envoyer le fichier de sauvegarde de « %s » vers « %s »."
+
+#: database-manage.php:90
+msgid "Unable To Delete Database Backup File On '%s'"
+msgstr "Échec dans la suppression du fichier de sauvegarde de « %s »."
+
+#: database-manage.php:92
+msgid "Database Backup File On '%s' Deleted Successfully"
+msgstr "Le fichier de sauvegarde de la base « %s » a bien été supprimé."
+
+#: database-manage.php:95
+msgid "Invalid Database Backup File On '%s'"
+msgstr "Fichier de sauvegarde de la base « %s » non valide."
+
+#: database-manage.php:109
+msgid "Manage Backup Database"
+msgstr "Gérer la sauvegarde de la base de données"
+
+#: database-manage.php:110
+msgid "Choose A Backup Date To E-Mail, Restore, Download Or Delete"
+msgstr "Choisissez une date de sauvegarde à envoyer par e-mail, à restaurer, à télécharger, ou à supprimer."
+
+#: database-empty.php:94
+msgid "2. DROPPING a table means deleting the table. This action is not REVERSIBLE."
+msgstr "2. DROPER une table revient à supprimer la table. Cette action est IRRÉVERSIBLE."
+
+#: database-manager.php:31
+msgid "Setting"
+msgstr "Réglages"
+
+#: database-manager.php:103
+msgid "%s Record"
+msgid_plural "%s Records"
+msgstr[0] "%s enregistrement"
+msgstr[1] "%s enregistrements"
+
+#: database-optimize.php:29 database-repair.php:30
+msgid "No Tables Selected"
+msgstr "Aucune table sélectionnée"
+
+#: database-optimize.php:38
+msgid "Table(s) '%s' Optimized"
+msgstr "Table(s) « %s » optimisée(s)"
+
+#: database-run.php:58
+msgid "Query(s) Executed Successfully"
+msgstr "Requête(s) correctement effectuée(s)"
+
+#: wp-dbmanager.php:160
+msgid "WP-DBManager Backup Schedule"
+msgstr "WP-DBManager planification de sauvegarde "
+
+#: wp-dbmanager.php:801
+msgid "Subject"
+msgstr "Sujet"
+
+#: database-empty.php:98
+msgid "You Are About To Empty Or Drop The Selected Databases.\\nThis Action Is Not Reversible.\\n\\n Choose [Cancel] to stop, [Ok] to delete."
+msgstr "Vous êtes sur le point de vider ou supprimer les bases de données sélectionnées.\\nCette action est irréversible.\\n\\n Sélectionnez [Cancel] pour annuler, [Ok] pour supprimer."
+
+#: database-manage.php:172
+msgid "You Are About To Restore A Database.\\nThis Action Is Not Reversible.\\nAny Data Inserted After The Backup Date Will Be Gone.\\n\\n Choose [Cancel] to stop, [Ok] to restore."
+msgstr "Vous êtes sur le point de restaurer une sauvegarde de la base.\\nCette action est irréversible.\\nToutes les données entrées postérieurement à la sauvegarde utilisée seront effacées\\n\\n Sélectionnez [Cancel] pour annuler, [Ok] pour confirmer."
+
+#: database-manage.php:173
+msgid "You Are About To Delete The Selected Database Backup Files.\\nThis Action Is Not Reversible.\\n\\n Choose [Cancel] to stop, [Ok] to delete."
+msgstr "Vous êtes sur le point de supprimer les fichiers de sauvegarde sélectionnés.\\nCette action est irréversible.\\n\\n Sélectionnez [Cancel] pour annuler, [Ok] pour confirmer."
+
+#: database-repair.php:39
+msgid "Table(s) '%s' Repaired"
+msgstr "Table(s) « %s » réparée(s)"
+
+#: wp-dbmanager.php:641 wp-dbmanager.php:648
+msgid "Auto Detect"
+msgstr "Auto Détection"
+
+#: wp-dbmanager.php:672
+msgid "Windows Server"
+msgstr "Serveur Windows"
+
+#: wp-dbmanager.php:706 wp-dbmanager.php:736 wp-dbmanager.php:761
+msgid "Every"
+msgstr "Toutes les"
+
+#: wp-dbmanager.php:709 wp-dbmanager.php:739 wp-dbmanager.php:764
+msgid "Minutes(s)"
+msgstr "Minutes(s)"
+
+#: wp-dbmanager.php:710 wp-dbmanager.php:740 wp-dbmanager.php:765
+msgid "Hour(s)"
+msgstr "Heure(s)"
+
+#: wp-dbmanager.php:711 wp-dbmanager.php:741 wp-dbmanager.php:766
+msgid "Day(s)"
+msgstr "Jour(s)"
+
+#: wp-dbmanager.php:712 wp-dbmanager.php:742 wp-dbmanager.php:767
+msgid "Week(s)"
+msgstr "Semaine(s)"
+
+#: wp-dbmanager.php:784
+msgid "(Leave blank to disable this feature)"
+msgstr "(Laisser vide pour désactiver cette fonctionnalité)"
+
+#: wp-dbmanager.php:822
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: wp-dbmanager.php:190 wp-dbmanager.php:194 wp-dbmanager.php:198
+msgid "To correct this issue, move the file from <strong>%s</strong> to <strong>%s</strong>"
+msgstr "Pour corriger le problème, déplacez votre fichier de <strong>%s</strong> vers <strong>%s</strong>."
+
+#: wp-dbmanager.php:333
+msgid "bytes"
+msgstr "octets"
+
+#: wp-dbmanager.php:161
+msgid "WP-DBManager Optimize Schedule"
+msgstr "WP-DBManager Planification d'optimisation de la base "
+
+#: wp-dbmanager.php:162
+msgid "WP-DBManager Repair Schedule"
+msgstr "WP-DBManager Planification de réparation de la base "
+
+#: wp-dbmanager.php:183
+msgid "To correct this issue, make the folder <strong>%s</strong> writable."
+msgstr "Afin de résoudre ce problème, modifiez les droits du dossier <strong>%s</strong> pour le rendre accessible en écriture."
+
+#: wp-dbmanager.php:668 wp-dbmanager.php:686
+msgid "Note"
+msgstr "Remarque"
+
+#: wp-dbmanager.php:673
+msgid "For mysqldump path, you can try '<strong>mysqldump.exe</strong>'."
+msgstr "Pour le chemin de mysqldump, vous pouvez essayer « <strong>mysqldump.exe</strong> »."
+
+#: wp-dbmanager.php:674
+msgid "For mysql path, you can try '<strong>mysql.exe</strong>'."
+msgstr "Pour le chemin mysql, vous pouvez essayer « <strong>mysql.exe</strong> »."
+
+#: wp-dbmanager.php:776
+msgid "Backup Email Options"
+msgstr "Options de l'e-mail de sauvegarde"
+
+#: wp-dbmanager.php:779
+msgid "To"
+msgstr "Pour"
+
+#: database-manage.php:160
+msgid "%s Backup File"
+msgid_plural "%s Backup Files"
+msgstr[0] "Fichier de sauvegarde %s"
+msgstr[1] "Fichiers de sauvegarde %s"
+
+#: database-manage.php:118
+msgid "Select"
+msgstr "Sélection"
+
+#: database-empty.php:92
+msgid "1. EMPTYING a table means all the rows in the table will be deleted. This action is not REVERSIBLE."
+msgstr "1. VIDER une table revient à en supprimer toutes les lignes. Cette action est IRREVERSIBLE."
+
+#: database-manage.php:73
+msgid "Database Backup File For '%s' Successfully E-Mailed To '%s'"
+msgstr "Le fichier de sauvegarde de la base « %s » a bien été envoyé à « %s »."
+
+#: database-manager.php:102
+msgid "%s Table"
+msgid_plural "%s Tables"
+msgstr[0] "%s table"
+msgstr[1] " %s tables"
+
+#: wp-dbmanager.php:681
+msgid "For mysql path, normally is just '<strong>mysql</strong>'."
+msgstr "En principe, le chemin de mysql est normalement « <strong>mysql</strong> »."
+
+#: wp-dbmanager.php:680
+msgid "For mysqldump path, normally is just '<strong>mysqldump</strong>'."
+msgstr "En principe, le chemin de la sauvegarde mysql est normalement « <strong>mysqldump</strong> ». "
+
+#: wp-dbmanager.php:578
+msgid "No Database Option Updated"
+msgstr "Aucune option de la base de données mise à jour"
+
+#. Description of the plugin/theme
+msgid "Manages your WordPress database. Allows you to optimize database, repair database, backup database, restore database, delete backup database , drop/empty tables and run selected queries. Supports automatic scheduling of backing up, optimizing and repairing of database."
+msgstr "Gère votre base de données WordPress. Vous permet d’optimiser votre base, de la réparer, la sauvegarder, la restaurer, d’en supprimer des sauvegardes, de supprimer ou vider des tables et d’exécuter des requêtes à la demande. Permet également de planifier des sauvegardes, optimisations, et réparations."
+
+#: wp-dbmanager.php:746
+msgid "WP-DBManager can automatically optimize your database after a certain period."
+msgstr "WP-DBManager peut optimiser votre base de données à intervalles réguliers."
+
+#: wp-dbmanager.php:721
+msgid "WP-DBManager can automatically backup your database after a certain period."
+msgstr "WP-DBManager peut sauvegarder votre base de données à intervalles réguliers."
+
+#: wp-dbmanager.php:182
+msgid "Your backup folder is NOT writable"
+msgstr "Votre dossier de sauvegarde n’est PAS accessible en mode écriture"
+
+#: wp-dbmanager.php:306
+msgid "Backup File Date:"
+msgstr "Date du fichier de sauvegarde :"
+
+#: wp-dbmanager.php:307
+msgid "Backup File Size:"
+msgstr "Taille du fichier de sauvegarde :"
+
+#: wp-dbmanager.php:305
+msgid "Backup File Name:"
+msgstr "Nom du fichier de sauvegarde :"
+
+#: wp-dbmanager.php:303
+msgid "Website Name:"
+msgstr "Nom du site Web :"
+
+#: wp-dbmanager.php:304
+msgid "Website URL:"
+msgstr "URL du site Web :"
+
+#: wp-dbmanager.php:792
+msgid "From E-mail"
+msgstr "Nom de l’expéditeur de l’e-mail"
+
+#: wp-dbmanager.php:782
+msgid "To E-mail"
+msgstr "Destinataire de l’e-mail"
+
+#: wp-dbmanager.php:698
+msgid "Next backup date: "
+msgstr "Date de la prochaine sauvegarde :"
+
+#: wp-dbmanager.php:695
+msgid "Automatic Backing Up Of DB:"
+msgstr "Sauvegarde automatique de la base de données :"
+
+#: wp-dbmanager.php:653
+msgid "Path To Backup:"
+msgstr "Chemin vers la sauvegarde :"
+
+#: wp-dbmanager.php:639
+msgid "Path To mysqldump:"
+msgstr "Chemin vers mysqldump :"
+
+#: wp-dbmanager.php:646
+msgid "Path To mysql:"
+msgstr "Chemin vers mysql :"
+
+#: database-repair.php:37
+msgid "Table(s) '%s' NOT Repaired"
+msgstr "Table(s) « %s » NON réparée(s)"
+
+#: database-optimize.php:36
+msgid "Table(s) '%s' NOT Optimized"
+msgstr "Table(s) « %s » NON optimisée(s)"
+
+#: database-optimize.php:77
+msgid "Database should be optimized once every month."
+msgstr "La base de données devrait être optimisée 1 fois par mois."
+
+#: database-manager.php:101
+msgid "Total:"
+msgstr "Total :"
+
+#: database-manage.php:65 database-manage.php:78 database-manage.php:83
+#: database-manage.php:98
+msgid "No Backup Database File Selected"
+msgstr "Aucun fichier de sauvegarde n’a été sélectionné."
+
+#: database-run.php:77
+msgid "Separate Multiple Queries With A New Line"
+msgstr "Séparer les requêtes multiples par un retour à la ligne"
+
+#: wp-dbmanager.php:798
+msgid "Subject:"
+msgstr "Sujet :"
+
+#: wp-dbmanager.php:251 wp-dbmanager.php:566
+msgid "%s is not a valid mysqldump path"
+msgstr "%s n’est pas un chemin mysqldump valide "
+
+#. Author URI of the plugin/theme
+msgid "https://lesterchan.net"
+msgstr "https://lesterchan.net"
+
+#: wp-dbmanager.php:725
+msgid "Automatic Optimizing Of DB:"
+msgstr "Optimisation automatique de la base de données :"
+
+#: wp-dbmanager.php:200
+msgid "<a href=\"%s\">Click here</a> to let WP-DBManager try to fix it"
+msgstr "<a href=\"%s\">Cliquer ici</a> pour laisser WP-DBManager tenter de corriger le problème"
+
+#: wp-dbmanager.php:186
+msgid "Your backup folder MIGHT be visible to the public"
+msgstr "Votre dossier de sauvegarde POURRAIT être visible au public"
+
+#: wp-dbmanager.php:660
+msgid "Maximum Backup Files:"
+msgstr "Nombre maximal de fichiers de sauvegarde :"
+
+#: wp-dbmanager.php:308
+msgid "With Regards,"
+msgstr "Cordialement,"
+
+#: wp-dbmanager.php:728
+msgid "Next optimize date: "
+msgstr "Prochaine date d’optimisation :"
+
+#. Plugin URI of the plugin/theme
+msgid "https://lesterchan.net/portfolio/programming/php/"
+msgstr "https://lesterchan.net/portfolio/programming/php/"
+
+#: wp-dbmanager.php:750
+msgid "Automatic Repairing Of DB:"
+msgstr "Réparation automatique de la base :"
+
+#: wp-dbmanager.php:331
+msgid "KiB"
+msgstr "Kio"
+
+#: wp-dbmanager.php:327
+msgid "GiB"
+msgstr "Gio"
+
+#: database-manager.php:69
+msgid "Index Usage"
+msgstr "Utilisation de l’index"
+
+#: database-manage.php:115
+msgid "Database File"
+msgstr "Fichier base de données"
+
+#: database-manage.php:55 wp-dbmanager.php:253 wp-dbmanager.php:569
+msgid "%s is not a valid mysql path"
+msgstr "%s n’est pas un chemin mysql valide"
+
+#: database-manager.php:70
+msgid "Overhead"
+msgstr "Résultat"
+
+#: database-run.php:89
+msgid "1. CREATE statement will return an error, which is perfectly normal due to the database class. To confirm that your table has been created check the Manage Database page."
+msgstr "1. L’instruction CREATE renvoie une erreur, ce qui est parfaitement normal en raison de la classe de la base de données. Pour confirmer que votre table a été créée, vérifiez la page « Gérer la base de données »."
+
+#: database-run.php:90
+msgid "2. UPDATE statement may return an error sometimes due to the newly updated value being the same as the previous value."
+msgstr "2. L’instruction UPDATE peut renvoyer une erreur parfois quand la nouvelle valeur mise à jour est la même que la valeur précédente."
+
+#: database-run.php:91
+msgid "3. ALTER statement will return an error because there is no value returned."
+msgstr "3. L’instruction ALTER renvoie une erreur car aucune valeur n’est retournée."
+
+#: wp-dbmanager.php:649
+msgid "The absolute path to mysql without trailing slash. If unsure, please email your server administrator about this."
+msgstr "Le chemin absolu vers mysql sans slash. En cas de doute, veuillez contacter votre administrateur serveur à ce sujet. "
+
+#: wp-dbmanager.php:642
+msgid "The absolute path to mysqldump without trailing slash. If unsure, please email your server administrator about this."
+msgstr "Le chemin absolu vers mysqldump sans slash. En cas de doute, veuillez contacter votre administrateur serveur à ce sujet."
+
+#: wp-dbmanager.php:656
+msgid "The absolute path to your database backup folder without trailing slash. Make sure the folder is writable."
+msgstr "Le chemin absolu vers le dossier de sauvegarde de la base de données sans slash. En cas de doute, veuillez contacter votre administrateur serveur à ce sujet. "
+
+#: wp-dbmanager.php:687
+msgid "The 'Auto Detect' function does not work for some servers. If it does not work for you, please contact your server administrator for the MYSQL and MYSQL DUMP paths."
+msgstr "La fonction « Auto Detect » ne fonctionne pas pour certains serveurs. Si cela ne fonctionne pas pour vous, veuillez contacter votre administrateur serveur pour les chemins MYSQL et MYSQL DUMP."
+
+#: wp-dbmanager.php:405
+msgid "%SITE_NAME% Database Backup File For %POST_DATE% @ %POST_TIME%"
+msgstr "Fichier de sauvegarde de la base %SITE_NAME% le %POST_DATE% à %POST_TIME"
+
+#: wp-dbmanager.php:47
+msgid "Manage Backup DB"
+msgstr "Gérer la sauvegarde"
+
+#: database-manage.php:167
+msgid "E-mail database backup file to:"
+msgstr "Envoyer le fichier de sauvegarde de la base à :"
+
+#: database-manage.php:68 database-manage.php:167
+msgid "E-Mail"
+msgstr "Envoyer"
+
+#: database-run.php:74 wp-dbmanager.php:51
+msgid "Run SQL Query"
+msgstr "Requête SQL"
+
+#: wp-dbmanager.php:663
+msgid "The maximum number of database backup files that is allowed in the backup folder as stated above. The oldest database backup file is always deleted in order to maintain this value. This is to prevent the backup folder from getting too large."
+msgstr "Nombre maximal de fichiers de sauvegarde de base de données autorisés dans le dossier de sauvegarde. Le fichier de sauvegarde de base de données le plus ancien est toujours supprimé afin de conserver cette valeur. Cela permet d’éviter que le dossier de sauvegarde ne devienne trop volumineux."
+
+#: database-backup.php:248 database-optimize.php:73 database-repair.php:74
+#: wp-dbmanager.php:718 wp-dbmanager.php:814
+msgid "Yes"
+msgstr "Oui"
+
+#: database-backup.php:248 database-optimize.php:73 database-repair.php:74
+#: wp-dbmanager.php:717 wp-dbmanager.php:815
+msgid "No"
+msgstr "Non"
+
+#: database-backup.php:25 database-backup.php:251
+msgid "Backup"
+msgstr "Sauvegarde"
+
+#: database-backup.php:81
+msgid "Checking Security Status"
+msgstr "Vérification de la sécurité"
+
+#: database-backup.php:174 database-backup.php:183 database-backup.php:192
+msgid "enabled"
+msgstr "activé"
+
+#: database-backup.php:218
+msgid "Option"
+msgstr "Option"
+
+#: database-backup.php:109
+msgid "Checking Backup Folder"
+msgstr "Vérification du dossier de sauvegarde"
+
+#: database-backup.php:165
+msgid "and"
+msgstr "et"
+
+#: database-backup.php:168 database-backup.php:177 database-backup.php:186
+msgid "disabled"
+msgstr "désactivé"
+
+#: database-backup.php:201
+msgid "Excellent. You Are Good To Go."
+msgstr "Excellent. Vous pouvez y aller."
+
+#: database-backup.php:219 database-manager.php:32
+msgid "Value"
+msgstr "Valeur"
+
+#: database-backup.php:240
+msgid "Full (Structure and Data)"
+msgstr "Complète (Structure et données)"
+
+#: database-backup.php:165
+msgid "Checking PHP Functions"
+msgstr "Vérification des fonctions PHP"
+
+#: database-backup.php:103
+msgid "index.php is present in %s"
+msgstr "index.php est présent dans %s"
+
+#: database-backup.php:112 database-manage.php:53 wp-dbmanager.php:249
+#: wp-dbmanager.php:563
+msgid "%s is not a valid backup path"
+msgstr "%s n'est pas un chemin de sauvegarde correct"
+
+#: database-backup.php:122
+msgid "Backup folder is writable"
+msgstr "Le dossier de sauvegarde est accessible en écriture."
+
+#: database-backup.php:133
+msgid "%s is not a valid backup mysqldump path"
+msgstr "%s n'est pas un chemin valide de sauvegarde mysqldump"
+
+#: database-backup.php:251 database-empty.php:98 database-manage.php:174
+#: database-optimize.php:80 database-repair.php:78 database-run.php:85
+msgid "Cancel"
+msgstr "Annuler"
+
+#: database-empty.php:40
+msgid "No Tables Selected."
+msgstr "Aucune table sélectionnée."
+
+#: database-empty.php:46
+msgid "Table '%s' Emptied"
+msgstr "Table « %s » vidée"
+
+#: database-backup.php:55
+msgid "Database Failed To Backup On '%s'. Backup Folder Not Writable."
+msgstr "Échec de la sauvegarde de la base de données « %s ». Dossier de sauvegarde non accessible en écriture."
+
+#: database-empty.php:51
+msgid "Table(s) '%s' Dropped"
+msgstr "Table(s) « %s » supprimée(s)"
+
+#: database-backup.php:124
+msgid "Backup folder is NOT writable. Please CHMOD it to '777'."
+msgstr "Le dossier de sauvegarde est inaccessible en écriture. Merci de le CHMOD en « 777 »."
+
+#: database-backup.php:138
+msgid "MYSQL dump path exists."
+msgstr "Le chemin du dump MYSQL existe."
+
+#: database-backup.php:137 database-backup.php:140
+msgid "Checking MYSQL Dump Path"
+msgstr "Vérification en cours du chemin MYSQL Dump"
+
+#: database-backup.php:107
+msgid "Checking Backup Status"
+msgstr "Vérification en cours de l’état de la sauvegarde"
+
+#: database-backup.php:158
+msgid "MYSQL path does NOT exist. Please check your mysql path under DB Options. If uncertain, contact your server administrator."
+msgstr "Le chemin MYSQL n’existe PAS. Veuillez vérifier votre chemin mysql sous DB Options. Si vous avez des doutes, contactez l’administrateur de votre serveur."
+
+#: database-backup.php:141
+msgid "MYSQL dump path does NOT exist. Please check your mysqldump path under DB Options. If uncertain, contact your server administrator."
+msgstr "Le chemin de la sauvegarde MYSQL n’existe PAS. Veuillez vérifier votre chemin mysqldump sous DB Options. Si vous avez des doutes, contactez l’administrateur de votre serveur."
+
+#: database-backup.php:207
+msgid "Note: The checking of backup status is still undergoing testing, it may not be accurate."
+msgstr "Note : La vérification de l’état de la sauvegarde est toujours en cours de test, elle peut ne pas être exacte."
+
+#: database-backup.php:150
+msgid "%s is not a valid backup mysql path"
+msgstr "%s n’est pas un chemin de sauvegarde valide"
+
+#: database-backup.php:247
+msgid "GZIP Database Backup File?"
+msgstr "Fichier de sauvegarde de la base en GZIP ?"
+
+#: database-backup.php:243
+msgid "MYSQL Dump Location:"
+msgstr "Emplacement de MYSQL Dump :"
+
+#: database-backup.php:239
+msgid "Database Backup Type:"
+msgstr "Type de fichier de sauvegarde de la base :"
+
+#: database-backup.php:235
+msgid "Database Backup File Name:"
+msgstr "Nom du fichier de sauvegarde de la base :"
+
+#: database-backup.php:231
+msgid "Database Backup Date:"
+msgstr "Date de sauvegarde de la base :"
+
+#: database-backup.php:227
+msgid "Database Backup To:"
+msgstr "Sauvegarde de la base vers :"
+
+#: database-backup.php:223
+msgid "Database Name:"
+msgstr "Nom de la base :"
+
+#: database-backup.php:154 database-backup.php:157
+msgid "Checking MYSQL Path"
+msgstr "Vérification du chemin MYSQL"
+
+#: database-backup.php:155
+msgid "MYSQL path exists."
+msgstr "Le chemin MYSQL existe."
+
+#: database-backup.php:203
+msgid "Please Rectify The Error Highlighted In Red Before Proceeding On."
+msgstr "Veuillez rectifier l’erreur surlignée en rouge avant de poursuivre."
+
+#: database-backup.php:80 database-backup.php:213
+msgid "Backup Database"
+msgstr "Sauvegarder la base de données"
+
+#: database-backup.php:63
+msgid "Database Backed Up Successfully On '%s'."
+msgstr "Sauvegarde de la base « %s » bien effectuée."
+
+#: database-backup.php:61
+msgid "Database Failed To Backup On '%s'."
+msgstr "Échec de la sauvegarde de la base de données « %s »."
+
+#: database-backup.php:59
+msgid "Database Failed To Backup On '%s'. Invalid Backup File Path."
+msgstr "Échec de la sauvegarde de la base de données « %s ». Chemin d’accès au fichier de sauvegarde non valide."
+
+#: database-backup.php:57
+msgid "Database Failed To Backup On '%s'. Backup File Size Is 0KB."
+msgstr "Échec de la sauvegarde de la base de données « %s ». Fichier de sauvegarde 0Ko."
+
+#: database-backup.php:118
+msgid "Backup folder does NOT exist. Please create 'backup-db' folder in '%s' folder and CHMOD it to '777' or change the location of the backup folder under DB Option."
+msgstr "Le dossier de sauvegarde n’existe pas. Veuillez créer le dossier « backup-db » dans le dossier « %s » en CHMOD « 777 » ou changer l’emplacement du dossier de sauvegarde sous DB Option."
+
+#: database-backup.php:96
+msgid ".htaccess is present in %s"
+msgstr ".htaccess est présent dans %s"
+
+#: database-backup.php:89
+msgid "Web.config is present in %s"
+msgstr "Web.config est présent dans %s "
+
+#: database-backup.php:86
+msgid "Web.config is missing from %s"
+msgstr "Web.config est manquant dans %s "
+
+#: database-backup.php:100
+msgid "index.php is missing from %s"
+msgstr "index.php est manquant dans %s"
+
+#: database-backup.php:93
+msgid ".htaccess is missing from %s"
+msgstr ".htaccess est manquant dans %s"
+
+#: database-backup.php:116
+msgid "Backup folder exists"
+msgstr "Le dossier de sauvegarde existe."
+
+#: database-backup.php:11 database-backup.php:232 database-manage.php:25
+#: database-manage.php:142 wp-dbmanager.php:285 wp-dbmanager.php:700
+#: wp-dbmanager.php:730 wp-dbmanager.php:755
+msgid "%s @ %s"
+msgstr "%s à %s"
+
+#: database-empty.php:27 database-empty.php:98
+msgid "Empty/Drop"
+msgstr "Vider / supprimer"

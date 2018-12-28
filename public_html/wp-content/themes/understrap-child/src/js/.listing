@@ -1,0 +1,11 @@
+drwx---r-x    3 23011      users              11 Dec 18 09:47 .
+drwx---r-x    5 23011      users               6 Dec 18 09:47 ..
+drwx---r-x    2 23011      users               4 Dec 18 09:47 bootstrap4
+-rw----r--    1 23011      users           11197 Dec 18 09:44 core.js
+-rw----r--    1 23011      users             999 Dec 18 09:44 customizer.js
+-rw----r--    1 23011      users          268039 Dec 18 09:44 jquery.js
+-rw----r--    1 23011      users           86659 Dec 18 09:44 jquery.min.js
+-rw----r--    1 23011      users          215256 Dec 18 09:44 jquery.slim.js
+-rw----r--    1 23011      users           69597 Dec 18 09:44 jquery.slim.min.js
+-rw----r--    1 23011      users            3206 Dec 18 09:44 navigation.js
+-rw----r--    1 23011      users             880 Dec 18 09:44 skip-link-focus-fix.js

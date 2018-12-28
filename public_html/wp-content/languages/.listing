@@ -1,0 +1,12 @@
+drwx---r-x    4 23011      users              12 Dec 18 09:41 .
+drwx---r-x   10 23011      users              14 Dec 20 17:43 ..
+-rw-r--r--    1 23011      users          391656 Dec 18 20:59 admin-fr_FR.mo
+-rw-r--r--    1 23011      users          529312 Dec 18 20:59 admin-fr_FR.po
+-rw-r--r--    1 23011      users           49657 Dec 18 20:59 admin-network-fr_FR.mo
+-rw-r--r--    1 23011      users           65384 Dec 18 20:59 admin-network-fr_FR.po
+-rw-r--r--    1 23011      users           20772 Dec 18 20:59 continents-cities-fr_FR.mo
+-rw-r--r--    1 23011      users           44063 Dec 18 20:59 continents-cities-fr_FR.po
+-rw-r--r--    1 23011      users          263552 Dec 18 20:59 fr_FR.mo
+-rw-r--r--    1 23011      users          438272 Dec 18 20:59 fr_FR.po
+drwx---r-x    2 23011      users              20 Dec 18 09:41 plugins
+drwx---r-x    2 23011      users               8 Dec 18 09:41 themes

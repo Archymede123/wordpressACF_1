@@ -1,0 +1,12 @@
+drwx---r-x    2 23011      users              12 Dec 18 09:52 .
+drwx---r-x    4 23011      users              27 Dec 18 09:52 ..
+-rw----r--    1 23011      users           11200 Dec 18 09:52 dailymotion.js
+-rw----r--    1 23011      users            6241 Dec 18 09:52 dailymotion.min.js
+-rw----r--    1 23011      users           10070 Dec 18 09:52 facebook.js
+-rw----r--    1 23011      users            5648 Dec 18 09:52 facebook.min.js
+-rw----r--    1 23011      users            8199 Dec 18 09:52 soundcloud.js
+-rw----r--    1 23011      users            4477 Dec 18 09:52 soundcloud.min.js
+-rw----r--    1 23011      users           10405 Dec 18 09:52 twitch.js
+-rw----r--    1 23011      users            5493 Dec 18 09:52 twitch.min.js
+-rw----r--    1 23011      users           11889 Dec 18 09:52 vimeo.js
+-rw----r--    1 23011      users            6170 Dec 18 09:52 vimeo.min.js

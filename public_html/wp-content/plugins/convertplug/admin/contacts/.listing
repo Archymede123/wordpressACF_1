@@ -1,0 +1,7 @@
+drwx---r-x    5 23011      users               7 Dec 18 09:44 .
+drwx---r-x    6 23011      users              19 Dec 18 09:44 ..
+-rw----r--    1 23011      users             760 Dec 18 09:43 admin.php
+drwx---r-x    2 23011      users               4 Dec 18 09:44 css
+-rw----r--    1 23011      users              29 Dec 18 09:43 index.php
+drwx---r-x    2 23011      users               3 Dec 18 09:44 js
+drwx---r-x    2 23011      users               9 Dec 18 09:44 views

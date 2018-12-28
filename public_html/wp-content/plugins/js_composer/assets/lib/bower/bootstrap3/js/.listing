@@ -1,0 +1,14 @@
+drwx---r-x    2 23011      users              14 Dec 18 09:49 .
+drwx---r-x    5 23011      users               5 Dec 18 09:50 ..
+-rw----r--    1 23011      users            2640 Dec 18 09:49 affix.min.js
+-rw----r--    1 23011      users            1168 Dec 18 09:49 alert.min.js
+-rw----r--    1 23011      users            1699 Dec 18 09:49 button.min.js
+-rw----r--    1 23011      users            4291 Dec 18 09:49 carousel.min.js
+-rw----r--    1 23011      users            3578 Dec 18 09:49 collapse.min.js
+-rw----r--    1 23011      users            2729 Dec 18 09:49 dropdown.min.js
+-rw----r--    1 23011      users            5331 Dec 18 09:49 modal.min.js
+-rw----r--    1 23011      users            1897 Dec 18 09:49 popover.min.js
+-rw----r--    1 23011      users            2831 Dec 18 09:49 scrollspy.min.js
+-rw----r--    1 23011      users            1736 Dec 18 09:49 tab.min.js
+-rw----r--    1 23011      users            9905 Dec 18 09:49 tooltip.min.js
+-rw----r--    1 23011      users             669 Dec 18 09:49 transition.min.js

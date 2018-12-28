@@ -1,0 +1,13 @@
+drwx---r-x    5 23011      users              13 Dec 18 09:47 .
+drwx---r-x    6 23011      users              19 Dec 18 09:44 ..
+-rw----r--    1 23011      users           11043 Dec 18 09:43 BSF_Envato_Activate.php
+-rw----r--    1 23011      users           17067 Dec 18 09:43 BSF_License_Manager.php
+-rw----r--    1 23011      users           19822 Dec 18 09:43 BSF_Update_Manager.php
+-rw----r--    1 23011      users            2254 Dec 18 09:43 BSF_WP_CLI_Command.php
+drwx---r-x    6 23011      users               6 Dec 18 09:47 assets
+drwx---r-x    2 23011      users               5 Dec 18 09:44 auto-update
+-rw----r--    1 23011      users              66 Dec 18 09:43 bsf.yml
+-rw----r--    1 23011      users             892 Dec 18 09:43 changelog.txt
+-rw----r--    1 23011      users           42843 Dec 18 09:43 index.php
+drwx---r-x    2 23011      users               4 Dec 18 09:44 plugin-installer
+-rw----r--    1 23011      users               9 Dec 18 09:43 version.yml

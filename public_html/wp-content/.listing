@@ -1,0 +1,14 @@
+drwx---r-x   10 23011      users              14 Dec 20 17:43 .
+drwxr-xr-x    5 23011      users              28 Dec 18 23:51 ..
+-rw----r--    1 23011      users            8196 Dec 18 09:40 .DS_Store
+-rw----r--    1 23011      users            1129 Dec 18 23:08 advanced-cache.php
+drwxr-x---    2 23011      users               5 Dec 18 23:27 backup-db
+drwx---r-x    4 23011      users               6 Dec 20 20:12 cache
+-rw----r--    1 23011      users              28 Dec 18 09:40 index.php
+drwx---r-x    4 23011      users              12 Dec 18 09:41 languages
+drwx---r-x    2 23011      users               4 Dec 18 09:40 mu-plugins
+drwx---r-x   18 23011      users              20 Dec 20 09:12 plugins
+drwx---r-x    4 23011      users               6 Dec 20 09:12 themes
+drwx---r-x    2 23011      users               2 Dec 18 23:23 upgrade
+drwx---r-x    6 23011      users               7 Dec 18 20:53 uploads
+-rw----r--    1 23011      users            4542 Dec 18 23:13 wp-cache-config.php

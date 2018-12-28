@@ -1,0 +1,12 @@
+drwx---r-x    7 23011      users              12 Dec 18 09:52 .
+drwx---r-x   12 23011      users             109 Dec 18 09:52 ..
+drwx---r-x    2 23011      users               3 Dec 18 09:52 langs
+-rw----r--    1 23011      users           26441 Dec 18 09:52 license.txt
+drwx---r-x   24 23011      users              24 Dec 18 09:52 plugins
+drwx---r-x    4 23011      users               4 Dec 18 09:52 skins
+drwx---r-x    4 23011      users               4 Dec 18 09:52 themes
+-rw----r--    1 23011      users           15988 Dec 18 09:52 tiny_mce_popup.js
+-rw----r--    1 23011      users          480908 Dec 18 09:52 tinymce.min.js
+drwx---r-x    2 23011      users               6 Dec 18 09:52 utils
+-rw----r--    1 23011      users          210677 Dec 18 09:52 wp-tinymce.js.gz
+-rw----r--    1 23011      users            1126 Dec 18 09:52 wp-tinymce.php

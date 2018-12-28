@@ -1,0 +1,11 @@
+drwx---r-x    2 23011      users              11 Dec 18 09:52 .
+drwx---r-x   18 23011      users             188 Dec 18 09:52 ..
+-rw----r--    1 23011      users            2112 Dec 18 09:52 comments.php
+-rw----r--    1 23011      users             970 Dec 18 09:52 embed-404.php
+-rw----r--    1 23011      users            3446 Dec 18 09:52 embed-content.php
+-rw----r--    1 23011      users             479 Dec 18 09:52 embed.php
+-rw----r--    1 23011      users             438 Dec 18 09:52 footer-embed.php
+-rw----r--    1 23011      users            1059 Dec 18 09:52 footer.php
+-rw----r--    1 23011      users             704 Dec 18 09:52 header-embed.php
+-rw----r--    1 23011      users            1893 Dec 18 09:52 header.php
+-rw----r--    1 23011      users            4060 Dec 18 09:52 sidebar.php

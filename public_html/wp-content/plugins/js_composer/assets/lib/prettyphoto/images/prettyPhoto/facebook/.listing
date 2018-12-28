@@ -1,0 +1,11 @@
+drwx---r-x    2 23011      users              11 Dec 18 09:50 .
+drwx---r-x    8 23011      users               8 Dec 18 09:50 ..
+-rw----r--    1 23011      users             845 Dec 18 09:50 btnNext.png
+-rw----r--    1 23011      users             828 Dec 18 09:50 btnPrevious.png
+-rw----r--    1 23011      users             142 Dec 18 09:50 contentPatternBottom.png
+-rw----r--    1 23011      users             137 Dec 18 09:50 contentPatternLeft.png
+-rw----r--    1 23011      users             136 Dec 18 09:50 contentPatternRight.png
+-rw----r--    1 23011      users             142 Dec 18 09:50 contentPatternTop.png
+-rw----r--    1 23011      users             227 Dec 18 09:50 default_thumbnail.gif
+-rw----r--    1 23011      users            2545 Dec 18 09:50 loader.gif
+-rw----r--    1 23011      users            4227 Dec 18 09:50 sprite.png

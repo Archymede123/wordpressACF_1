@@ -1,0 +1,14 @@
+drwx---r-x    2 23011      users              14 Dec 18 09:50 .
+drwx---r-x    6 23011      users               6 Dec 18 09:50 ..
+-rw----r--    1 23011      users             252 Dec 18 09:50 medium.png
+-rw----r--    1 23011      users             344 Dec 18 09:50 medium_bubble.png
+-rw----r--    1 23011      users             589 Dec 18 09:50 medium_desc.png
+-rw----r--    1 23011      users             213 Dec 18 09:50 small.png
+-rw----r--    1 23011      users             346 Dec 18 09:50 small_bubble.png
+-rw----r--    1 23011      users             565 Dec 18 09:50 small_desc.png
+-rw----r--    1 23011      users             268 Dec 18 09:50 standard.png
+-rw----r--    1 23011      users             409 Dec 18 09:50 standard_bubble.png
+-rw----r--    1 23011      users             611 Dec 18 09:50 standard_desc.png
+-rw----r--    1 23011      users             252 Dec 18 09:50 tall.png
+-rw----r--    1 23011      users             351 Dec 18 09:50 tall_bubble.png
+-rw----r--    1 23011      users             644 Dec 18 09:50 tall_desc.png

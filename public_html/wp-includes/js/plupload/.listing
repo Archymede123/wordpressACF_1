@@ -1,0 +1,11 @@
+drwx---r-x    2 23011      users              11 Dec 18 09:52 .
+drwx---r-x   12 23011      users             109 Dec 18 09:52 ..
+-rw----r--    1 23011      users           16189 Dec 18 09:52 handlers.js
+-rw----r--    1 23011      users           10551 Dec 18 09:52 handlers.min.js
+-rw----r--    1 23011      users           17987 Dec 18 09:52 license.txt
+-rw----r--    1 23011      users          254084 Dec 18 09:52 moxie.js
+-rw----r--    1 23011      users           89142 Dec 18 09:52 moxie.min.js
+-rw----r--    1 23011      users           60314 Dec 18 09:52 plupload.js
+-rw----r--    1 23011      users           15742 Dec 18 09:52 plupload.min.js
+-rw----r--    1 23011      users           12726 Dec 18 09:52 wp-plupload.js
+-rw----r--    1 23011      users            4920 Dec 18 09:52 wp-plupload.min.js

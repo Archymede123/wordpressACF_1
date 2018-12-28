@@ -1,0 +1,2 @@
+[26-Dec-2018 01:41:22 UTC] PHP Warning:  Use of undefined constant ‘rss2′ - assumed '‘rss2′' (this will throw an Error in a future version of PHP) in /home/mybrlkxh/public_html/wp-content/themes/understrap-child/functions.php on line 121
+[26-Dec-2018 01:41:22 UTC] PHP Warning:  Use of undefined constant ‘create_my_custom_feed’ - assumed '‘create_my_custom_feed’' (this will throw an Error in a future version of PHP) in /home/mybrlkxh/public_html/wp-content/themes/understrap-child/functions.php on line 121

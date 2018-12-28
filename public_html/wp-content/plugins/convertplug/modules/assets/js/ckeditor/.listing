@@ -1,0 +1,13 @@
+drwx---r-x    6 23011      users              13 Dec 18 09:50 .
+drwx---r-x    3 23011      users              20 Dec 18 09:47 ..
+drwx---r-x    2 23011      users               3 Dec 18 09:49 adapters
+-rw----r--    1 23011      users            3189 Dec 18 09:47 build-config.js
+-rw----r--    1 23011      users          948347 Dec 18 09:47 ckeditor.beautified.js
+-rw----r--    1 23011      users          517332 Dec 18 09:47 ckeditor.js
+-rw----r--    1 23011      users          517184 Dec 18 09:47 ckeditor.min.js
+-rw----r--    1 23011      users            8390 Dec 18 09:47 config.js
+-rw----r--    1 23011      users            1874 Dec 18 09:47 contents.css
+drwx---r-x    2 23011      users               4 Dec 18 09:49 lang
+drwx---r-x   16 23011      users              18 Dec 18 09:50 plugins
+drwx---r-x    3 23011      users               3 Dec 18 09:50 skins
+-rw----r--    1 23011      users            3484 Dec 18 09:47 styles.js

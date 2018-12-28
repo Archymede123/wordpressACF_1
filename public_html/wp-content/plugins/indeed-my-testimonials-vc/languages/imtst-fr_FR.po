@@ -1,0 +1,575 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: default\n"
+"POT-Creation-Date: 2014-12-17 16:25+0200\n"
+"PO-Revision-Date: 2014-12-17 16:26+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/general_settings.php:8 ../indeed-my-testimonials-vc.php:633
+msgid "General Settings"
+msgstr "Paramètres généraux"
+
+#: ../includes/general_settings.php:15
+msgid "Responsive Settings"
+msgstr "Paramètres Responsive"
+
+#: ../includes/general_settings.php:21
+msgid "Screen Max-Width:"
+msgstr "Screen max-width:"
+
+#: ../includes/general_settings.php:29 ../includes/general_settings.php:50
+#: ../includes/general_settings.php:71
+msgid "Columns"
+msgstr "Colonnes"
+
+#: ../includes/general_settings.php:35 ../includes/general_settings.php:56
+#: ../includes/general_settings.php:77
+msgid "Auto"
+msgstr "Auto"
+
+#: ../includes/general_settings.php:42 ../includes/general_settings.php:63
+msgid "Screen Min-Width:"
+msgstr "Screen Min-Largeur:"
+
+#: ../includes/general_settings.php:42 ../includes/general_settings.php:63
+msgid "and Screen Max-Width:"
+msgstr "et Écran max-width:"
+
+#: ../includes/general_settings.php:86 ../includes/general_settings.php:176
+#: ../includes/general_settings.php:194 ../includes/general_settings.php:218
+msgid "Save changes"
+msgstr "Enregistrer les modifications"
+
+#: ../includes/general_settings.php:92
+msgid "Inside Page"
+msgstr "Page intérieure"
+
+#: ../includes/general_settings.php:98
+msgid "Entry Information"
+msgstr "Informations Entrée"
+
+#: ../includes/general_settings.php:108 ../indeed-my-testimonials-vc.php:306
+#: ../indeed-my-testimonials-vc.php:324 ../indeed-my-testimonials-vc.php:527
+msgid "Client Name"
+msgstr "Nom du client"
+
+#: ../includes/general_settings.php:115 ../indeed-my-testimonials-vc.php:115
+#: ../indeed-my-testimonials-vc.php:312 ../indeed-my-testimonials-vc.php:330
+#: ../indeed-my-testimonials-vc.php:528
+msgid "Quote"
+msgstr "Citation"
+
+#: ../includes/general_settings.php:122 ../indeed-my-testimonials-vc.php:307
+#: ../indeed-my-testimonials-vc.php:325 ../indeed-my-testimonials-vc.php:484
+#: ../indeed-my-testimonials-vc.php:493 ../indeed-my-testimonials-vc.php:529
+msgid "Client Image"
+msgstr "Image client"
+
+#: ../includes/general_settings.php:130 ../indeed-my-testimonials-vc.php:116
+#: ../indeed-my-testimonials-vc.php:308 ../indeed-my-testimonials-vc.php:326
+msgid "Client Job"
+msgstr "Job client"
+
+#: ../includes/general_settings.php:137 ../indeed-my-testimonials-vc.php:117
+#: ../indeed-my-testimonials-vc.php:309 ../indeed-my-testimonials-vc.php:327
+msgid "Client URL"
+msgstr "URL du client"
+
+#: ../includes/general_settings.php:145 ../indeed-my-testimonials-vc.php:118
+#: ../indeed-my-testimonials-vc.php:310 ../indeed-my-testimonials-vc.php:328
+#: ../indeed-my-testimonials-vc.php:369
+msgid "Company"
+msgstr "Société"
+
+#: ../includes/general_settings.php:152 ../indeed-my-testimonials-vc.php:119
+#: ../indeed-my-testimonials-vc.php:311 ../indeed-my-testimonials-vc.php:329
+#: ../indeed-my-testimonials-vc.php:375
+msgid "Company URL"
+msgstr "URL de la société"
+
+#: ../includes/general_settings.php:160 ../indeed-my-testimonials-vc.php:120
+msgid "Stars"
+msgstr "étoiles"
+
+#: ../includes/general_settings.php:168 ../indeed-my-testimonials-vc.php:97
+#: ../indeed-my-testimonials-vc.php:121
+msgid "Date"
+msgstr "Date"
+
+#: ../includes/general_settings.php:182
+msgid "Custom CSS"
+msgstr "Coutume CSS"
+
+#: ../includes/general_settings.php:185
+msgid ""
+"Add   !important;  after each style option and full style path to be sure "
+"that it will take effect!"
+msgstr ""
+"Ajouter !important; après chaque option de style et chemin complet de style "
+"pour être sûr qu'il sera pris en compte!"
+
+#: ../includes/general_settings.php:201
+msgid "Post Type"
+msgstr "Type de poste"
+
+#: ../includes/general_settings.php:208 ../indeed-my-testimonials-vc.php:97
+#: ../indeed-my-testimonials-vc.php:113 ../indeed-my-testimonials-vc.php:345
+msgid "Name"
+msgstr "Nom"
+
+#: ../includes/general_settings.php:216
+msgid ""
+"If You change the Post Type, the current Testimonials will not be available "
+"anymore!"
+msgstr ""
+"Si vous changez le type Post, le courant Témoignages ne sera plus disponible!"
+
+#: ../includes/imt_vc_functions.php:25 ../includes/imtst_view.php:236
+#: ../includes/imtst_view.php:245
+msgid "All"
+msgstr "Tous"
+
+#: ../includes/imtst_form_view.php:61
+msgid "From: "
+msgstr "De:"
+
+#: ../includes/imtst_form_view.php:62
+msgid "Client Job: "
+msgstr "Travail du client:"
+
+#: ../includes/imtst_form_view.php:63
+msgid "Client URL: "
+msgstr "URL du client:"
+
+#: ../includes/imtst_form_view.php:64
+msgid "Company: "
+msgstr "Société:"
+
+#: ../includes/imtst_form_view.php:65
+msgid "Company URL: "
+msgstr "URL de l'entreprise:"
+
+#: ../includes/imtst_form_view.php:66
+msgid "Quote: "
+msgstr "Citation:"
+
+#: ../includes/imtst_form_view.php:67
+msgid "Rating: "
+msgstr "Note:"
+
+#: ../includes/imtst_form_view.php:67
+msgid "stars."
+msgstr "étoiles."
+
+#: ../includes/imtst_form_view.php:68
+msgid "From: Indeed Testimonials"
+msgstr "De: Indeed Testimonials"
+
+#: ../includes/imtst_form_view.php:149
+msgid "What is the result for "
+msgstr "Quel est le résultat pour"
+
+#: ../includes/imtst_form_view.php:160
+msgid "Save"
+msgstr "Enregistrer"
+
+#: ../includes/imtst_form_view.php:164 ../indeed-my-testimonials-vc.php:398
+msgid "Thank you for your submitted testimonial!"
+msgstr "Merci pour votre témoignage soumis!"
+
+#: ../includes/imtst_form_view.php:169 ../indeed-my-testimonials-vc.php:404
+msgid ""
+"An Error has Occurred. Please Try Again and complete all the required fields!"
+msgstr ""
+"Une erreur se est produite. Se il vous plaît essayer encore et remplir tous "
+"les champs obligatoires!"
+
+#: ../indeed-my-testimonials-vc.php:54 ../indeed-my-testimonials-vc.php:298
+msgid "Content"
+msgstr "Content"
+
+#: ../indeed-my-testimonials-vc.php:58
+msgid "Group"
+msgstr "Groupe"
+
+#: ../indeed-my-testimonials-vc.php:66
+msgid "Number of items"
+msgstr "Nombre de pièces"
+
+#: ../indeed-my-testimonials-vc.php:75
+msgid "Maximum Number Of Characters"
+msgstr "Nombre maximal de caractères"
+
+#: ../indeed-my-testimonials-vc.php:83
+msgid "Read More"
+msgstr "En savoir plus"
+
+#: ../indeed-my-testimonials-vc.php:89
+msgid "Is not available with filter display."
+msgstr "Ne est pas disponible avec l'affichage du filtre."
+
+#: ../indeed-my-testimonials-vc.php:93
+msgid "Order By"
+msgstr "Trier par"
+
+#: ../indeed-my-testimonials-vc.php:97
+msgid "Last Name"
+msgstr "Nom"
+
+#: ../indeed-my-testimonials-vc.php:97
+msgid "Random"
+msgstr "Aléatoire"
+
+#: ../indeed-my-testimonials-vc.php:101
+msgid "Order Type"
+msgstr "Type d'ordre"
+
+#: ../indeed-my-testimonials-vc.php:105
+msgid "ASC"
+msgstr "ASC"
+
+#: ../indeed-my-testimonials-vc.php:105
+msgid "DESC"
+msgstr "DESC"
+
+#: ../indeed-my-testimonials-vc.php:109
+msgid "Custom Field To Show:"
+msgstr "Champ personnalisé pour afficher:"
+
+#: ../indeed-my-testimonials-vc.php:114 ../indeed-my-testimonials-vc.php:351
+msgid "Image"
+msgstr "Image"
+
+#: ../indeed-my-testimonials-vc.php:127
+msgid "Select a Theme"
+msgstr "Sélectionner un thème"
+
+#: ../indeed-my-testimonials-vc.php:133
+msgid "Select Color Scheme"
+msgstr "Sélectionnez Color Scheme"
+
+#: ../indeed-my-testimonials-vc.php:139
+msgid "Disable Hover Effect"
+msgstr "Désactiver Hover Effet"
+
+#: ../indeed-my-testimonials-vc.php:148
+msgid "Align The Items Centered"
+msgstr "Aligner les éléments Centered"
+
+#: ../indeed-my-testimonials-vc.php:157
+msgid "Number of Columns:"
+msgstr "Nombre de colonnes:"
+
+#: ../indeed-my-testimonials-vc.php:165
+msgid "Show as Slider"
+msgstr "Montrer comme Curseur"
+
+#: ../indeed-my-testimonials-vc.php:175
+msgid "Items per Slide:"
+msgstr "Articles par diapositive:"
+
+#: ../indeed-my-testimonials-vc.php:187
+msgid "Speed"
+msgstr "Vitesse"
+
+#: ../indeed-my-testimonials-vc.php:198
+msgid "Pagination Speed"
+msgstr "Pagination Vitesse"
+
+#: ../indeed-my-testimonials-vc.php:213
+msgid "Bullets"
+msgstr "Bullets"
+
+#: ../indeed-my-testimonials-vc.php:213
+msgid "Nav Button"
+msgstr "Nav Bouton"
+
+#: ../indeed-my-testimonials-vc.php:213
+msgid "Autoplay"
+msgstr "Autoplay"
+
+#: ../indeed-my-testimonials-vc.php:213
+msgid "Stop Hover"
+msgstr "Arrêter Hover"
+
+#: ../indeed-my-testimonials-vc.php:213
+msgid "Responsive"
+msgstr "Sensible"
+
+#: ../indeed-my-testimonials-vc.php:213
+msgid "Lazy Load"
+msgstr "Charge Lazy"
+
+#: ../indeed-my-testimonials-vc.php:213
+msgid "Lazy Effect"
+msgstr "Lazy effet"
+
+#: ../indeed-my-testimonials-vc.php:221
+msgid "CSS3 Transition"
+msgstr "Transition CSS3"
+
+#: ../indeed-my-testimonials-vc.php:223
+msgid "None"
+msgstr "Aucun"
+
+#: ../indeed-my-testimonials-vc.php:223
+msgid "Fade"
+msgstr "Fade"
+
+#: ../indeed-my-testimonials-vc.php:223
+msgid "BackSlide"
+msgstr "Récidiver"
+
+#: ../indeed-my-testimonials-vc.php:223
+msgid "GoDown"
+msgstr "GoDown"
+
+#: ../indeed-my-testimonials-vc.php:223
+msgid "FadeUp"
+msgstr "FadeUp"
+
+#: ../indeed-my-testimonials-vc.php:228
+msgid "Available only for one item per slide! May not work on some browsers!"
+msgstr ""
+"Disponible uniquement pour un article par slide! Peut ne pas fonctionner sur "
+"certains navigateurs!"
+
+#: ../indeed-my-testimonials-vc.php:233
+msgid "Filter"
+msgstr "Filtre"
+
+#: ../indeed-my-testimonials-vc.php:243 ../indeed-my-testimonials-vc.php:468
+#: ../indeed-my-testimonials-vc.php:530
+msgid "Groups"
+msgstr "Groupes"
+
+#: ../indeed-my-testimonials-vc.php:255
+msgid "Theme"
+msgstr "Thème"
+
+#: ../indeed-my-testimonials-vc.php:257
+msgid "Small Text"
+msgstr "Petit texte"
+
+#: ../indeed-my-testimonials-vc.php:257
+msgid "Big Text"
+msgstr "Big texte"
+
+#: ../indeed-my-testimonials-vc.php:257
+msgid "Small Button"
+msgstr "Petit Bouton"
+
+#: ../indeed-my-testimonials-vc.php:257
+msgid "Big Buttons"
+msgstr "Gros boutons"
+
+#: ../indeed-my-testimonials-vc.php:257
+msgid "Drop Down"
+msgstr "Menu déroulant"
+
+#: ../indeed-my-testimonials-vc.php:265
+msgid "Align"
+msgstr "Aligner"
+
+#: ../indeed-my-testimonials-vc.php:267
+msgid "Left"
+msgstr "Gauche"
+
+#: ../indeed-my-testimonials-vc.php:267
+msgid "Center"
+msgstr "Centre"
+
+#: ../indeed-my-testimonials-vc.php:267
+msgid "Right"
+msgstr "Droit"
+
+#: ../indeed-my-testimonials-vc.php:276
+msgid "Show Inside Page"
+msgstr "Voir page intérieure"
+
+#: ../indeed-my-testimonials-vc.php:287
+msgid "Template"
+msgstr "Modèle"
+
+#: ../indeed-my-testimonials-vc.php:293
+msgid "My Testimonials Form Builder"
+msgstr "Mon Témoignages Form Builder"
+
+#: ../indeed-my-testimonials-vc.php:296
+msgid "Form Builder"
+msgstr "Form Builder"
+
+#: ../indeed-my-testimonials-vc.php:302
+msgid "Fields To Show:"
+msgstr "Champs à afficher:"
+
+#: ../indeed-my-testimonials-vc.php:313 ../indeed-my-testimonials-vc.php:331
+#: ../indeed-my-testimonials-vc.php:393
+msgid "Rating"
+msgstr "Evaluation"
+
+#: ../indeed-my-testimonials-vc.php:314
+msgid "Capcha"
+msgstr "Capcha"
+
+#: ../indeed-my-testimonials-vc.php:320
+msgid "Require Fields:"
+msgstr "Nécessitent des champs:"
+
+#: ../indeed-my-testimonials-vc.php:338
+msgid "Field Labels:"
+msgstr "Etiquettes de champ:"
+
+#: ../indeed-my-testimonials-vc.php:343
+msgid "Client Name:"
+msgstr "Nom du client:"
+
+#: ../indeed-my-testimonials-vc.php:349
+msgid "Client Image:"
+msgstr "Client Image:"
+
+#: ../indeed-my-testimonials-vc.php:355
+msgid "Client Job:"
+msgstr "Travail du client:"
+
+#: ../indeed-my-testimonials-vc.php:357
+msgid "Position"
+msgstr "Position"
+
+#: ../indeed-my-testimonials-vc.php:361
+msgid "Client URL:"
+msgstr "URL du client:"
+
+#: ../indeed-my-testimonials-vc.php:363
+msgid "URL"
+msgstr "URL"
+
+#: ../indeed-my-testimonials-vc.php:367
+msgid "Company:"
+msgstr "Société:"
+
+#: ../indeed-my-testimonials-vc.php:373
+msgid "Company URL:"
+msgstr "URL de l'entreprise:"
+
+#: ../indeed-my-testimonials-vc.php:379
+msgid "Quote:"
+msgstr "Citation:"
+
+#: ../indeed-my-testimonials-vc.php:381 ../indeed-my-testimonials-vc.php:424
+msgid "Testimonial"
+msgstr "Témoignage"
+
+#: ../indeed-my-testimonials-vc.php:385
+msgid "Capcha Label:"
+msgstr "Capcha Label:"
+
+#: ../indeed-my-testimonials-vc.php:387
+msgid "CapCha"
+msgstr "CapCha"
+
+#: ../indeed-my-testimonials-vc.php:391
+msgid "Rating:"
+msgstr "Note:"
+
+#: ../indeed-my-testimonials-vc.php:399
+msgid "Success message"
+msgstr "Un message de réussite"
+
+#: ../indeed-my-testimonials-vc.php:405
+msgid "Error message"
+msgstr "Message d'erreur"
+
+#: ../indeed-my-testimonials-vc.php:423
+msgid "Testimonials"
+msgstr "Témoignages"
+
+#: ../indeed-my-testimonials-vc.php:425 ../indeed-my-testimonials-vc.php:426
+msgid "Add New Testimonial"
+msgstr "Ajouter un nouveau Témoignage"
+
+#: ../indeed-my-testimonials-vc.php:427
+msgid "Edit Testimonial"
+msgstr "Modifier Témoignage"
+
+#: ../indeed-my-testimonials-vc.php:428
+msgid "New Testimonial"
+msgstr "Nouveau Témoignage"
+
+#: ../indeed-my-testimonials-vc.php:429
+msgid "All Testimonials"
+msgstr "Tous les Témoignages"
+
+#: ../indeed-my-testimonials-vc.php:430
+msgid "View Testimonial"
+msgstr "Voir le témoignage"
+
+#: ../indeed-my-testimonials-vc.php:431
+msgid "Search Testimonial"
+msgstr "Rechercher Témoignage"
+
+#: ../indeed-my-testimonials-vc.php:432
+msgid "No Testimonial available"
+msgstr "Pas d'appréciation à"
+
+#: ../indeed-my-testimonials-vc.php:433
+msgid "No Testimonials found in Trash"
+msgstr "Aucun Témoignages trouvés dans la corbeille"
+
+#: ../indeed-my-testimonials-vc.php:435
+msgid "My Testimonials"
+msgstr "Mes Témoignages"
+
+#: ../indeed-my-testimonials-vc.php:460
+msgid "Search Groups"
+msgstr "Rechercher des groupes"
+
+#: ../indeed-my-testimonials-vc.php:461
+msgid "All Groups"
+msgstr "Tous les groupes"
+
+#: ../indeed-my-testimonials-vc.php:462
+msgid "Parent Group"
+msgstr "Groupe de Parent"
+
+#: ../indeed-my-testimonials-vc.php:463
+msgid "Parent Group:"
+msgstr "Groupe parent:"
+
+#: ../indeed-my-testimonials-vc.php:464
+msgid "Edit Group"
+msgstr "Modifier le groupe"
+
+#: ../indeed-my-testimonials-vc.php:465
+msgid "Update Group"
+msgstr "Mise à jour Groupe"
+
+#: ../indeed-my-testimonials-vc.php:466
+msgid "Add New Group"
+msgstr "Ajouter un nouveau groupe"
+
+#: ../indeed-my-testimonials-vc.php:467
+msgid "New Group Name"
+msgstr "Nom du nouveau groupe"
+
+#: ../indeed-my-testimonials-vc.php:493
+msgid "featured image"
+msgstr "l'image sélectionnée"
+
+#: ../indeed-my-testimonials-vc.php:500
+msgid "Client Information"
+msgstr "Renseignements sur le client"
+
+#: ../indeed-my-testimonials-vc.php:511
+msgid "Ratings"
+msgstr "Evaluations"

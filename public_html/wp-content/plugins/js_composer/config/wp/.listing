@@ -1,0 +1,15 @@
+drwx---r-x    2 23011      users              15 Dec 18 09:43 .
+drwx---r-x   11 23011      users              14 Dec 18 09:43 ..
+-rw----r--    1 23011      users            1598 Dec 18 09:43 shortcode-vc-wp-archives.php
+-rw----r--    1 23011      users            1219 Dec 18 09:43 shortcode-vc-wp-calendar.php
+-rw----r--    1 23011      users            1662 Dec 18 09:43 shortcode-vc-wp-categories.php
+-rw----r--    1 23011      users            2089 Dec 18 09:43 shortcode-vc-wp-custommenu.php
+-rw----r--    1 23011      users            2551 Dec 18 09:43 shortcode-vc-wp-links.php
+-rw----r--    1 23011      users            1252 Dec 18 09:43 shortcode-vc-wp-meta.php
+-rw----r--    1 23011      users            1889 Dec 18 09:43 shortcode-vc-wp-pages.php
+-rw----r--    1 23011      users            1775 Dec 18 09:43 shortcode-vc-wp-posts.php
+-rw----r--    1 23011      users            1517 Dec 18 09:43 shortcode-vc-wp-recentcomments.php
+-rw----r--    1 23011      users            2293 Dec 18 09:43 shortcode-vc-wp-rss.php
+-rw----r--    1 23011      users            1212 Dec 18 09:43 shortcode-vc-wp-search.php
+-rw----r--    1 23011      users            2033 Dec 18 09:43 shortcode-vc-wp-tagcloud.php
+-rw----r--    1 23011      users            1344 Dec 18 09:43 shortcode-vc-wp-text.php

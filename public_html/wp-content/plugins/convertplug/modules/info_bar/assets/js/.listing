@@ -1,0 +1,8 @@
+drwx---r-x    2 23011      users               8 Dec 18 09:47 .
+drwx---r-x    6 23011      users               7 Dec 18 09:47 ..
+-rw----r--    1 23011      users           48024 Dec 18 09:47 functions-common.js
+-rw----r--    1 23011      users              29 Dec 18 09:47 index.php
+-rw----r--    1 23011      users            4984 Dec 18 09:47 info_bar.js
+-rw----r--    1 23011      users           41314 Dec 18 09:47 info_bar.min.js
+-rw----r--    1 23011      users           15525 Dec 18 09:47 mailer.js
+-rw----r--    1 23011      users            2145 Dec 18 09:47 receiver.js

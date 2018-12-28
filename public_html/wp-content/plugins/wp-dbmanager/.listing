@@ -1,0 +1,16 @@
+drwxr-xr-x    2 23011      users              16 Dec 18 23:23 .
+drwx---r-x   18 23011      users              20 Dec 20 09:12 ..
+-rw-r--r--    1 23011      users             278 Dec 18 23:23 Web.config.txt
+-rw-r--r--    1 23011      users           13104 Dec 18 23:23 database-backup.php
+-rw-r--r--    1 23011      users            4016 Dec 18 23:23 database-empty.php
+-rw-r--r--    1 23011      users            9202 Dec 18 23:23 database-manage.php
+-rw-r--r--    1 23011      users            3639 Dec 18 23:23 database-manager.php
+-rw-r--r--    1 23011      users            3101 Dec 18 23:23 database-optimize.php
+-rw-r--r--    1 23011      users            2946 Dec 18 23:23 database-repair.php
+-rw-r--r--    1 23011      users            3936 Dec 18 23:23 database-run.php
+-rw-r--r--    1 23011      users              58 Dec 18 23:23 htaccess.txt
+-rw-r--r--    1 23011      users               0 Dec 18 23:23 index.php
+-rw-r--r--    1 23011      users            7648 Dec 18 23:23 readme.txt
+-rw-r--r--    1 23011      users             656 Dec 18 23:23 uninstall.php
+-rw-r--r--    1 23011      users           38557 Dec 18 23:23 wp-dbmanager.php
+-rw-r--r--    1 23011      users           17952 Dec 18 23:23 wp-dbmanager.pot

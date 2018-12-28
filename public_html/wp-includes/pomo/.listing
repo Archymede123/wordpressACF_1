@@ -1,0 +1,8 @@
+drwx---r-x    2 23011      users               8 Dec 18 09:51 .
+drwx---r-x   18 23011      users             188 Dec 18 09:52 ..
+-rw----r--    1 23011      users            2887 Dec 18 09:51 entry.php
+-rw----r--    1 23011      users            8462 Dec 18 09:51 mo.php
+-rw----r--    1 23011      users            6941 Dec 18 09:51 plural-forms.php
+-rw----r--    1 23011      users           13492 Dec 18 09:51 po.php
+-rw----r--    1 23011      users            5948 Dec 18 09:51 streams.php
+-rw----r--    1 23011      users            8857 Dec 18 09:51 translations.php

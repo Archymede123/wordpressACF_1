@@ -1,0 +1,4 @@
+drwx---r-x    2 23011      users               4 Dec 18 09:52 .
+drwx---r-x   24 23011      users              24 Dec 18 09:52 ..
+-rw----r--    1 23011      users           13127 Dec 18 09:52 plugin.js
+-rw----r--    1 23011      users            5168 Dec 18 09:52 plugin.min.js

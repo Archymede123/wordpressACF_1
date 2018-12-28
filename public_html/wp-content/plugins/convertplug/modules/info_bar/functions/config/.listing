@@ -1,0 +1,12 @@
+drwx---r-x    3 23011      users              12 Dec 18 09:49 .
+drwx---r-x    3 23011      users               7 Dec 18 09:47 ..
+-rw----r--    1 23011      users             635 Dec 18 09:47 blank.php
+-rw----r--    1 23011      users             651 Dec 18 09:47 countdown.php
+-rw----r--    1 23011      users             649 Dec 18 09:47 free_trial.php
+-rw----r--    1 23011      users             697 Dec 18 09:47 get_this_deal.php
+-rw----r--    1 23011      users             697 Dec 18 09:47 image_preview.php
+drwx---r-x    2 23011      users               5 Dec 18 09:49 img
+-rw----r--    1 23011      users              29 Dec 18 09:47 index.php
+-rw----r--    1 23011      users             648 Dec 18 09:47 newsletter.php
+-rw----r--    1 23011      users             791 Dec 18 09:47 social_media.php
+-rw----r--    1 23011      users             684 Dec 18 09:47 weekly_article.php

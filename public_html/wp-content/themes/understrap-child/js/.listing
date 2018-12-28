@@ -1,0 +1,10 @@
+drwx---r-x    2 23011      users              10 Dec 18 09:42 .
+drwx---r-x   10 23011      users              24 Dec 20 18:09 ..
+-rw----r--    1 23011      users            6147 Dec 18 09:42 .DS_Store
+-rw----r--    1 23011      users             213 Dec 18 09:42 analytics.js
+-rw----r--    1 23011      users          112271 Dec 18 09:42 child-theme.js
+-rw----r--    1 23011      users           51548 Dec 18 09:42 child-theme.min.js
+-rw----r--    1 23011      users           81624 Dec 18 09:42 popper.js
+-rw----r--    1 23011      users           19208 Dec 18 09:42 popper.min.js
+-rw----r--    1 23011      users             654 Dec 18 09:42 slider_settings.js
+-rw----r--    1 23011      users             212 Dec 18 09:42 top.js

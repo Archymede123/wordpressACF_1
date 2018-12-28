@@ -1,0 +1,6 @@
+Sitemap: https://www.mybrian.fr/sitemap_index.xml
+
+User-agent: * 
+Disallow: /news/imtst_testimonials/
+Disallow: /CGU.html
+Disallow: /politique-de-confidentialite.html

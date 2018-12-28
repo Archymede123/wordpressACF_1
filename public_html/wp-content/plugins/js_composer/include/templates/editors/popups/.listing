@@ -1,0 +1,14 @@
+drwx---r-x    3 23011      users              14 Dec 18 09:50 .
+drwx---r-x    5 23011      users               9 Dec 18 09:48 ..
+-rw----r--    1 23011      users             900 Dec 18 09:48 modal_edit_element.tpl.php
+-rw----r--    1 23011      users             934 Dec 18 09:48 panel_multi_shortcode_edit_form.tpl.php
+-rw----r--    1 23011      users            1022 Dec 18 09:48 panel_shortcode_edit_form.tpl.php
+drwx---r-x    2 23011      users               3 Dec 18 09:50 shared-templates
+-rw----r--    1 23011      users             822 Dec 18 09:48 vc_ui-footer.tpl.php
+-rw----r--    1 23011      users            1803 Dec 18 09:48 vc_ui-header.tpl.php
+-rw----r--    1 23011      users            2290 Dec 18 09:48 vc_ui-panel-add-element.tpl.php
+-rw----r--    1 23011      users            1578 Dec 18 09:48 vc_ui-panel-edit-element.tpl.php
+-rw----r--    1 23011      users            2304 Dec 18 09:48 vc_ui-panel-post-settings.tpl.php
+-rw----r--    1 23011      users            2020 Dec 18 09:48 vc_ui-panel-preset.tpl.php
+-rw----r--    1 23011      users            2257 Dec 18 09:48 vc_ui-panel-row-layout.tpl.php
+-rw----r--    1 23011      users            1906 Dec 18 09:48 vc_ui-panel-templates.tpl.php

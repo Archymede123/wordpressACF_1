@@ -1,0 +1,4 @@
+drwx---r-x    2 23011      users               4 Dec 18 09:47 .
+drwx---r-x    3 23011      users              11 Dec 18 09:47 ..
+-rw----r--    1 23011      users          111390 Dec 18 09:47 bootstrap.js
+-rw----r--    1 23011      users           51143 Dec 18 09:47 bootstrap.min.js

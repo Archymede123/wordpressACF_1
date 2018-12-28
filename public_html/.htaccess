@@ -1,0 +1,65 @@
+# BEGIN SecuPress no_x_powered_by
+<IfModule mod_headers.c>
+    Header unset X-Powered-By
+</IfModule>
+# END SecuPress
+
+# BEGIN SecuPress readme_discloses
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^(.*/)?(readme|changelog)\.(txt|md|html)$ - [R=404,L,NC]
+</IfModule>
+# END SecuPress
+
+# BEGIN SecuPress wp_version
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^readme\.html$ - [R=404,L,NC]
+</IfModule>
+# END SecuPress
+
+# BEGIN SecuPress directory_index
+<IfModule mod_dir.c>
+    DirectoryIndex index.php index.html index.htm index.cgi index.pl index.xhtml
+</IfModule>
+# END SecuPress
+
+# BEGIN SecuPress bad_url_access
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteCond %{REQUEST_URI} !wp-includes/js/tinymce/wp-tinymce\.php$
+    RewriteRule ^(php\.ini|wp-config\.php|wp-includes/.+\.php|wp-admin/(admin-functions|install|menu-header|setup-config|([^/]+/)?menu|upgrade-functions|includes/.+)\.php)$ [R=404,L,NC]
+</IfModule>
+# END SecuPress
+
+Options All -Indexes
+
+RewriteEngine On
+RewriteRule ^author/(.*)$ https://%{HTTP_HOST} [R,L]
+
+RewriteCond %{QUERY_STRING} ^/?author=([0-9]*)
+RewriteRule . http://%{HTTP_HOST} [R,L]
+
+<FilesMatch ^wp-config.php$>
+ deny from all
+</FilesMatch>
+
+<Files .htaccess>  
+   order allow,deny  
+   deny from all  
+</Files>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

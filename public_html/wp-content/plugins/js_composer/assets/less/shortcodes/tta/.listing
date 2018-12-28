@@ -1,0 +1,10 @@
+drwx---r-x    2 23011      users              10 Dec 18 09:48 .
+drwx---r-x    5 23011      users              40 Dec 18 09:48 ..
+-rw----r--    1 23011      users           12398 Dec 18 09:47 vc_tta-colors.less
+-rw----r--    1 23011      users           18003 Dec 18 09:47 vc_tta-core.less
+-rw----r--    1 23011      users            4146 Dec 18 09:47 vc_tta-frontend-editor.less
+-rw----r--    1 23011      users            4623 Dec 18 09:47 vc_tta-icon-controls.less
+-rw----r--    1 23011      users           11707 Dec 18 09:48 vc_tta-mixins.less
+-rw----r--    1 23011      users           22792 Dec 18 09:47 vc_tta-options.less
+-rw----r--    1 23011      users             269 Dec 18 09:48 vc_tta-pagination.less
+-rw----r--    1 23011      users            6907 Dec 18 09:48 vc_tta-variables.less

@@ -1,0 +1,7 @@
+drwx---r-x    4 23011      users               7 Dec 18 09:52 .
+drwx---r-x   18 23011      users             188 Dec 18 09:52 ..
+-rw----r--    1 23011      users           23903 Dec 18 09:51 class-wp-rest-request.php
+-rw----r--    1 23011      users            7339 Dec 18 09:51 class-wp-rest-response.php
+-rw----r--    1 23011      users           38410 Dec 18 09:51 class-wp-rest-server.php
+drwx---r-x    2 23011      users              13 Dec 18 09:52 endpoints
+drwx---r-x    2 23011      users               7 Dec 18 09:52 fields

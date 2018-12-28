@@ -1,0 +1,5 @@
+drwx---r-x    3 23011      users               5 Dec 18 09:50 .
+drwx---r-x    5 23011      users               6 Dec 18 09:50 ..
+drwx---r-x    2 23011      users               3 Dec 18 09:50 partials
+-rw----r--    1 23011      users            2405 Dec 18 09:50 vc_grid_item_editor.tpl.php
+-rw----r--    1 23011      users            5082 Dec 18 09:50 vc_ui-template-preview.tpl.php
