@@ -1,0 +1,29 @@
+.cta {
+    font-family: arial;
+    text-transform: uppercase;
+    color: $blanc !important;
+    font-size: 1.25rem;
+    letter-spacing: 1.2px;
+    text-align: center;
+    border-radius: 16px;
+    background-color: $bleu;
+    border: none;   
+}
+
+.cta:focus {
+    outline: none !important;
+}
+
+.cta:hover {
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 
+                0 3px 4px 0 rgba(0,0,0,0.12), 
+                0 1px 8px 0 rgba(0,0,0,0.2);
+    text-decoration: none;
+    transition: all ease-in-out .2s;
+}
+
+.cta-main {
+    width: 100%;
+    padding: 8px 0;
+    display: block;
+}

@@ -1,5 +1,20 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+@font-face {
+  font-family: Arial;
+  src: "../../fonts/Arial.ttf";
+  font-weight: normal; }
+
+@font-face {
+  font-family: Arial;
+  src: "../../fonts/Arial Bold.ttf";
+  font-weight: Bold; }
+
+@font-face {
+  font-family: Arial;
+  src: "../../fonts/Arial Narrow.ttf";
+  font-weight: 100; }
+
 /*!
  * Bootstrap v4.0.0-beta (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -8767,19 +8782,10 @@ h5 {
     width: 30px;
     display: block; }
 
-.test {
-  font-size: 48px;
-  color: blue;
-  padding: 0;
-  height: 100px;
-  width: 100%;
-  background: red; }
-
 p {
   color: #29343d;
   font-size: 16px;
-  font-weight: 300;
-  padding: 48px; }
+  font-weight: 300; }
 
 a {
   color: #1a406b; }
@@ -9262,3 +9268,276 @@ a {
     background-color: transparent !important;
     color: #1a406b !important;
     cursor: text !important; }
+
+.landing-page {
+  display: flex;
+  position: relative; }
+  .landing-page .service-description  {
+    height: calc(100vh - 80px);
+    width: 50%;
+    flex: 0 0 50%;
+    left: 0;
+    background: linear-gradient(270.55deg, rgba(253, 87, 107, 0.9) 0%, #FD576B 100%);
+    position: relative; }
+    .landing-page .service-description  .service-description--content {
+      position: absolute;
+      top: 17%;
+      left: 50%;
+      transform: translateX(-50%); }
+    .landing-page .service-description  .service-description--subtitle {
+      font-size: 1rem;
+      position: relative;
+      padding: 0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-family: arial;
+      color: #ffffff; }
+      .landing-page .service-description  .service-description--subtitle::after {
+        content: "";
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        border: 1px solid #FEABB5; }
+    .landing-page .service-description  .service-description--title {
+      font-size: 4rem;
+      font-weight: bold;
+      letter-spacing: 0.75px;
+      text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+      font-family: arial;
+      color: #ffffff; }
+    .landing-page .service-description  .service-description--text {
+      font-family: Arial;
+      font-size: 1.2rem;
+      line-height: 32px;
+      color: #ffffff;
+      font-weight: 100; }
+    .landing-page .service-description  .conversation-bubbles {
+      position: absolute;
+      left: 90%;
+      top: 1%;
+      width: 240px; }
+      .landing-page .service-description  .conversation-bubbles .conversation-bubbles--bubble {
+        font-family: Arial;
+        font-style: italic;
+        color: #ffffff;
+        font-size: 1rem;
+        display: block;
+        position: relative;
+        height: 74px; }
+        .landing-page .service-description  .conversation-bubbles .conversation-bubbles--bubble::before {
+          content: "";
+          position: absolute;
+          top: -25px;
+          left: -26px;
+          height: 100%; }
+      .landing-page .service-description  .conversation-bubbles .conversation-bubbles--bubble__first::before {
+        background: url("../src/img/translation-bubble-bg_left.png");
+        background-size: cover;
+        width: 100%; }
+      .landing-page .service-description  .conversation-bubbles .conversation-bubbles--bubble__second::before {
+        background: url("../src/img/translation-bubble-bg_right.png");
+        background-size: cover;
+        width: 107%; }
+      .landing-page .service-description  .conversation-bubbles .conversation-bubbles--text {
+        z-index: 5;
+        display: block;
+        transform: rotate(-8deg); }
+  .landing-page .quick-quotation {
+    flex: 0 0 50%; }
+
+.why-brian {
+  background: #ffffff;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 1168px;
+  margin: 0 auto;
+  border-radius: 8px;
+  text-align: center; }
+  .why-brian .why-brian--items {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 32px; }
+  .why-brian .why-brian--icon  {
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+    background: #F4F8FB;
+    position: relative; }
+  .why-brian .why-brian--icon__image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .why-brian .why-brian--item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .why-brian .why-brian--title {
+    text-transform: uppercase;
+    color: #FD576B;
+    font-family: arial;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: .75px;
+    text-align: center;
+    margin-top: 32px;
+    max-width: 70%;
+    min-height: 48px; }
+  .why-brian .why-brian--text {
+    font-family: arial;
+    font-size: 1rem;
+    max-width: 70%; }
+  .why-brian .cta {
+    padding: 8px 64px;
+    margin-bottom: 32px;
+    display: inline-block; }
+
+.clients {
+  margin: 0 auto;
+  max-width: 1200px; }
+  .clients .nav.nav-tabs {
+    border-bottom: none;
+    align-items: center;
+    justify-content: center; }
+  .clients .nav-link.active {
+    border: none !important; }
+    .clients .nav-link.active .clients--logo {
+      opacity: 1; }
+  .clients .nav-link:hover {
+    border: none; }
+    .clients .nav-link:hover .clients--logo {
+      opacity: 1; }
+  .clients .clients--logo {
+    width: 148px;
+    opacity: .4; }
+  .clients .tab-pane {
+    text-align: center; }
+    .clients .tab-pane .clients--quote {
+      font-size: 2rem;
+      color: #444444;
+      max-width: 50%;
+      margin: 0 auto; }
+    .clients .tab-pane .clients--name {
+      font-size: 1.5rem;
+      font-weight: 300; }
+    .clients .tab-pane .clients--role {
+      font-size: 1.5rem;
+      font-weight: 300;
+      font-style: italic; }
+
+.partners {
+  background-color: #f4f8fb;
+  padding-bottom: 32px; }
+  .partners .partners--logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto; }
+  .partners .partner--logo {
+    width: 15%; }
+
+.blog-preview {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center; }
+  .blog-preview .blog-articles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px; }
+  .blog-preview .blog-article {
+    max-width: 25%;
+    text-align: left; }
+  .blog-preview .blog-article--image {
+    width: 100%; }
+  .blog-preview .blog-article--title {
+    font-size: 1.5rem;
+    color: #444444;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 4px; }
+  .blog-preview .blog-article--text {
+    font-size: 1rem;
+    color: #444444;
+    font-weight: 300;
+    margin-bottom: 16px; }
+  .blog-preview .cta {
+    padding: 8px 64px;
+    margin-bottom: 32px;
+    display: inline-block; }
+
+.app-download {
+  background-color: #FD576B;
+  padding-bottom: 32px;
+  text-align: center; }
+  .app-download .section-title {
+    color: #ffffff; }
+    .app-download .section-title:after {
+      border-color: #ffffff; }
+  .app-download .app-download--text {
+    color: #ffffff;
+    font-size: 1rem; }
+  .app-download .stores--logos {
+    display: flex;
+    justify-content: center; }
+  .app-download .stores--logo {
+    width: 120px; }
+    .app-download .stores--logo:first-child {
+      margin-right: 16px; }
+    .app-download .stores--logo:last-child {
+      margin-left: 16px; }
+
+.cta {
+  font-family: arial;
+  text-transform: uppercase;
+  color: #ffffff !important;
+  font-size: 1.25rem;
+  letter-spacing: 1.2px;
+  text-align: center;
+  border-radius: 16px;
+  background-color: #1a406b;
+  border: none; }
+
+.cta:focus {
+  outline: none !important; }
+
+.cta:hover {
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  transition: all ease-in-out .2s; }
+
+.cta-main {
+  width: 100%;
+  padding: 8px 0;
+  display: block; }
+
+.section-title  {
+  color: #444444;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.7rem;
+  position: relative;
+  text-transform: uppercase;
+  display: block;
+  padding-top: 40px;
+  margin-bottom: 40px; }
+  .section-title :after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20%;
+    height: 1px;
+    border: 1px solid #FD576B; }
+
+.section-title::after {
+  content: " ";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 15%;
+  height: 1px;
+  border: 1px solid #FD576B; }

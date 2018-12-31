@@ -2,9 +2,30 @@
 
 $rose:                  #f6456b;
 $brand-primary:         $rose;
+$brand-secondary:        #FD576B;
+$brand-primary-light: 	 #FEABB5;
 $bleu:                  #1a406b;
 $gris:                  #c6c6c6;
 $grisp:                 #f4f8fb;
 $noir:                  #29343d;
 $blanc:                 #ffffff;
+$gris-dark:             #444444;
 $roboto:                'Roboto', sans-serif;
+
+@font-face {
+    font-family: Arial;
+    src: "../../fonts/Arial.ttf";
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Arial;
+    src: "../../fonts/Arial Bold.ttf";
+    font-weight: Bold;
+}
+
+@font-face {
+    font-family: Arial;
+    src: "../../fonts/Arial Narrow.ttf";
+    font-weight: 100;
+}

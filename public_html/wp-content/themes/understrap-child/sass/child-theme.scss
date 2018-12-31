@@ -9,3 +9,6 @@
 
 // Any additional imported files //
 @import "theme/child_theme";  // <--------- Add your styles into this file
+@import "theme/homepage";
+@import "atoms/buttons";
+@import "atoms/typography.scss"
