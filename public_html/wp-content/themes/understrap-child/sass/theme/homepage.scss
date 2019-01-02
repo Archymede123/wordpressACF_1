@@ -1,20 +1,39 @@
+// navigation display
 
+.navbar {
+    position: fixed !important;
+    opacity: 0;
+}
+
+.fixed-nav .navbar {
+    opacity: 1;
+    transition: opacity ease-in-out .3s;
+}
 
  .landing-page {
      display: flex;
      position: relative;
+
+     
     .service-description {
-        height: calc(100vh - 80px);
-        width: 50%;
+        height: 100vh;
         flex: 0 0 50%;
         left: 0;
         background: linear-gradient(270.55deg, rgba(253,87,107,0.9) 0%, $brand-secondary 100%);
         position: relative;
+
+        .logo {
+            position: absolute;
+            top: 4%;
+            left: 20%;
+            width: 80px;
+            z-index: 1;
+        }
         .service-description--content {
             position: absolute;
             top: 17%;
-            left: 50%;
-            transform: translateX(-50%);
+            left: 20%;
+            max-width: 62%;
         }
         .service-description--subtitle {
             font-size: 1rem;
@@ -35,7 +54,7 @@
             }
         }
         .service-description--title {
-            font-size: 4rem;
+            font-size: 3rem;
             font-weight: bold;
             letter-spacing: 0.75px;
             text-shadow: 0 2px 2px rgba(0,0,0,0.5);
@@ -44,16 +63,17 @@
         }
         .service-description--text {
             font-family: Arial;	
-            font-size: 1.2rem;	
+            font-size: 1rem;	
             line-height: 32px;
             color: $blanc;
             font-weight: 100;
+            margin-bottom: 64px;
         }
         
         .conversation-bubbles {
             position: absolute;
             left: 90%;
-            top: 1%;
+            top: 3%;
             width: 240px;
 
             .conversation-bubbles--bubble {
@@ -64,49 +84,64 @@
                 font-size: 1rem;
                 display: block;
                 position: relative;
-                height: 74px;
+                height: 48px;
+                transform: rotate(-8deg);
+                
 
                 &::before {
                     content: "";
                     position: absolute;
-                    top: -25px;
+                    top: -8px;
                     left: -26px;
-                    height: 100%;
+                    height: 80%;
+                    z-index: -1;
                 }
             }
 
             .conversation-bubbles--bubble__first::before {
                 background: url('../src/img/translation-bubble-bg_left.png');
                 background-size: cover;
-                width: 100%;
+                width: 88%;
             }
             
             .conversation-bubbles--bubble__second::before {
                 background: url('../src/img/translation-bubble-bg_right.png');
                 background-size: cover;
-                width: 107%;
+                width: 94%;
             }
 
             .conversation-bubbles--text {
                 z-index: 5;
                 display: block;
-                transform: rotate(-8deg)
             }
         }
     }
 
     .quick-quotation {
         flex: 0 0 50%;
+        position: relative;
+
+        .brian-icon-large {
+            position: absolute;
+            bottom: -5px;
+            right: 0;
+            width: 26%;
+        }
     }
  }
 
 .why-brian {
+    position: absolute;
+    top: 90vh;
+    left: 50%;
+    transform: translateX(-50%);
     background: $blanc;
     box-shadow: 
         0 3px 3px 0 rgba(0,0,0,0.14), 
         0 3px 4px 0 rgba(0,0,0,0.12), 
         0 1px 8px 0 rgba(0,0,0,0.2);
     max-width: 1168px;
+    min-width: 75%;
     margin: 0 auto;
     border-radius: 8px;
     text-align: center;
@@ -165,10 +200,12 @@
 }
 
 .clients {
-    margin: 0 auto;
+    margin: 0 auto 128px;
     max-width: 1200px;
+    padding-top: 64px;
 
     .nav.nav-tabs {
+        margin-top: 32px;
         border-bottom: none;
         align-items: center;
         justify-content: center;
@@ -199,19 +236,25 @@
         text-align: center;
 
         .clients--quote {
-            font-size: 2rem;
+            font-size: 1.5rem;
             color: $gris-dark;
             max-width: 50%;
             margin: 0 auto;
+            font-family: roboto;
+            font-weight: 400;
+            margin-top: 32px;
+            margin-bottom: 32px;
         }
 
         .clients--name {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
+            font-family: roboto;
             font-weight: 300;
         }
 
         .clients--role {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
+            font-family: roboto;
             font-weight: 300;
             font-style: italic;
         }
@@ -221,6 +264,7 @@
 .partners {
     background-color: $grisp;
     padding-bottom: 32px;
+    margin-bottom: 128px;
 
     .partners--logos {
         display: flex;
@@ -228,7 +272,7 @@
         align-items: center;
         max-width: 1200px;
         margin: 0 auto;
-        
+        padding: 32px
     }
 
     .partner--logo {
@@ -238,7 +282,7 @@
 
 .blog-preview {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto 128px;
     text-align: center;
 
     .blog-articles {
@@ -277,6 +321,7 @@
     .cta {
         padding: 8px 64px;
         margin-bottom: 32px;
+        margin-top: 32px;
         display: inline-block;
     } 
 }
