@@ -1,4 +1,4 @@
-.section-title {
+.section-title, h5 {
     color: $gris-dark;
     font-family: arial;
     font-weight: bold;
@@ -6,28 +6,22 @@
     font-size: 1.7rem;
     position: relative;
     text-transform: uppercase;
-    display: block;
+    display: inline-block;
     padding-top: 40px;
     margin-bottom: 40px;
-
-    &:after {
-        content: "";
-        display: block;
-        position: absolute;
-        width: 20%;
-        height: 1px;
-        border: 1px solid $brand-secondary;
-    }
 }
 
-.section-title::after {
+.section-title::after,
+h5::after {
     content: " ";
     position: absolute;
     bottom: -8px;
     left: 50%;
     transform: translate(-50%);
-    width: 15%;
+    width: 40%;
     height: 1px;
     border: 1px solid $brand-secondary;
+    transition-timing-function: ease-in;
+    transition: 0.2s;
 }
 

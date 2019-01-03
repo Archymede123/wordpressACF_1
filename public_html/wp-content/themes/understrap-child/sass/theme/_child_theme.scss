@@ -73,7 +73,10 @@ a {
 }
 
 .navbar {
-  background: linear-gradient(150deg, #fe5a6b, #f6456a);
+  background-color: $blanc;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 
+                0 3px 4px 0 rgba(0,0,0,0.12), 
+                0 1px 8px 0 rgba(0,0,0,0.2);
   width: 100%;
   z-index: 1000;
   img {
@@ -93,32 +96,47 @@ a {
 
 
 .navbar-nav {
-  display: block;
-  text-align: right;
+  text-align: center;
   width: 100%;
   li {
-    display: inline-block;
-    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    // min-width: 208px;
+    flex: 0 0 20%;
     a {
-      color: $blanc;
-      font-size: 14px;
+      color: $gris-dark;
+      font-size: .8rem;
       background-color: transparent;
       border: none;
+      font-family: roboto;
+      letter-spacing: 1.25px;
     }
   }
   li.bubble {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      align-items: flex-end;
     a {
       text-decoration: none;
-      font-size: 14px;
-      padding: 10px 20px;
-      border: 2px solid $blanc;
+      font-size: .8rem;
+      padding: 8px 32px !important;
+      border: 1px solid $rose;
       background-color: $blanc;
       color: $rose;
-      border-radius: 30px 30px 30px 0;
+      border-radius: 16px;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
   li.bubble-stroke {
     a {
+      
       color: $blanc;
       text-decoration: none;
       font-size: 14px;
@@ -147,6 +165,7 @@ a {
 
 .navbar-collapse {
     flex-basis: auto;
+    position: relative;
 }
 
 #page {
@@ -206,8 +225,20 @@ a {
   background-size: cover;
   padding: 80px 0 20px 0;
   margin-top: 80px;
+  &:hover h5:after {
+      width: 100%;
+      transition: width ease-out .6s;
+    }
+  .row {
+    display: flex;    
+    justify-content: left;
+  }
   #footer {
     margin: 20px 0;
+    h5 {
+      padding-top: 0px
+    }
+    
     ul {
       padding: 0;
       margin-top: 20px;

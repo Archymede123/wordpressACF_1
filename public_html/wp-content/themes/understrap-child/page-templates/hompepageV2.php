@@ -195,30 +195,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/partners_logo/logo_french_tech.png" alt="" class="partner--logo">
 							</div>
 						</div>
+						
 						<div class="blog-preview">
 							<h3 class="section-title">
 								nos actualités
 							</h3>
-							<div class="blog-articles">
-								<div class="blog-article">
-									<img src="https://source.unsplash.com/random/400x300" alt="" class='blog-article--image'>
-									<h6 class="blog-article--title">Un traducteur en chair et en os</h6>
-									<p class="blog-article--text">Le job de traducteur indépendant ne s’improvise pas. Il y a, par exemple, un monde entre donner une vague idée du sens d’une phrase dans une langue et parler d’un sujet avec style et précision. C’est ce à quoi CSA (Common Sense Advisory) fait allusion en évoquant « Can’t read, won’t buy ».</p>
-									<a href="#" class='next'>lire la suite ...</a>
-								</div>
-								<div class="blog-article">
-									<img src="https://source.unsplash.com/random/400x300" alt="">
-									<h6 class="blog-article--title">Un traducteur en chair et en os</h6>
-									<p class="blog-article--text">Le job de traducteur indépendant ne s’improvise pas. Il y a, par exemple, un monde entre donner une vague idée du sens d’une phrase dans une langue et parler d’un sujet avec style et précision. C’est ce à quoi CSA (Common Sense Advisory) fait allusion en évoquant « Can’t read, won’t buy ».</p>
-									<a href="#" class='next'>lire la suite ...</a>
-								</div>
-								<div class="blog-article">
-									<img src="https://source.unsplash.com/random/400x300" alt="">
-									<h6 class="blog-article--title">Un traducteur en chair et en os</h6>
-									<p class="blog-article--text">Le job de traducteur indépendant ne s’improvise pas. Il y a, par exemple, un monde entre donner une vague idée du sens d’une phrase dans une langue et parler d’un sujet avec style et précision. C’est ce à quoi CSA (Common Sense Advisory) fait allusion en évoquant « Can’t read, won’t buy ».</p>
-									<a href="#" class='next'>lire la suite ...</a>
-								</div>
-							</div>
+							<?php dynamic_sidebar( 'recent-posts-homepage' ); ?>
 							<a href="#" class="cta">voir les autres articles</a>
 						</div>
 						<div class="app-download">
@@ -256,7 +238,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 	
 
 	function displayNav() {
-		console.log(scrollY)
 		if(window.scrollY > 200) {
 			document.body.classList.add("fixed-nav");
 		} else {

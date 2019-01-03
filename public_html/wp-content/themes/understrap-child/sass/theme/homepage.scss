@@ -76,6 +76,11 @@
             top: 3%;
             width: 240px;
 
+        // &:hover .conversation-bubbles--bubble {
+        //             transform: rotate(8deg);
+        //             transition: transform ease-out .2s;
+        //         }
+
             .conversation-bubbles--bubble {
                 font-family: Arial;
                 font-style: italic;
@@ -86,6 +91,9 @@
                 position: relative;
                 height: 48px;
                 transform: rotate(-8deg);
+                transition: transform ease-out .2s;
+
+                
                 
 
                 &::before {
@@ -146,6 +154,11 @@
     border-radius: 8px;
     text-align: center;
 
+    &:hover .section-title::after {
+        width: 100%;
+        transition: width ease-out .6s;
+    }
+
     .why-brian--items {
         display: flex;
         justify-content: space-around;
@@ -203,6 +216,12 @@
     margin: 0 auto 128px;
     max-width: 1200px;
     padding-top: 64px;
+    text-align: center;
+
+    &:hover .section-title::after {
+        width: 100%;
+        transition: width ease-out .6s;
+    }
 
     .nav.nav-tabs {
         margin-top: 32px;
@@ -265,6 +284,12 @@
     background-color: $grisp;
     padding-bottom: 32px;
     margin-bottom: 128px;
+    text-align: center;
+
+    &:hover .section-title::after {
+        width: 100%;
+        transition: width ease-out .6s;
+    }
 
     .partners--logos {
         display: flex;
@@ -280,42 +305,124 @@
     }
 }
 
+// .blog-preview {
+//     max-width: 1200px;
+//     margin: 0 auto 128px;
+//     text-align: center;
+
+//     .blog-articles {
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+//         margin-bottom: 32px;
+//     }
+
+//     .blog-article {
+//         max-width: 25%;
+//         text-align: left;
+//     }
+
+//     .blog-article--image {
+//         width: 100%;
+//     }
+
+//     .blog-article--title {
+//         font-size: 1.5rem;
+//         color: $gris-dark;
+//         font-weight: 500;
+//         margin-top: 8px;
+//         margin-bottom: 4px;
+        
+//     }
+
+//     .blog-article--text {
+//         font-size: 1rem;
+//         color: $gris-dark;
+//         font-weight: 300;
+//         margin-bottom: 16px;
+        
+//     }
+
+//     .cta {
+//         padding: 8px 64px;
+//         margin-bottom: 32px;
+//         margin-top: 32px;
+//         display: inline-block;
+//     } 
+// }
+
 .blog-preview {
-    max-width: 1200px;
-    margin: 0 auto 128px;
     text-align: center;
+    margin: 0 auto 96px;
 
-    .blog-articles {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 32px;
-    }
-
-    .blog-article {
-        max-width: 25%;
-        text-align: left;
-    }
-
-    .blog-article--image {
+    &:hover .section-title::after {
         width: 100%;
+        transition: width ease-out .6s;
     }
 
-    .blog-article--title {
-        font-size: 1.5rem;
-        color: $gris-dark;
-        font-weight: 500;
-        margin-top: 8px;
-        margin-bottom: 4px;
-        
-    }
+    .acf-rpw-ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
 
-    .blog-article--text {
-        font-size: 1rem;
-        color: $gris-dark;
-        font-weight: 300;
-        margin-bottom: 16px;
-        
+        .acf-rpw-li {
+            flex: 0 0 25%;
+        }
+
+        .acf-rpw-img {
+            height: 150px;
+            width: 150px;
+            display: inline-block;
+            border-radius: 50%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .acf-rpw-img:hover .acf-rpw-thumb {
+            transform: scale(1.2);
+            transition: transform .4s;
+        }
+
+        .acf-rpw-thumb {
+            border-radius: 50%;
+            transition-timing-function: ease-in;
+            transition: 0.2s;
+        }
+
+        .acf-rpw-title {
+            text-align: left;
+            font-size: 1.5rem;
+            
+            font-weight: 500;
+            margin-top: 8px;
+            margin-bottom: 4px;
+
+            a {
+                color: $gris-dark;
+            }
+        }
+
+        .acf-rpw-excerpt {
+            font-size: 1rem;
+            color: $gris-dark;
+            font-weight: 300;
+            margin-bottom: 16px;
+            text-align: left;
+
+            .understrap-read-more-link {
+                color: $gris-dark;
+                padding: 0;
+                background: none;
+                border: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
     }
 
     .cta {
@@ -330,6 +437,11 @@
     background-color: $brand-secondary;
     padding-bottom: 32px;
     text-align: center;
+
+    &:hover .section-title::after {
+        width: 100%;
+        transition: width ease-out .6s;
+    }
     
 
     .section-title {

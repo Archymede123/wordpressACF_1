@@ -1,0 +1,16 @@
+.navbar-collapse {
+  flex: 1
+}
+
+.navbar .container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 0;
+  width: 100%; 
+
+  .navbar-nav {
+    position: relative;
+    margin-left: 6%;
+  }
+}

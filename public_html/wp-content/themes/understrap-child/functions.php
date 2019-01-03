@@ -82,6 +82,15 @@ register_sidebar(array(
   'after_title' => '</h5>',
 ));
 
+register_sidebar(array(
+  'name' => 'Recent Posts Homepage',
+  'id'        => 'recent-posts-homepage',
+  'description' => 'Display recent post on the homepage',
+  'before_widget' => '<div id="recentposts">',
+  'after_widget' => '</div>',
+  'before_title' => '<h5>',
+  'after_title' => '</h5>',
+));
 
 function vc_remove_shortcodes_from_vc_grid_element( $shortcodes ) {
   unset( $shortcodes['vc_gitem_acf'] );
