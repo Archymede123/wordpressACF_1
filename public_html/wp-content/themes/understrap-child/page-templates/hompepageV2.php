@@ -24,8 +24,43 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<?php while ( have_posts() ) : the_post(); ?>
 
 						<!-- <?php the_content();?> -->
-						<!-- <?php the_field('home_page_title');?> -->
-                        <div class="landing-page">
+						
+						<div class="navigation">
+							<div class="navigation--icon" id="nav-icon-mobile">
+								<span class="navigation--icon__stripes" >
+									&nbsp;
+								</span>
+							</div>
+							
+							<nav class="navigation__nav closed">
+								<ul class="navigation__list">
+									<li class="navigation__item">
+										<a href="#" class="navigation__link"> About Natours</a></li>
+									<li class="navigation__item">
+										<a href="#" class="navigation__link"> Your benefits</a>
+									</li>
+									<li class="navigation__item">
+										<a href="#" class="navigation__link"> Popular tours</a>
+									</li>
+									<li class="navigation__item">
+										<a href="#" class="navigation__link"> Stories</a>
+									</li>
+									<li class="navigation__item">
+										<a href="#" class="navigation__link"> Book now</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+				
+						<div class="landing-page">
+							<div class="mobile-alert">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/logo_mybrian_pink_small.png" alt="" class="mobile-alert-logo">
+								<div class="mobile-alert-content">
+									<p class="mobile-alert-title">L'appli MyBrian</p>
+									<p class="mobile-alert-text">Mon traducteur pro toujours avec moi</p>
+								</div>
+								<a href="#" class="mobile-alert-btn"><p>Installer</p></a>
+							</div>
 							
 							<div class="service-description">
 								<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/logo_mybrian_white.png" alt="" class="logo">
@@ -59,6 +94,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 							</div>
 							<div class="quick-quotation">
 								<div class="quick-quotation--tool">
+									<div id="root"></div>
+									
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/brian-icon-large.png" alt="" class="brian-icon-large">
 								</div>
 								<img src="#" alt="">
@@ -249,4 +286,26 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	const whyBrianHeight = document.querySelector(".why-brian").offsetHeight
 	document.querySelector(".clients").style.marginTop = whyBrianHeight + "px"
+
+	const navIcon = document.getElementById("nav-icon-mobile");
+	const topOfNavIcon = navIcon.offsetTop;
+	
+	function fixNavIcon() {
+		if(window.scrollY >= topOfNavIcon) {
+			document.querySelector(".navigation").classList.add('fixed-nav-icon');
+		} else {
+			document.querySelector(".navigation").classList.remove('fixed-nav-icon');
+		}
+	}
+
+	window.addEventListener("scroll", fixNavIcon);
+
+	function displayMobileMenu() {
+		document.querySelector(".navigation").classList.toggle("open");
+	}
+	
+	navIcon.addEventListener("click", displayMobileMenu);
+
+	!function(l){function e(e){for(var r,t,n=e[0],o=e[1],u=e[2],f=0,i=[];f<n.length;f++)t=n[f],p[t]&&i.push(p[t][0]),p[t]=0;for(r in o)Object.prototype.hasOwnProperty.call(o,r)&&(l[r]=o[r]);for(s&&s(e);i.length;)i.shift()();return c.push.apply(c,u||[]),a()}function a(){for(var e,r=0;r<c.length;r++){for(var t=c[r],n=!0,o=1;o<t.length;o++){var u=t[o];0!==p[u]&&(n=!1)}n&&(c.splice(r--,1),e=f(f.s=t[0]))}return e}var t={},p={2:0},c=[];function f(e){if(t[e])return t[e].exports;var r=t[e]={i:e,l:!1,exports:{}};return l[e].call(r.exports,r,r.exports,f),r.l=!0,r.exports}f.m=l,f.c=t,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(r,e){if(1&e&&(r=f(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var n in r)f.d(t,n,function(e){return r[e]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="/";var r=window.webpackJsonp=window.webpackJsonp||[],n=r.push.bind(r);r.push=e,r=r.slice();for(var o=0;o<r.length;o++)e(r[o]);var s=n;a()}([])</script><script src="/static/js/1.3fe8f92f.chunk.js">
+
 </script>
