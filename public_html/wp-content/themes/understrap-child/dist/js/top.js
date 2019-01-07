@@ -1,0 +1,1 @@
+jQuery(function($){$(window).scroll(function(){if($(this).scrollTop()>=300){$('#top').fadeIn("fast");}else{$('#top').fadeOut("fast");}});$('#top').click(function(){$('body,html').animate({scrollTop:0},500);});});

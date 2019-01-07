@@ -78,16 +78,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 											
 											<a class="cta-main cta" href="<?php echo $link; ?>"><?php the_field('homepage_cta_label');?></a>
 
-										<?php endif; ?>
+									<?php endif; ?>
 									
 								</div>
 								
 								<div class="conversation-bubbles">
 									<div class="conversation-bubbles--bubble__first conversation-bubbles--bubble">
-										<span class='conversation-bubbles--text'>J'ai besoin de Brian</span>
+										<span class='conversation-bubbles--text'><?php the_field('homepage_bulle1');?></span>
 									</div>
 									<div class="conversation-bubbles--bubble__second conversation-bubbles--bubble">
-										<span class='conversation-bubbles--text'>Oui, dès maintenant</span>
+										<span class='conversation-bubbles--text'><?php the_field('homepage_bulle2');?></span>
 									</div>
 									
 								</div>
@@ -158,7 +158,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 											if( !empty($image) ): ?>
 
 												<img src="<?php echo $image['url']; ?>" class="clients--logo" alt="<?php echo $image['alt']; ?>" />
-											<?php endif; ?>
+										<?php endif; ?>
 										<!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/clients_logo/logo_1.png" alt="" class="clients--logo"> -->
 									</a>
 								</li>
@@ -223,35 +223,77 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</div>
 						<div class="partners">
 							<h3 class="section-title">
-								nos partenaires
+								<?php the_field('partner_section_title');?>
 							</h3>
 							<div class="partners--logos">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/partners_logo/logo_EACM.png" alt="" class="partner--logo">
+								<?php 
+									$image = get_field('partner_1_image');		
+									if( !empty($image) ): ?>
+									<img src="<?php echo $image['url']; ?>" class="partner--logo" alt="<?php echo $image['alt']; ?>" />
+								<?php endif; ?>
+
+								<?php 
+									$image = get_field('partner_2_image');		
+									if( !empty($image) ): ?>
+									<img src="<?php echo $image['url']; ?>" class="partner--logo" alt="<?php echo $image['alt']; ?>" />
+								<?php endif; ?>
+
+								<?php 
+									$image = get_field('partner_3_image');		
+									if( !empty($image) ): ?>
+									<img src="<?php echo $image['url']; ?>" class="partner--logo" alt="<?php echo $image['alt']; ?>" />
+								<?php endif; ?>
+
+								<?php 
+									$image = get_field('partner_4_image');		
+									if( !empty($image) ): ?>
+									<img src="<?php echo $image['url']; ?>" class="partner--logo" alt="<?php echo $image['alt']; ?>" />
+								<?php endif; ?>
+
+								<!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/partners_logo/logo_EACM.png" alt="" class="partner--logo">
 								<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/partners_logo/logo_Big_Booster.png" alt="" class="partner--logo">
 								<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/partners_logo/logo_bpi.png" alt="" class="partner--logo">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/partners_logo/logo_french_tech.png" alt="" class="partner--logo">
+								<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/partners_logo/logo_french_tech.png" alt="" class="partner--logo"> -->
 							</div>
 						</div>
 						
 						<div class="blog-preview">
 							<h3 class="section-title">
-								nos actualités
+								<?php the_field('blog-preview_section_title');?>
 							</h3>
 							<?php dynamic_sidebar( 'recent-posts-homepage' ); ?>
-							<a href="#" class="cta">voir les autres articles</a>
+							<?php 
+								$link = get_field('blog-preview_cta_link');
+								if( $link ): ?>			
+								<a class="cta" href="<?php echo $link; ?>"><?php the_field('blog-preview_cta_label');?></a>
+							<?php endif; ?>
 						</div>
 						<div class="app-download">
 							<h3 class="section-title">
-								Constamment en déplacement ? 
+								<?php the_field('mobile-app_section_title');?>
 							</h3>
-							<p class='app-download--text'>Téléchargez l’application MyBrian</p>
+							<p class='app-download--text'><?php the_field('mobile-app_description');?></p>
 							<div class="stores--logos">
-								<a href="#">
+								<?php 
+									$link = get_field('apple_store_app_link');
+									if( $link ): ?>			
+									<a href="<?php echo $link; ?>">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/downloadApp_logo/dispo_apple.png" alt="" class="stores--logo">
+									</a>
+								<?php endif; ?>
+								<?php 
+									$link = get_field('android_store_app_link');
+									if( $link ): ?>			
+									<a href="<?php echo $link; ?>">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/downloadApp_logo/dispo_android.png" alt="" class="stores--logo">
+									</a>
+								<?php endif; ?>
+								<!-- <a href="#">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/downloadApp_logo/dispo_android.png" alt="" class="stores--logo">
 								</a>
 								<a href="#">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/downloadApp_logo/dispo_apple.png" alt="" class="stores--logo">
-								</a>
+								</a> -->
 							</div>
 						</div>
                         
