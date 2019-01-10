@@ -245,7 +245,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<?php endif; ?>
 
 								<?php 
-									$image = get_field('partner_3_image');		
+									$image = get_field('partner_4_image');		
 									if( !empty($image) ): ?>
 									<img src="<?php echo $image['url']; ?>" class="partner--logo" alt="<?php echo $image['alt']; ?>" />
 								<?php endif; ?>
