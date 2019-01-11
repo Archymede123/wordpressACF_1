@@ -80,6 +80,7 @@
             left: 90%;
             top: 3%;
             width: 240px;
+            z-index: 100;
 
         // &:hover .conversation-bubbles--bubble {
         //             transform: rotate(8deg);
@@ -136,6 +137,11 @@
             bottom: -5px;
             right: 0;
             width: 26%;
+        }
+
+        .quick-quotation--tool {
+            width: 80%;
+            margin: 0 auto;
         }
     }
  }

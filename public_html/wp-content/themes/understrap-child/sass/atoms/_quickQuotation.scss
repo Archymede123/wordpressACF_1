@@ -413,7 +413,7 @@
 .App_Header__3jkzR h3 {
     color: #444;
     font-family: Arial,sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 28px;
     text-align: center;
     text-transform: uppercase;
@@ -490,8 +490,9 @@
     line-height: 19px;
     float: left;
     clear: left;
-    width: 150px;
-    font-style: italic
+    width: 110px;
+    font-style: italic;
+    padding-top: 4px;
 }
 
 .FileInfo_Holder__3KO98 dd {
@@ -937,7 +938,7 @@
     border-radius: 16px;
     color: #444;
     text-align: center;
-    padding: 16px
+    padding: 8px
 }
 
 .UploadField_DragPrompt__1aH3X p {
@@ -978,7 +979,7 @@
     transition: all .2s ease-in;
     border-radius: 8px;
     background-color: #1a496b;
-    margin-right: 24px
+    // margin-right: 24px
 }
 
 .UploadField_Button__2iO5W:hover {
@@ -1098,7 +1099,7 @@
     font-weight: 400;
     margin-bottom: 0;
     overflow-wrap: break-word;
-    padding: 16px 18px;
+    padding: 8px 16px;
     position: relative;
     text-align: center;
     text-decoration: none;
@@ -1121,7 +1122,7 @@
     transition: all .2s ease-in;
     display: inline-block;
     font-family: Arial,sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     letter-spacing: .93px;
     line-height: 18px
 }
@@ -1133,9 +1134,10 @@
 .Step_Container__wHBft {
     border-radius: 16px;
     background-color: #fff;
-    padding: 1em;
+    padding: .5em;
     margin-right: 2em;
-    flex: 1 1 200px
+    flex: 1 1 200px;
+    max-width: 140px;
 }
 
 .Step_Title__3GiJu {
@@ -1163,7 +1165,7 @@
 
 .Step_Content__3IwdX {
     color: #29343d;
-    font-size: 16px;
+    font-size: 12px;
     font-family: Roboto,sans-serif;
     font-weight: 300
 }
