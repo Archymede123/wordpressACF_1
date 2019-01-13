@@ -1,0 +1,83 @@
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#testimonial1" role="tab" aria-controls="home"
+            aria-selected="true">
+            <?php 
+											$image = get_field('quote_1_image');
+											
+											if( !empty($image) ): ?>
+
+            <img src="<?php echo $image['url']; ?>" class="clients--logo" alt="<?php echo $image['alt']; ?>" />
+            <?php endif; ?>
+            <!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/clients_logo/logo_1.png" alt="" class="clients--logo"> -->
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#testimonial2" role="tab" aria-controls="profile"
+            aria-selected="false">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/clients_logo/logo_2.png" alt="" class="clients--logo">
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#testimonial3" role="tab" aria-controls="contact"
+            aria-selected="false">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/clients_logo/logo_3.png" alt="" class="clients--logo">
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#testimonial4" role="tab" aria-controls="contact"
+            aria-selected="false">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/clients_logo/logo_4.png" alt="" class="clients--logo">
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#testimonial5" role="tab" aria-controls="contact"
+            aria-selected="false">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/clients_logo/logo_5.png" alt="" class="clients--logo">
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#testimonial6" role="tab" aria-controls="contact"
+            aria-selected="false">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/clients_logo/logo_6.png" alt="" class="clients--logo">
+        </a>
+    </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="testimonial1" role="tabpanel" aria-labelledby="home-tab">
+        <p class="clients--quote">"Outil très pratique et réactif, rapide et facile à utiliser. On limite
+            l’administratif."</p>
+        <p class="clients--name">Julie Dupont</p>
+        <p class="clients--role">Resonsable communication chez TBWA</p>
+    </div>
+    <div class="tab-pane fade" id="testimonial2" role="tabpanel" aria-labelledby="profile-tab">
+        <p class="clients--quote">"Outil très pratique et réactif, rapide et facile à utiliser. On limite
+            l’administratif."</p>
+        <p class="clients--name">Julie Dupont</p>
+        <p class="clients--role">Resonsable communication chez TBWA</p>
+    </div>
+    <div class="tab-pane fade" id="testimonial3" role="tabpanel" aria-labelledby="contact-tab">
+        <p class="clients--quote">"Outil très pratique et réactif, rapide et facile à utiliser. On limite
+            l’administratif."</p>
+        <p class="clients--name">Julie Dupont</p>
+        <p class="clients--role">Resonsable communication chez TBWA</p>
+    </div>
+    <div class="tab-pane fade" id="testimonial4" role="tabpanel" aria-labelledby="contact-tab">
+        <p class="clients--quote">"Outil très pratique et réactif, rapide et facile à utiliser. On limite
+            l’administratif."</p>
+        <p class="clients--name">Julie Dupont</p>
+        <p class="clients--role">Resonsable communication chez TBWA</p>
+    </div>
+    <div class="tab-pane fade" id="testimonial5" role="tabpanel" aria-labelledby="contact-tab">
+        <p class="clients--quote">"Outil très pratique et réactif, rapide et facile à utiliser. On limite
+            l’administratif."</p>
+        <p class="clients--name">Julie Dupont</p>
+        <p class="clients--role">Resonsable communication chez TBWA</p>
+    </div>
+    <div class="tab-pane fade" id="testimonial6" role="tabpanel" aria-labelledby="contact-tab">
+        <p class="clients--quote">"Outil très pratique et réactif, rapide et facile à utiliser. On limite
+            l’administratif."</p>
+        <p class="clients--name">Julie Dupont</p>
+        <p class="clients--role">Resonsable communication chez TBWA</p>
+    </div>
+</div>

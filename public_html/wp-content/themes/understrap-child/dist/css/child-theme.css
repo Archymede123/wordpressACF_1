@@ -9304,6 +9304,8 @@ a {
     left: 0;
     background: linear-gradient(270.55deg, rgba(253, 87, 107, 0.9) 0%, #FD576B 100%);
     position: relative; }
+    .landing-page .service-description  .cta-header.mobile  {
+      display: none; }
     .landing-page .service-description  .logo {
       position: absolute;
       top: 4%;
@@ -9340,7 +9342,7 @@ a {
       color: #ffffff; }
     .landing-page .service-description  .service-description--text {
       font-family: Arial;
-      font-size: 1rem;
+      font-size: 1.2rem;
       line-height: 32px;
       color: #ffffff;
       font-weight: 100;
@@ -9349,7 +9351,8 @@ a {
       position: absolute;
       left: 90%;
       top: 3%;
-      width: 240px; }
+      width: 240px;
+      z-index: 100; }
       .landing-page .service-description  .conversation-bubbles .conversation-bubbles--bubble {
         font-family: Arial;
         font-style: italic;
@@ -9381,17 +9384,31 @@ a {
   .landing-page .quick-quotation {
     flex: 0 0 50%;
     position: relative; }
+    .landing-page .quick-quotation .cta-header {
+      position: absolute;
+      top: 16px;
+      right: 48px;
+      z-index: 40; }
     .landing-page .quick-quotation .brian-icon-large {
       position: absolute;
       bottom: -5px;
       right: 0;
-      width: 26%; }
+      width: 26%;
+      display: none; }
+    .landing-page .quick-quotation .quick-quotation--tool {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      max-width: 580px; }
 
 .why-brian {
   position: absolute;
-  top: 90vh;
+  top: 95vh;
   left: 50%;
   transform: translateX(-50%);
+  margin-top: 120px;
   background: #ffffff;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 1168px;
@@ -9485,6 +9502,9 @@ a {
       font-family: roboto;
       font-weight: 300;
       font-style: italic; }
+    .clients .tab-pane .clients--logo {
+      width: 100%;
+      max-width: 240px; }
 
 .partners {
   background-color: #f4f8fb;
@@ -9610,6 +9630,17 @@ a {
   padding: 8px 0;
   display: block; }
 
+.cta-header {
+  text-decoration: none;
+  font-size: .8rem;
+  padding: 8px 32px !important;
+  border: 1px solid #f6456b;
+  background-color: #ffffff;
+  color: #f6456b;
+  border-radius: 16px; }
+  .cta-header:hover {
+    cursor: pointer; }
+
 .section-title, h5  {
   color: #444444;
   font-family: arial;
@@ -9655,7 +9686,7 @@ h5::after {
     display: block; }
     .navigation .navigation--icon {
       position: absolute;
-      top: 96px;
+      top: 120px;
       right: 16px;
       z-index: 11;
       height: 48px;
@@ -9737,6 +9768,11 @@ h5::after {
         top: 0; }
   .landing-page {
     display: block; }
+    .landing-page .cta-header.mobile  {
+      display: block;
+      position: absolute;
+      top: 8px;
+      right: 8px; }
     .landing-page .mobile-alert {
       display: flex;
       background: white;
@@ -9744,23 +9780,23 @@ h5::after {
       align-items: center;
       padding: 12px 0; }
       .landing-page .mobile-alert .mobile-alert-logo {
-        height: 45px;
-        width: 73px; }
+        height: 40px;
+        width: unset; }
       .landing-page .mobile-alert .mobile-alert-content .mobile-alert-title  {
         margin: 0;
-        font-size: 1.3rem;
+        font-size: .8rem;
         font-weight: 400;
         font-family: roboto;
         color: #444444; }
       .landing-page .mobile-alert .mobile-alert-content .mobile-alert-text {
         margin: 0;
         color: #444444;
-        font-size: 1rem;
+        font-size: .6rem;
         font-weight: 300; }
       .landing-page .mobile-alert .mobile-alert-btn {
         background: #f6456b;
-        height: 48px;
-        width: 120px;
+        height: 32px;
+        width: 96px;
         position: relative; }
         .landing-page .mobile-alert .mobile-alert-btn p {
           font-size: 1rem;
@@ -9770,15 +9806,44 @@ h5::after {
           transform: translate(-50%, -50%);
           color: #ffffff;
           font-family: arial; }
-    .landing-page .service-description .logo {
-      left: 7%; }
-    .landing-page .service-description .service-description--content {
-      left: 7%;
-      max-width: 85%; }
+    .landing-page .service-description {
+      height: 500px; }
+      .landing-page .service-description .logo {
+        left: 7%;
+        width: 48px; }
+      .landing-page .service-description .service-description--subtitle  {
+        font-size: .8rem; }
+      .landing-page .service-description .service-description--title {
+        font-size: 2rem;
+        margin-bottom: 16px; }
+      .landing-page .service-description .service-description--text {
+        font-size: .8rem;
+        line-height: 24px;
+        margin-bottom: 32px; }
+      .landing-page .service-description .service-description--content {
+        left: 7%;
+        max-width: 85%;
+        top: 13%; }
+    .landing-page .quick-quotation {
+      position: absolute;
+      top: 146%;
+      left: 0;
+      width: 100%; }
+      .landing-page .quick-quotation .UploadField_DragPrompt__1aH3X,
+      .landing-page .quick-quotation .UploadField_Grow__2q3Sc {
+        display: none; }
+      .landing-page .quick-quotation .App_App__2lytX > div:nth-child(2) .App_Action__1NgpF {
+        display: block; }
+      .landing-page .quick-quotation .App_Step__19vbB .App_FileInfo__3Rw_5 {
+        margin-bottom: 16px; }
+      .landing-page .quick-quotation .App_Step__19vbB .Step_Container__wHBft  {
+        height: 68px; }
     .landing-page .conversation-bubbles {
       display: none; }
   .why-brian {
-    top: 80vh; }
+    margin-top: 660px;
+    position: unset;
+    transform: none; }
     .why-brian .why-brian--items {
       flex-wrap: wrap; }
   .clients {
@@ -10123,14 +10188,15 @@ h5::after {
   -moz-osx-font-smoothing: grayscale;
   border-radius: 16px;
   background-color: #f4f8fb;
-  max-width: 688px; }
+  max-width: 580px; }
 
 .App_Header__3jkzR h3 {
   color: #444;
   font-family: Arial,sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 28px;
-  text-align: center;
+  max-width: 70%;
+  margin: 0 auto;
   text-transform: uppercase;
   font-weight: 400; }
 
@@ -10140,7 +10206,7 @@ h5::after {
   margin-bottom: 2em; }
 
 .App_Action__1NgpF {
-  flex: 1 1 400px; }
+  flex: 0 1 330px; }
 
 .App_UploadingContainer__2UOBO {
   width: 100%;
@@ -10193,8 +10259,9 @@ h5::after {
   line-height: 19px;
   float: left;
   clear: left;
-  width: 150px;
-  font-style: italic; }
+  width: 110px;
+  font-style: italic;
+  padding-top: 4px; }
 
 .FileInfo_Holder__3KO98 dd {
   margin-left: 150px; }
@@ -10548,7 +10615,7 @@ h5::after {
   border-radius: 16px;
   color: #444;
   text-align: center;
-  padding: 16px; }
+  padding: 4px 16px; }
 
 .UploadField_DragPrompt__1aH3X p {
   font-size: 10px;
@@ -10584,8 +10651,7 @@ h5::after {
   -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in;
   border-radius: 8px;
-  background-color: #1a496b;
-  margin-right: 24px; }
+  background-color: #1a496b; }
 
 .UploadField_Button__2iO5W:hover {
   background-color: #1d648b; }
@@ -10694,7 +10760,7 @@ h5::after {
   font-weight: 400;
   margin-bottom: 0;
   overflow-wrap: break-word;
-  padding: 16px 18px;
+  padding: 8px 16px;
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -10717,7 +10783,7 @@ h5::after {
   transition: all .2s ease-in;
   display: inline-block;
   font-family: Arial,sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   letter-spacing: .93px;
   line-height: 18px; }
 
@@ -10727,34 +10793,72 @@ h5::after {
 .Step_Container__wHBft {
   border-radius: 16px;
   background-color: #fff;
-  padding: 1em;
+  padding: 8px;
   margin-right: 2em;
-  flex: 1 1 200px; }
+  flex: 0 1 160px; }
 
 .Step_Title__3GiJu {
+  text-align: center;
   display: flex; }
 
 .Step_Title__3GiJu .Step_Number__1QvLN {
   color: #1a496b;
   font-family: Arial,sans-serif;
-  font-size: 56px;
-  line-height: 65px;
+  font-size: 40px;
+  line-height: 40px;
   margin: 0;
   font-weight: 400; }
 
 .Step_Title__3GiJu .Step_TitleText__1_fYQ {
   color: #29343d;
   font-family: Roboto,sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 1.25px;
-  line-height: 24px;
-  margin: 8px 5px 0;
-  font-weight: 400; }
+  line-height: 20px;
+  margin: 0 0 0 8px;
+  font-weight: 400;
+  text-align: left; }
 
 .Step_Content__3IwdX {
   color: #29343d;
-  font-size: 16px;
+  font-size: 12px;
   font-family: Roboto,sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+  text-align: center;
+  margin: 8px 0 0 0; }
 
 /*# sourceMappingURL=main.82a88115.chunk.css.map */
+@media (max-width: 1188px) {
+  .App_Step__19vbB {
+    flex-direction: column;
+    margin-bottom: 1em; }
+    .App_Step__19vbB .Step_Container__wHBft,
+    .App_Step__19vbB .App_Action__1NgpF {
+      flex: none; }
+    .App_Step__19vbB .App_FileInfo__3Rw_5 {
+      flex-direction: column; }
+    .App_Step__19vbB .FileInfo_Holder__3KO98 {
+      margin-left: 16px; }
+      .App_Step__19vbB .FileInfo_Holder__3KO98 dd {
+        margin-left: 0; }
+    .App_Step__19vbB .Step_Container__wHBft {
+      position: relative; }
+    .App_Step__19vbB .Step_Content__3IwdX {
+      position: absolute;
+      top: 20px;
+      left: 38px;
+      text-align: left; }
+    .App_Step__19vbB .App_Action__1NgpF {
+      margin-top: 8px; }
+      .App_Step__19vbB .App_Action__1NgpF .Button_Outline__69mNc {
+        margin-top: 16px; }
+  .App_Header__3jkzR h3 {
+    font-size: 16px;
+    margin-bottom: 8px; }
+  .App_App__2lytX > div:nth-child(2) .App_Action__1NgpF {
+    display: flex;
+    align-items: center; }
+  .landing-page .quick-quotation .quick-quotation--tool {
+    width: 90%; }
+  .conversation-bubbles {
+    display: none; } }

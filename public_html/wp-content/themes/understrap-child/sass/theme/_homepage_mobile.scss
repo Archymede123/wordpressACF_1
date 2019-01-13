@@ -9,7 +9,7 @@
 
         .navigation--icon {
             position: absolute;
-            top: 96px;
+            top: 120px;
             right: 16px;
             z-index: 11;
             height: 48px;
@@ -127,6 +127,13 @@
     .landing-page {
         display: block;
 
+        .cta-header.mobile {
+            display: block;
+            position: absolute;
+            top: 8px;
+            right: 8px;
+        }
+
         .mobile-alert {
             display: flex;
             background: white;
@@ -135,14 +142,14 @@
             padding: 12px 0;
 
             .mobile-alert-logo {
-                height: 45px;
-                width: 73px;
+                height: 40px;
+                width: unset;
             }
 
             .mobile-alert-content {
                 .mobile-alert-title {
                     margin: 0;
-                    font-size: 1.3rem;
+                    font-size: .8rem;
                     font-weight: 400;
                     font-family: roboto;
                     color: $gris-dark;
@@ -150,15 +157,15 @@
                 .mobile-alert-text {
                     margin: 0;
                     color: $gris-dark;
-                    font-size: 1rem;
+                    font-size: .6rem;
                     font-weight: 300;
                 }
             }
 
             .mobile-alert-btn {
                 background: $rose;
-                height: 48px;
-                width: 120px;
+                height: 32px;
+                width: 96px;
                 position: relative;
 
                 p { 
@@ -173,14 +180,65 @@
             }
         }
 
-        .service-description .logo {
-            left: 7%;
+        .service-description {
+            height: 500px;
+
+            .logo {
+                left: 7%;
+                width: 48px
+            }
+
+            .service-description--subtitle {
+                font-size: .8rem;
+            }
+
+            .service-description--title {
+                font-size: 2rem;
+                margin-bottom: 16px;
+            }
+
+            .service-description--text {
+                font-size: .8rem;
+                line-height: 24px;
+                margin-bottom: 32px;
+            }
+
+            .service-description--content {
+                left: 7%;
+                max-width: 85%;
+                top: 13%
+            } 
         }
 
-        .service-description .service-description--content {
-            left: 7%;
-            max-width: 85%;
+        .quick-quotation {
+            position: absolute;
+            top: 146%;
+            left: 0;
+            width: 100%;
+
+            // .quick-quotation--tool {
+            //     top: 120%
+            // }
+
+            .UploadField_DragPrompt__1aH3X,
+            .UploadField_Grow__2q3Sc {
+                display: none;
+            }
+
+            .App_App__2lytX > div:nth-child(2) .App_Action__1NgpF {
+                display: block;
+            }
+
+            .App_Step__19vbB .App_FileInfo__3Rw_5 {
+                margin-bottom: 16px;
+            }
+
+            .App_Step__19vbB .Step_Container__wHBft {
+                height: 68px;
+            }
         }
+
+
 
         .conversation-bubbles {
             display: none;
@@ -188,7 +246,10 @@
     }
 
     .why-brian {
-        top: 80vh;
+        margin-top: 660px;
+        position: unset;
+        transform: none;
+
 
         .why-brian--items {
             flex-wrap: wrap;

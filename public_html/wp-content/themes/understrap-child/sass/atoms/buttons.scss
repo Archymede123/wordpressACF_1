@@ -29,3 +29,17 @@
     padding: 8px 0;
     display: block;
 }
+
+.cta-header {
+    text-decoration: none;
+      font-size: .8rem;
+      padding: 8px 32px !important;
+      border: 1px solid $rose;
+      background-color: $blanc;
+      color: $rose;
+      border-radius: 16px;
+
+      &:hover {
+        cursor: pointer;
+      }
+}
