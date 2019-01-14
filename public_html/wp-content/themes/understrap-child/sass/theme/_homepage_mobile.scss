@@ -127,7 +127,7 @@
     .landing-page {
         display: block;
 
-        .cta-header.mobile {
+        .service-description .cta-header.mobile {
             display: block;
             position: absolute;
             top: 8px;
@@ -215,6 +215,10 @@
             top: 146%;
             left: 0;
             width: 100%;
+
+            .cta-header {
+                display: none;
+            }
 
             // .quick-quotation--tool {
             //     top: 120%

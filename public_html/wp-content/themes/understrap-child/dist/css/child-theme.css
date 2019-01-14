@@ -9768,7 +9768,7 @@ h5::after {
         top: 0; }
   .landing-page {
     display: block; }
-    .landing-page .cta-header.mobile  {
+    .landing-page .service-description .cta-header.mobile  {
       display: block;
       position: absolute;
       top: 8px;
@@ -9829,6 +9829,8 @@ h5::after {
       top: 146%;
       left: 0;
       width: 100%; }
+      .landing-page .quick-quotation .cta-header {
+        display: none; }
       .landing-page .quick-quotation .UploadField_DragPrompt__1aH3X,
       .landing-page .quick-quotation .UploadField_Grow__2q3Sc {
         display: none; }
