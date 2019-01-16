@@ -119,8 +119,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<a href="https://client.mybrian.fr/order/new" class="cta-header">Mon compte</a>
 								<div class="quick-quotation--tool">
 									<div id="root">
-										<div class="App_App__2lytX"><div class="App_Header__3jkzR" style="
-    											text-align: center;"><h3>Obtenez un devis en quelques secondes</h3></div><div class="App_Step__19vbB"><div class="Step_Container__wHBft"><div class="Step_Title__3GiJu"><p class="Step_Number__1QvLN">1</p><p class="Step_TitleText__1_fYQ">Chargez votre fichier</p></div><p class="Step_Content__3IwdX">Formats acceptés :  .xlsx  .pptx .docx</p></div><div class="App_Action__1NgpF"><div class="App_FileInfo__3Rw_5" aria-disabled="false" style="position: relative;"><div class="UploadField_DragPrompt__1aH3X"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAQCAYAAAAS7Y8mAAAAAXNSR0IArs4c6QAAAjxJREFUOBGVVF1IFFEUPufO6K41tbqIkruYUqyR0g9BBBpYT+G21sv20kuvkbb6ENLbKgT5ELGGzz3082IvIexDP5BBpEaEEP1sGYRuD63gT0Q1OzOney/ONJOzg56Hued+5/u+mXNm7iiwyWhPZ7VQ+2Fl7d20sRkJBpFazg60lHVjAAjOEdAuQLS44DMhPNJYaLgweWOpkr6icVOyrxcsuseFmp8YEVcYsAsL+bGHvnU/sDmV6TJMcwqImF/dxrj5LwTlxGI+N2Nj9qraiVh567V6uXzKMI3rvH2P6Z5Yg6TOF787EiKqATTvcCDhgOuJM4pYsv8ib/0mn2Xof5IwnRjNSDg9lAO3uQCZyroXJ29NuXWK2MSTl4aIm/LU04Go2aaN0QhoNWHo6ToET2bewvKPn6IsgwiO7dx7NFqfOP515dPLVQGy3am+VrIgKxk+l1hDFB48/TdCkQvME0T7eKcjOv2ei5++3CNqzDQxRQBhD9G1ef7mAzx7/d5BRC4wv+A+EbLMu629mUbVAjrgR3Jjf3QDiqVlCYk8KPhY6nTDOC9mWgoidh5MgKoocCV3X9K0bWEQ2Iu5QoAMO1SG+Mrit6kU9ZEdUF3lfad6OfipkXABu7NZtTC7NM0Pw5FK5lvECRXolN9x85n+/aZOj/mbbdqiyUY6wti3/HhGfserH2dLdW0nbxPotfxHI45YZKMiEOH/JZhnDK8W8+PXBNM5eW5ZPD0YtXTc7saC8nB11dqXiVF5MGzeX6Mow//21QIRAAAAAElFTkSuQmCC" alt="fichier"><p>Déposez votre<br> fichier à traduire <br>ici</p></div><p class="UploadField_Grow__2q3Sc">ou</p><div class="UploadField_Button__2iO5W"><p>ajouter un fichier</p></div><input accept="application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-powerpoint,application/vnd.openxmlformats-officedocument.presentationml.presentation,text/plain,text/richtext" type="file" multiple="" autocomplete="off" style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; opacity: 1e-05; pointer-events: none;"></div><div class="FileInfo_Holder__3KO98"><dl><dt>Votre fichier :</dt><dd>monfichierdetraduction.docx</dd><dt>Nombre de mot :</dt><dd><span>200 mots</span></dd></dl></div></div></div><div class="App_Step__19vbB"><div class="Step_Container__wHBft"><div class="Step_Title__3GiJu"><p class="Step_Number__1QvLN">2</p><p class="Step_TitleText__1_fYQ">Choisissez le prix</p></div><p class="Step_Content__3IwdX">Faites glisser le curseur pour ajuster votre ratio temps / prix idéal</p></div><div class="App_Action__1NgpF"><div class="App_PriceTime__2hGCi"><dl class="PriceDisplay_Container__35VZx"><dt><span>Prix</span></dt><dd>31,50 &lrm;€</dd></dl><dl class="TimeDisplay_Container__3rdoo"><dt>Livraison</dt><dd>mardi à 09:30</dd></dl></div><div class="TimePickerField_Container__dUDYA"><div class="section-slider__slider"><div class="rc-slider rc-slider-with-marks"><div class="rc-slider-rail" style="background-color: rgb(26, 73, 107);"></div><div class="rc-slider-track" style="background-color: rgb(246, 68, 107); left: 0%; width: 50%;"></div><div class="rc-slider-step"><span class="rc-slider-dot rc-slider-dot-active" style="left: 0%;"></span><span class="rc-slider-dot" style="left: 100%;"></span></div><div tabindex="0" class="rc-slider-handle" role="slider" aria-valuemin="0" aria-valuemax="80" aria-valuenow="40" aria-disabled="false" style="left: 50%;"></div><div class="rc-slider-mark"></div></div></div><div class="TimePickerField_Tips__gb-AY"><span class="TimePickerField_Fast__3mRXF">Rapide</span><span>Faites glisser le curseur</span><span class="TimePickerField_Cheap__2SOOi">Economique</span></div></div></div></div><div class="App_Step__19vbB"><div class="Step_Container__wHBft"><div class="Step_Title__3GiJu"><p class="Step_Number__1QvLN">3</p><p class="Step_TitleText__1_fYQ">Validez votre commande</p></div><p class="Step_Content__3IwdX">Créez un compte et confirmez votre commande</p></div><div class="App_Action__1NgpF App_Continue__3oQ2B"><div class="Button_Outline__69mNc">Commander ma traduction</div></div></div></div>
+										<!-- <div class="App_App__2lytX"><div class="App_Header__3jkzR" style="
+    											text-align: center;"><h3>Obtenez un devis en quelques secondes</h3></div><div class="App_Step__19vbB"><div class="Step_Container__wHBft"><div class="Step_Title__3GiJu"><p class="Step_Number__1QvLN">1</p><p class="Step_TitleText__1_fYQ">Chargez votre fichier</p></div><p class="Step_Content__3IwdX">Formats acceptés :  .xlsx  .pptx .docx</p></div><div class="App_Action__1NgpF"><div class="App_FileInfo__3Rw_5" aria-disabled="false" style="position: relative;"><div class="UploadField_DragPrompt__1aH3X"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAQCAYAAAAS7Y8mAAAAAXNSR0IArs4c6QAAAjxJREFUOBGVVF1IFFEUPufO6K41tbqIkruYUqyR0g9BBBpYT+G21sv20kuvkbb6ENLbKgT5ELGGzz3082IvIexDP5BBpEaEEP1sGYRuD63gT0Q1OzOney/ONJOzg56Hued+5/u+mXNm7iiwyWhPZ7VQ+2Fl7d20sRkJBpFazg60lHVjAAjOEdAuQLS44DMhPNJYaLgweWOpkr6icVOyrxcsuseFmp8YEVcYsAsL+bGHvnU/sDmV6TJMcwqImF/dxrj5LwTlxGI+N2Nj9qraiVh567V6uXzKMI3rvH2P6Z5Yg6TOF787EiKqATTvcCDhgOuJM4pYsv8ib/0mn2Xof5IwnRjNSDg9lAO3uQCZyroXJ29NuXWK2MSTl4aIm/LU04Go2aaN0QhoNWHo6ToET2bewvKPn6IsgwiO7dx7NFqfOP515dPLVQGy3am+VrIgKxk+l1hDFB48/TdCkQvME0T7eKcjOv2ei5++3CNqzDQxRQBhD9G1ef7mAzx7/d5BRC4wv+A+EbLMu629mUbVAjrgR3Jjf3QDiqVlCYk8KPhY6nTDOC9mWgoidh5MgKoocCV3X9K0bWEQ2Iu5QoAMO1SG+Mrit6kU9ZEdUF3lfad6OfipkXABu7NZtTC7NM0Pw5FK5lvECRXolN9x85n+/aZOj/mbbdqiyUY6wti3/HhGfserH2dLdW0nbxPotfxHI45YZKMiEOH/JZhnDK8W8+PXBNM5eW5ZPD0YtXTc7saC8nB11dqXiVF5MGzeX6Mow//21QIRAAAAAElFTkSuQmCC" alt="fichier"><p>Déposez votre<br> fichier à traduire <br>ici</p></div><p class="UploadField_Grow__2q3Sc">ou</p><div class="UploadField_Button__2iO5W"><p>ajouter un fichier</p></div><input accept="application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-powerpoint,application/vnd.openxmlformats-officedocument.presentationml.presentation,text/plain,text/richtext" type="file" multiple="" autocomplete="off" style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; opacity: 1e-05; pointer-events: none;"></div><div class="FileInfo_Holder__3KO98"><dl><dt>Votre fichier :</dt><dd>monfichierdetraduction.docx</dd><dt>Nombre de mot :</dt><dd><span>200 mots</span></dd></dl></div></div></div><div class="App_Step__19vbB"><div class="Step_Container__wHBft"><div class="Step_Title__3GiJu"><p class="Step_Number__1QvLN">2</p><p class="Step_TitleText__1_fYQ">Choisissez le prix</p></div><p class="Step_Content__3IwdX">Faites glisser le curseur pour ajuster votre ratio temps / prix idéal</p></div><div class="App_Action__1NgpF"><div class="App_PriceTime__2hGCi"><dl class="PriceDisplay_Container__35VZx"><dt><span>Prix</span></dt><dd>31,50 &lrm;€</dd></dl><dl class="TimeDisplay_Container__3rdoo"><dt>Livraison</dt><dd>mardi à 09:30</dd></dl></div><div class="TimePickerField_Container__dUDYA"><div class="section-slider__slider"><div class="rc-slider rc-slider-with-marks"><div class="rc-slider-rail" style="background-color: rgb(26, 73, 107);"></div><div class="rc-slider-track" style="background-color: rgb(246, 68, 107); left: 0%; width: 50%;"></div><div class="rc-slider-step"><span class="rc-slider-dot rc-slider-dot-active" style="left: 0%;"></span><span class="rc-slider-dot" style="left: 100%;"></span></div><div tabindex="0" class="rc-slider-handle" role="slider" aria-valuemin="0" aria-valuemax="80" aria-valuenow="40" aria-disabled="false" style="left: 50%;"></div><div class="rc-slider-mark"></div></div></div><div class="TimePickerField_Tips__gb-AY"><span class="TimePickerField_Fast__3mRXF">Rapide</span><span>Faites glisser le curseur</span><span class="TimePickerField_Cheap__2SOOi">Economique</span></div></div></div></div><div class="App_Step__19vbB"><div class="Step_Container__wHBft"><div class="Step_Title__3GiJu"><p class="Step_Number__1QvLN">3</p><p class="Step_TitleText__1_fYQ">Validez votre commande</p></div><p class="Step_Content__3IwdX">Créez un compte et confirmez votre commande</p></div><div class="App_Action__1NgpF App_Continue__3oQ2B"><div class="Button_Outline__69mNc">Commander ma traduction</div></div></div></div> -->
 									</div>
 									
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/brian-icon-large.png" alt="" class="brian-icon-large">
@@ -291,58 +291,58 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<?php the_field('press_section_title');?>
 							</h3>
 							<div class="press--logos">
+								
 								<?php 
 									$image = get_field('press_1_image');
 									$link = get_field('press_1_link');
 									if( !empty($image) ): ?>
 									<div class="press--logo__container">
 										<a href="<?php echo $link; ?>">
-											<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/partners_logo/logo_Big_Booster.png" alt="" class="partner--logo">
-											<!-- <img src="<?php echo $image['url']; ?>" class="press--logo" alt="<?php echo $image['alt']; ?>" /> -->
+											<img src="<?php echo $image['url']; ?>" class="press--logo" alt="<?php echo $image['alt']; ?>" />
 										</a>	
 									</div>
 								<?php endif; ?>
+								
 								<?php 
 									$image = get_field('press_2_image');
 									$link = get_field('press_2_link');	
 									if( !empty($image) ): ?>
 									<div class="press--logo__container">
 										<a href="<?php echo $link; ?>">
-											<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/partners_logo/logo_Big_Booster.png" alt="" class="partner--logo">
-											<!-- <img src="<?php echo $image['url']; ?>" class="press--logo" alt="<?php echo $image['alt']; ?>" /> -->
+											<img src="<?php echo $image['url']; ?>" class="press--logo" alt="<?php echo $image['alt']; ?>" />
 										</a>
 									</div>
 								<?php endif; ?>
+								
 								<?php 
 									$image = get_field('press_3_image');
 									$link = get_field('press_3_link');		
 									if( !empty($image) ): ?>
 									<div class="press--logo__container">
-										<a href="<?php echo $link; ?>">
-											<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/partners_logo/logo_Big_Booster.png" alt="" class="partner--logo">
-											<!-- <img src="<?php echo $image['url']; ?>" class="press--logo" alt="<?php echo $image['alt']; ?>" /> -->
+										<a href="<?php echo $link; ?>">											
+											<img src="<?php echo $image['url']; ?>" class="press--logo" alt="<?php echo $image['alt']; ?>" />
 										</a>
 									</div>
 								<?php endif; ?>
+								
 								<?php 
 									$image = get_field('press_4_image');
 									$link = get_field('press_4_link');	
 									if( !empty($image) ): ?>
 									<div class="press--logo__container">
-										<a href="<?php echo $link; ?>">
-											<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/partners_logo/logo_Big_Booster.png" alt="" class="partner--logo">
-											<!-- <img src="<?php echo $image['url']; ?>" class="press--logo" alt="<?php echo $image['alt']; ?>" /> -->
+										<a href="<?php echo $link; ?>">											
+											<img src="<?php echo $image['url']; ?>" class="press--logo" alt="<?php echo $image['alt']; ?>" />
 										</a>
 									</div>
 								<?php endif; ?>
+								
 								<?php 
 									$image = get_field('press_5_image');
 									$link = get_field('press_5_link');	
 									if( !empty($image) ): ?>
 									<div class="press--logo__container">
 										<a href="<?php echo $link; ?>">
-											<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/partners_logo/logo_Big_Booster.png" alt="" class="partner--logo">
-											<!-- <img src="<?php echo $image['url']; ?>" class="press--logo" alt="<?php echo $image['alt']; ?>" /> -->
+											<img src="<?php echo $image['url']; ?>" class="press--logo" alt="<?php echo $image['alt']; ?>" />
 										</a>
 									</div>
 								<?php endif; ?>
@@ -369,7 +369,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	!function(l){function e(e){for(var r,t,n=e[0],o=e[1],u=e[2],f=0,i=[];f<n.length;f++)t=n[f],p[t]&&i.push(p[t][0]),p[t]=0;for(r in o)Object.prototype.hasOwnProperty.call(o,r)&&(l[r]=o[r]);for(s&&s(e);i.length;)i.shift()();return c.push.apply(c,u||[]),a()}function a(){for(var e,r=0;r<c.length;r++){for(var t=c[r],n=!0,o=1;o<t.length;o++){var u=t[o];0!==p[u]&&(n=!1)}n&&(c.splice(r--,1),e=f(f.s=t[0]))}return e}var t={},p={2:0},c=[];function f(e){if(t[e])return t[e].exports;var r=t[e]={i:e,l:!1,exports:{}};return l[e].call(r.exports,r,r.exports,f),r.l=!0,r.exports}f.m=l,f.c=t,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(r,e){if(1&e&&(r=f(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var n in r)f.d(t,n,function(e){return r[e]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="/";var r=window.webpackJsonp=window.webpackJsonp||[],n=r.push.bind(r);r.push=e,r=r.slice();for(var o=0;o<r.length;o++)e(r[o]);var s=n;a()}([])
 </script>
 <script src="/static/js/1.3fe8f92f.chunk.js"></script>
-<script src="/static/js/main.e8315a12.chunk.js"></script>
+<script src="/static/js/main.949c7fdb.chunk.js"></script>
 
 <script>
 	const nav = document.querySelector(".navbar");
@@ -385,7 +385,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	window.addEventListener("scroll", displayNav);
 
-	const whyBrianHeight = document.querySelector(".why-brian").offsetHeight
+	const whyBrianHeight = document.querySelector(".why-brian").offsetHeight + 32
 	if (screen.width > 641) {
 		document.querySelector(".clients").style.marginTop = whyBrianHeight + "px"
 	}
@@ -402,8 +402,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 		} 
 	}
 		
-	
-
 	window.addEventListener("scroll", fixNavIcon);
 
 	function displayMobileMenu() {

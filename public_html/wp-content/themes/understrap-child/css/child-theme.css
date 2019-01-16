@@ -8791,9 +8791,7 @@ a {
   color: #1a406b; }
 
 .navbar {
-  background-color: white !important;
   background-color: transparent;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
   width: 100%;
   z-index: 1000; }
   .navbar img {
@@ -8801,7 +8799,6 @@ a {
     width: auto; }
 
 .page-template-fullwidthpage .navbar {
-  background: white !important;
   background: transparent;
   width: 100%;
   position: absolute;
@@ -9296,14 +9293,6 @@ a {
 .navigation {
   display: none; }
 
-.navbar {
-  position: fixed !important;
-  opacity: 0; }
-
-.fixed-nav .navbar {
-  opacity: 1;
-  transition: opacity ease-in-out .3s; }
-
 .landing-page {
   display: flex;
   position: relative; }
@@ -9408,7 +9397,7 @@ a {
       display: none; }
     .landing-page .quick-quotation .quick-quotation--tool {
       position: absolute;
-      top: 50%;
+      top: 55%;
       left: 50%;
       transform: translate(-50%, -50%);
       width: 100%;
@@ -9416,7 +9405,7 @@ a {
 
 .why-brian {
   position: absolute;
-  top: 95vh;
+  top: 105vh;
   left: 50%;
   transform: translateX(-50%);
   margin-top: 120px;
@@ -9617,8 +9606,24 @@ a {
     .app-download .stores--logo:last-child {
       margin-left: 16px; }
 
-.press--logos {
-  display: flex; }
+.press-articles {
+  margin-top: 64px;
+  text-align: center; }
+  .press-articles .section-title {
+    margin-bottom: 32px; }
+  .press-articles .press--logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px; }
+  .press-articles .press--logo {
+    max-height: 200px; }
+  .press-articles .press--logo__container {
+    flex: 1 1 20%;
+    margin: 0 32px;
+    text-align: center; }
 
 .cta {
   font-family: arial;
@@ -10217,12 +10222,13 @@ h5::after {
   max-width: 90%;
   margin: 0 auto;
   text-transform: uppercase;
-  font-weight: 400; }
+  font-weight: 400;
+  text-align: center; }
 
 .App_Step__19vbB {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 2em; }
+  margin-bottom: .8em; }
 
 .App_Action__1NgpF {
   flex: 0 1 330px; }
@@ -10241,6 +10247,9 @@ h5::after {
   display: flex;
   align-items: center;
   padding-top: 15px; }
+
+.App_FileInfo__3Rw_5 dl {
+  margin-bottom: 0; }
 
 .App_Price__yhFk2 {
   grid-area: Price; }

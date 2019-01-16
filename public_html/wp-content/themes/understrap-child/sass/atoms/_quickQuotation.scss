@@ -419,13 +419,14 @@
     max-width: 90%;
     margin: 0 auto;
     text-transform: uppercase;
-    font-weight: 400
+    font-weight: 400;
+    text-align: center;
 }
 
 .App_Step__19vbB {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 2em
+    margin-bottom: .8em
 }
 
 .App_Action__1NgpF {
@@ -449,6 +450,12 @@
     align-items: center;
     padding-top: 15px
 }
+
+.App_FileInfo__3Rw_5  dl{
+    margin-bottom: 0;
+}
+
+
 
 .App_Price__yhFk2 {
     grid-area: Price

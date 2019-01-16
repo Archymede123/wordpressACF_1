@@ -86,7 +86,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 							
 							<div class="service-description">
 								<a href="https://client.mybrian.fr/order/new" class="cta-header mobile">Mon compte</a>
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/logo_mybrian_white.png" alt="" class="logo">
+								<?php 
+									$image = get_field('top_left_logo');
+									if( !empty($image) ): ?>
+									<img src="<?php echo $image['url']; ?>" class="logo" alt="<?php echo $image['alt']; ?>" />
+								<?php endif; ?>
+								<!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/logo_mybrian_white.png" alt="" class="logo"> -->
 								<div class="service-description--content">
 									
 									<p class="service-description--subtitle"><?php the_field('homepage_surtitre');?></p>
@@ -96,15 +101,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 									</p>
 									<?php 
 										$link = get_field('homepage_cta_link');
-
-										if( $link ): ?>
-											
+										if( $link ): ?>							
 											<a class="cta-main cta" href="<?php echo $link; ?>"><?php the_field('homepage_cta_label');?></a>
-
 									<?php endif; ?>
-									
 								</div>
-								
 								<div class="conversation-bubbles">
 									<div class="conversation-bubbles--bubble__first conversation-bubbles--bubble">
 										<span class='conversation-bubbles--text'><?php the_field('homepage_bulle1');?></span>
@@ -162,15 +162,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 								</div>
 							</div>
 							<?php 
-
 								$link = get_field('whybrian_cta_link');
-
 								if( $link ): ?>
-									
 									<a class="cta" href="<?php echo $link; ?>"><?php the_field('whybrian_cta_label');?></a>
-									
-								<?php endif; ?>
-							
+							<?php endif; ?>
 						</div>
 						<div class="clients">
 							<h3 class="section-title">
@@ -181,11 +176,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<p class="clients--name"><?php the_field('client_name');?></p>
 								<p class="clients--role"><?php the_field('client_role');?></p>
 								<?php 
-									$image = get_field('client_logo');		
+									$image = get_field('client_logo');
+									$link = get_field('client_logo_link');	
 									if( !empty($image) ): ?>
-									<img src="<?php echo $image['url']; ?>" class="clients--logo" alt="<?php echo $image['alt']; ?>" />
+									<a href="<?php echo $link; ?>">
+										<img src="<?php echo $image['url']; ?>" class="clients--logo" alt="<?php echo $image['alt']; ?>" />
+									</a>
 								<?php endif; ?>
-								
 							</div>
 						</div>
 						<div class="partners">
@@ -194,34 +191,60 @@ $container = get_theme_mod( 'understrap_container_type' );
 							</h3>
 							<div class="partners--logos">
 								<?php 
-									$image = get_field('partner_1_image');		
+									$image = get_field('partner_1_image');
+									$link = get_field('partner_1_link');
 									if( !empty($image) ): ?>
-									<img src="<?php echo $image['url']; ?>" class="partner--logo" alt="<?php echo $image['alt']; ?>" />
+									<div class="partner--logo__container">
+										<a href="<?php echo $link; ?>">
+											<img src="<?php echo $image['url']; ?>" class="partner--logo" alt="<?php echo $image['alt']; ?>" />
+										</a>	
+									</div>
 								<?php endif; ?>
-
 								<?php 
-									$image = get_field('partner_2_image');		
+									$image = get_field('partner_2_image');
+									$link = get_field('partner_2_link');	
 									if( !empty($image) ): ?>
-									<img src="<?php echo $image['url']; ?>" class="partner--logo" alt="<?php echo $image['alt']; ?>" />
+									<div class="partner--logo__container">
+										<a href="<?php echo $link; ?>">
+											<img src="<?php echo $image['url']; ?>" class="partner--logo" alt="<?php echo $image['alt']; ?>" />
+										</a>
+									</div>
 								<?php endif; ?>
-
 								<?php 
-									$image = get_field('partner_3_image');		
+									$image = get_field('partner_3_image');
+									$link = get_field('partner_3_link');		
 									if( !empty($image) ): ?>
-									<img src="<?php echo $image['url']; ?>" class="partner--logo" alt="<?php echo $image['alt']; ?>" />
+									<div class="partner--logo__container">
+										<a href="<?php echo $link; ?>">
+											<img src="<?php echo $image['url']; ?>" class="partner--logo" alt="<?php echo $image['alt']; ?>" />
+										</a>
+									</div>
 								<?php endif; ?>
-
 								<?php 
-									$image = get_field('partner_4_image');		
+									$image = get_field('partner_4_image');
+									$link = get_field('partner_4_link');	
 									if( !empty($image) ): ?>
-									<img src="<?php echo $image['url']; ?>" class="partner--logo" alt="<?php echo $image['alt']; ?>" />
+									<div class="partner--logo__container">
+										<a href="<?php echo $link; ?>">
+											<img src="<?php echo $image['url']; ?>" class="partner--logo" alt="<?php echo $image['alt']; ?>" />
+										</a>
+									</div>
 								<?php endif; ?>
-
+								<?php 
+									$image = get_field('partner_5_image');
+									$link = get_field('partner_5_link');	
+									if( !empty($image) ): ?>
+									<div class="partner--logo__container">
+										<a href="<?php echo $link; ?>">
+											<img src="<?php echo $image['url']; ?>" class="partner--logo" alt="<?php echo $image['alt']; ?>" />
+										</a>
+									</div>
+								<?php endif; ?>
+							</div>
 								<!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/partners_logo/logo_EACM.png" alt="" class="partner--logo">
 								<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/partners_logo/logo_Big_Booster.png" alt="" class="partner--logo">
 								<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/partners_logo/logo_bpi.png" alt="" class="partner--logo">
 								<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/partners_logo/logo_french_tech.png" alt="" class="partner--logo"> -->
-							</div>
 						</div>
 						
 						<div class="blog-preview">
@@ -263,6 +286,68 @@ $container = get_theme_mod( 'understrap_container_type' );
 								</a> -->
 							</div>
 						</div>
+						<div class="press-articles">
+							<h3 class="section-title">
+								<?php the_field('press_section_title');?>
+							</h3>
+							<div class="press--logos">
+								
+								<?php 
+									$image = get_field('press_1_image');
+									$link = get_field('press_1_link');
+									if( !empty($image) ): ?>
+									<div class="press--logo__container">
+										<a href="<?php echo $link; ?>">
+											<img src="<?php echo $image['url']; ?>" class="press--logo" alt="<?php echo $image['alt']; ?>" />
+										</a>	
+									</div>
+								<?php endif; ?>
+								
+								<?php 
+									$image = get_field('press_2_image');
+									$link = get_field('press_2_link');	
+									if( !empty($image) ): ?>
+									<div class="press--logo__container">
+										<a href="<?php echo $link; ?>">
+											<img src="<?php echo $image['url']; ?>" class="press--logo" alt="<?php echo $image['alt']; ?>" />
+										</a>
+									</div>
+								<?php endif; ?>
+								
+								<?php 
+									$image = get_field('press_3_image');
+									$link = get_field('press_3_link');		
+									if( !empty($image) ): ?>
+									<div class="press--logo__container">
+										<a href="<?php echo $link; ?>">											
+											<img src="<?php echo $image['url']; ?>" class="press--logo" alt="<?php echo $image['alt']; ?>" />
+										</a>
+									</div>
+								<?php endif; ?>
+								
+								<?php 
+									$image = get_field('press_4_image');
+									$link = get_field('press_4_link');	
+									if( !empty($image) ): ?>
+									<div class="press--logo__container">
+										<a href="<?php echo $link; ?>">											
+											<img src="<?php echo $image['url']; ?>" class="press--logo" alt="<?php echo $image['alt']; ?>" />
+										</a>
+									</div>
+								<?php endif; ?>
+								
+								<?php 
+									$image = get_field('press_5_image');
+									$link = get_field('press_5_link');	
+									if( !empty($image) ): ?>
+									<div class="press--logo__container">
+										<a href="<?php echo $link; ?>">
+											<img src="<?php echo $image['url']; ?>" class="press--logo" alt="<?php echo $image['alt']; ?>" />
+										</a>
+									</div>
+								<?php endif; ?>
+							</div>
+						</div>
                         
 
 					<?php endwhile; // end of the loop. ?>
@@ -284,7 +369,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	!function(l){function e(e){for(var r,t,n=e[0],o=e[1],u=e[2],f=0,i=[];f<n.length;f++)t=n[f],p[t]&&i.push(p[t][0]),p[t]=0;for(r in o)Object.prototype.hasOwnProperty.call(o,r)&&(l[r]=o[r]);for(s&&s(e);i.length;)i.shift()();return c.push.apply(c,u||[]),a()}function a(){for(var e,r=0;r<c.length;r++){for(var t=c[r],n=!0,o=1;o<t.length;o++){var u=t[o];0!==p[u]&&(n=!1)}n&&(c.splice(r--,1),e=f(f.s=t[0]))}return e}var t={},p={2:0},c=[];function f(e){if(t[e])return t[e].exports;var r=t[e]={i:e,l:!1,exports:{}};return l[e].call(r.exports,r,r.exports,f),r.l=!0,r.exports}f.m=l,f.c=t,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(r,e){if(1&e&&(r=f(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var n in r)f.d(t,n,function(e){return r[e]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="/";var r=window.webpackJsonp=window.webpackJsonp||[],n=r.push.bind(r);r.push=e,r=r.slice();for(var o=0;o<r.length;o++)e(r[o]);var s=n;a()}([])
 </script>
 <script src="/static/js/1.3fe8f92f.chunk.js"></script>
-<script src="/static/js/main.e8315a12.chunk.js"></script>
+<script src="/static/js/main.949c7fdb.chunk.js"></script>
 
 <script>
 	const nav = document.querySelector(".navbar");
@@ -300,7 +385,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	window.addEventListener("scroll", displayNav);
 
-	const whyBrianHeight = document.querySelector(".why-brian").offsetHeight
+	const whyBrianHeight = document.querySelector(".why-brian").offsetHeight + 32
 	if (screen.width > 641) {
 		document.querySelector(".clients").style.marginTop = whyBrianHeight + "px"
 	}
@@ -317,8 +402,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 		} 
 	}
 		
-	
-
 	window.addEventListener("scroll", fixNavIcon);
 
 	function displayMobileMenu() {
