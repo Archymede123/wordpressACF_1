@@ -8791,7 +8791,9 @@ a {
   color: #1a406b; }
 
 .navbar {
+  background-color: white !important;
   background-color: transparent;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
   width: 100%;
   z-index: 1000; }
   .navbar img {
@@ -8799,6 +8801,7 @@ a {
     width: auto; }
 
 .page-template-fullwidthpage .navbar {
+  background: white !important;
   background: transparent;
   width: 100%;
   position: absolute;
@@ -9293,6 +9296,14 @@ a {
 .navigation {
   display: none; }
 
+.navbar {
+  position: fixed !important;
+  opacity: 0; }
+
+.fixed-nav .navbar {
+  opacity: 1;
+  transition: opacity ease-in-out .3s; }
+
 .landing-page {
   display: flex;
   position: relative; }
@@ -9310,7 +9321,7 @@ a {
       position: absolute;
       top: 4%;
       left: 20%;
-      width: 80px;
+      width: 120px;
       z-index: 1; }
     .landing-page .service-description  .service-description--content {
       position: absolute;
@@ -9480,31 +9491,30 @@ a {
     .clients .nav-link:hover .clients--logo {
       opacity: 1; }
   .clients .clients--logo {
-    width: 148px;
-    opacity: .4; }
+    width: 148px; }
   .clients .tab-pane {
     text-align: center; }
     .clients .tab-pane .clients--quote {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       color: #444444;
-      max-width: 50%;
+      max-width: 80%;
       margin: 0 auto;
       font-family: roboto;
       font-weight: 400;
       margin-top: 32px;
       margin-bottom: 32px; }
     .clients .tab-pane .clients--name {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       font-family: roboto;
       font-weight: 300; }
     .clients .tab-pane .clients--role {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       font-family: roboto;
       font-weight: 300;
       font-style: italic; }
     .clients .tab-pane .clients--logo {
       width: 100%;
-      max-width: 240px; }
+      max-width: 160px; }
 
 .partners {
   background-color: #f4f8fb;
@@ -9522,7 +9532,10 @@ a {
     margin: 0 auto;
     padding: 32px; }
   .partners .partner--logo {
-    width: 15%; }
+    width: 100%; }
+  .partners .partner--logo__container {
+    flex: 1 1 20%;
+    margin: 0 32px; }
 
 .blog-preview {
   text-align: center;
@@ -9603,6 +9616,9 @@ a {
       margin-right: 16px; }
     .app-download .stores--logo:last-child {
       margin-left: 16px; }
+
+.press--logos {
+  display: flex; }
 
 .cta {
   font-family: arial;
@@ -10197,7 +10213,8 @@ h5::after {
   font-family: Arial,sans-serif;
   font-size: 20px;
   line-height: 28px;
-  max-width: 70%;
+  padding-bottom: 1rem;
+  max-width: 90%;
   margin: 0 auto;
   text-transform: uppercase;
   font-weight: 400; }
@@ -10797,7 +10814,8 @@ h5::after {
   background-color: #fff;
   padding: 8px;
   margin-right: 2em;
-  flex: 0 1 160px; }
+  flex: 0 1 160px;
+  height: 140px; }
 
 .Step_Title__3GiJu {
   text-align: center;
@@ -10844,7 +10862,8 @@ h5::after {
       .App_Step__19vbB .FileInfo_Holder__3KO98 dd {
         margin-left: 0; }
     .App_Step__19vbB .Step_Container__wHBft {
-      position: relative; }
+      position: relative;
+      height: unset; }
     .App_Step__19vbB .Step_Content__3IwdX {
       position: absolute;
       top: 20px;

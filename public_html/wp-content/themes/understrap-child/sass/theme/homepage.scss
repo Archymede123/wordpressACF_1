@@ -3,15 +3,15 @@
     display: none;
 }
 
-// .navbar {
-//     position: fixed !important;
-//     opacity: 0;
-// }
+.navbar {
+    position: fixed !important;
+    opacity: 0;
+}
 
-// .fixed-nav .navbar {
-//     opacity: 1;
-//     transition: opacity ease-in-out .3s;
-// }
+.fixed-nav .navbar {
+    opacity: 1;
+    transition: opacity ease-in-out .3s;
+}
 
 .landing-page {
     .mobile-alert {
@@ -35,7 +35,7 @@
             position: absolute;
             top: 4%;
             left: 20%;
-            width: 80px;
+            width: 120px;
             z-index: 1;
         }
         .service-description--content {
@@ -273,16 +273,16 @@
 
     .clients--logo {
         width: 148px;
-        opacity: .4;
+        // opacity: .4;
     }
 
     .tab-pane {
         text-align: center;
 
         .clients--quote {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             color: $gris-dark;
-            max-width: 50%;
+            max-width: 80%;
             margin: 0 auto;
             font-family: roboto;
             font-weight: 400;
@@ -291,13 +291,13 @@
         }
 
         .clients--name {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             font-family: roboto;
             font-weight: 300;
         }
 
         .clients--role {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             font-family: roboto;
             font-weight: 300;
             font-style: italic;
@@ -305,7 +305,7 @@
         
         .clients--logo {
             width: 100%;
-            max-width: 240px;
+            max-width: 160px;
             // border-radius: 50%;
         }
     }
@@ -332,7 +332,12 @@
     }
 
     .partner--logo {
-        width: 15%;
+        width: 100%;
+    }
+
+    .partner--logo__container {
+        flex: 1 1 20%;
+        margin: 0 32px;
     }
 }
 
@@ -504,4 +509,8 @@
             margin-left: 16px;
         }
     }
+}
+
+.press--logos {
+    display: flex;
 }

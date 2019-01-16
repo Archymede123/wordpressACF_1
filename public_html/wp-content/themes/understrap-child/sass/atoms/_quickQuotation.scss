@@ -415,7 +415,8 @@
     font-family: Arial,sans-serif;
     font-size: 20px;
     line-height: 28px;
-    max-width: 70%;
+    padding-bottom: 1rem;
+    max-width: 90%;
     margin: 0 auto;
     text-transform: uppercase;
     font-weight: 400
@@ -1138,6 +1139,7 @@
     padding: 8px;
     margin-right: 2em;
     flex: 0 1 160px;
+    height: 140px;
 }
 
 .Step_Title__3GiJu {
@@ -1200,7 +1202,8 @@
         }
 
         .Step_Container__wHBft {
-            position: relative
+            position: relative;
+            height: unset;
         }
 
         .Step_Content__3IwdX {
