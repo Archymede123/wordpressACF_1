@@ -9682,10 +9682,10 @@ h5::after {
   left: 50%;
   transform: translate(-50%);
   width: 40%;
-  height: 1px;
-  border: 1px solid #FD576B;
+  height: 2px;
   transition-timing-function: ease-in;
-  transition: 0.2s; }
+  transition: 0.2s;
+  background: #FD576B; }
 
 .navbar-collapse {
   flex: 1; }

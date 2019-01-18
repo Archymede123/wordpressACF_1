@@ -85,7 +85,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 							</div>
 							
 							<div class="service-description">
-								<a href="https://client.mybrian.fr/order/new" class="cta-header mobile">Mon compte</a>
+								<?php 
+									$link = get_field('homepage_myaccount_button_link');
+									if( $link ): ?>							
+										<a class="cta-header mobile" href="<?php echo $link; ?>"><?php the_field('homepage_myaccount_button_label');?></a>
+								<?php endif; ?>
 								<?php 
 									$image = get_field('top_left_logo');
 									if( !empty($image) ): ?>
@@ -116,7 +120,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 								</div>
 							</div>
 							<div class="quick-quotation">
-								<a href="https://client.mybrian.fr/order/new" class="cta-header">Mon compte</a>
+								<?php 
+									$link = get_field('homepage_myaccount_button_link');
+									if( $link ): ?>							
+										<a class="cta-header" href="<?php echo $link; ?>"><?php the_field('homepage_myaccount_button_label');?></a>
+								<?php endif; ?>
+								<!-- <a href="https://client.mybrian.fr/order/new" class="cta-header">Mon compte</a> -->
 								<div class="quick-quotation--tool">
 									<div id="root">
 										<!-- <div class="App_App__2lytX"><div class="App_Header__3jkzR" style="
@@ -135,8 +144,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<div class="why-brian--items">
 								<div class="why-brian--item">
 									<div class="why-brian--icon">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/icon_relationship.png" alt="" class="why-brian--icon__image">
-									</div> 
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/icon_translation.png" alt="" class="why-brian--icon__image">
+									</div>
 									<h4 class="why-brian--title"><?php the_field('whybrian_item_1_title');?></h4>
 									<p class="why-brian--text"> 
 										<?php the_field('whybrian_item_1_content');?>
@@ -144,7 +153,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								</div>
 								<div class="why-brian--item">
 									<div class="why-brian--icon">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/icon_simplicity.png" alt="" class="why-brian--icon__image">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/icon_relationship.png" alt="" class="why-brian--icon__image">
 									</div> 
 									<h4 class="why-brian--title"><?php the_field('whybrian_item_2_title');?></h4>
 									<p class="why-brian--text"> 
@@ -153,7 +162,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								</div>
 								<div class="why-brian--item">
 									<div class="why-brian--icon">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/icon_translation.png" alt="" class="why-brian--icon__image">
+										<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/icon_simplicity.png" alt="" class="why-brian--icon__image">
 									</div> 
 									<h4 class="why-brian--title"><?php the_field('whybrian_item_3_title');?></h4>
 									<p class="why-brian--text"> 
@@ -265,18 +274,20 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<p class='app-download--text'><?php the_field('mobile-app_description');?></p>
 							<div class="stores--logos">
 								<?php 
-									$link = get_field('apple_store_app_link');
-									if( $link ): ?>			
-									<a href="<?php echo $link; ?>">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/downloadApp_logo/dispo_apple.png" alt="" class="stores--logo">
-									</a>
+									$image = get_field('apple_store_icon');
+									$link = get_field('apple_store_app_link');	
+									if( !empty($image) ): ?>
+										<a href="<?php echo $link; ?>">
+											<img src="<?php echo $image['url']; ?>" class="stores--logo" alt="<?php echo $image['alt']; ?>" />
+										</a>
 								<?php endif; ?>
 								<?php 
-									$link = get_field('android_store_app_link');
-									if( $link ): ?>			
-									<a href="<?php echo $link; ?>">
-										<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/downloadApp_logo/dispo_android.png" alt="" class="stores--logo">
-									</a>
+									$image = get_field('android_store_icon');
+									$link = get_field('android_store_app_link');	
+									if( !empty($image) ): ?>
+										<a href="<?php echo $link; ?>">
+											<img src="<?php echo $image['url']; ?>" class="stores--logo" alt="<?php echo $image['alt']; ?>" />
+										</a>
 								<?php endif; ?>
 								<!-- <a href="#">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/downloadApp_logo/dispo_android.png" alt="" class="stores--logo">

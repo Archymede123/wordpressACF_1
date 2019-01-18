@@ -19,9 +19,10 @@ h5::after {
     left: 50%;
     transform: translate(-50%);
     width: 40%;
-    height: 1px;
-    border: 1px solid $brand-secondary;
+    height: 2px;
+    // border: 1px solid $brand-secondary;
     transition-timing-function: ease-in;
     transition: 0.2s;
+    background: $brand-secondary;
 }
 
