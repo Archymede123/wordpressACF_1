@@ -3,15 +3,15 @@
     display: none;
 }
 
-// .navbar {
-//     position: fixed !important;
-//     opacity: 0;
-// }
+.navbar {
+    position: fixed !important;
+    opacity: 0;
+}
 
-// .fixed-nav .navbar {
-//     opacity: 1;
-//     transition: opacity ease-in-out .3s;
-// }
+.fixed-nav .navbar {
+    opacity: 1;
+    transition: opacity ease-in-out .3s;
+}
 
 .landing-page {
     .mobile-alert {
@@ -140,7 +140,11 @@
             position: absolute;
             top: 16px;
             right: 48px;
-            z-index: 40;
+            z-index: 400;
+
+            &:hover {
+                color: $rose;
+            }
         }
 
         .brian-icon-large {

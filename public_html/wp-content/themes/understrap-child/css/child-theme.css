@@ -8791,7 +8791,8 @@ a {
   color: #1a406b; }
 
 .navbar {
-  background-color: transparent;
+  background-color: white !important;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
   width: 100%;
   z-index: 1000; }
   .navbar img {
@@ -8799,6 +8800,7 @@ a {
     width: auto; }
 
 .page-template-fullwidthpage .navbar {
+  background: white !important;
   background: transparent;
   width: 100%;
   position: absolute;
@@ -9293,6 +9295,14 @@ a {
 .navigation {
   display: none; }
 
+.navbar {
+  position: fixed !important;
+  opacity: 0; }
+
+.fixed-nav .navbar {
+  opacity: 1;
+  transition: opacity ease-in-out .3s; }
+
 .landing-page {
   display: flex;
   position: relative; }
@@ -9388,7 +9398,9 @@ a {
       position: absolute;
       top: 16px;
       right: 48px;
-      z-index: 40; }
+      z-index: 400; }
+      .landing-page .quick-quotation .cta-header:hover {
+        color: #f6456b; }
     .landing-page .quick-quotation .brian-icon-large {
       position: absolute;
       bottom: -5px;

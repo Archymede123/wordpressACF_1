@@ -73,11 +73,11 @@ a {
 }
 
 .navbar {
-  // background-color: white !important;
-  background-color: transparent;
-  // box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 
-  //               0 3px 4px 0 rgba(0,0,0,0.12), 
-  //               0 1px 8px 0 rgba(0,0,0,0.2);
+  background-color: white !important;
+  // background-color: transparent;
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 
+                0 3px 4px 0 rgba(0,0,0,0.12), 
+                0 1px 8px 0 rgba(0,0,0,0.2);
   width: 100%;
   z-index: 1000;
   img {
@@ -88,7 +88,7 @@ a {
 
 .page-template-fullwidthpage {
   .navbar {
-    // background: white !important;
+    background: white !important;
     background: transparent;
     width: 100%;
     position: absolute;
