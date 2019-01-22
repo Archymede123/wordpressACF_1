@@ -13,12 +13,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="wrapper" id="landing-wrapper">
 
-	<!-- <div class="<?php echo esc_attr( $container ); ?>" id="content">
-
-		<div class="row">
-
-			<div class="col-md-12 content-area" id="primary"> -->
-
 				<main class="site-main" id="main" role="main">
 
 					<?php while ( have_posts() ) : the_post(); ?>
@@ -95,10 +89,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 									if( !empty($image) ): ?>
 									<img src="<?php echo $image['url']; ?>" class="logo" alt="<?php echo $image['alt']; ?>" />
 								<?php endif; ?>
-								<!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/logo_mybrian_white.png" alt="" class="logo"> -->
+								
 								<div class="service-description--content">
 									
-									<p class="service-description--subtitle"><?php the_field('homepage_surtitre');?></p>
+									<span class="service-description--subtitle"><?php the_field('homepage_surtitre');?></span>
 									<h1 class="service-description--title"><?php the_field('homepage_title');?></h1>
 									<p class="service-description--text">
 										<?php the_field('homepage_service_description');?>
@@ -125,7 +119,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 									if( $link ): ?>							
 										<a class="cta-header" href="<?php echo $link; ?>"><?php the_field('homepage_myaccount_button_label');?></a>
 								<?php endif; ?>
-								<!-- <a href="https://client.mybrian.fr/order/new" class="cta-header">Mon compte</a> -->
+								
 								<div class="quick-quotation--tool">
 									<div id="root">
 										<!-- <div class="App_App__2lytX"><div class="App_Header__3jkzR" style="
@@ -138,15 +132,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 							</div>
 						</div>
 						<div class="why-brian">
-							<h3 class="section-title">
+							<h2 class="section-title">
 								<?php the_field('whybrian_title');?>
-							</h3>
+							</h2>
 							<div class="why-brian--items">
 								<div class="why-brian--item">
 									<div class="why-brian--icon">
 										<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/icon_translation.png" alt="" class="why-brian--icon__image">
 									</div>
-									<h4 class="why-brian--title"><?php the_field('whybrian_item_1_title');?></h4>
+									<h3 class="why-brian--title"><?php the_field('whybrian_item_1_title');?></h3>
 									<p class="why-brian--text"> 
 										<?php the_field('whybrian_item_1_content');?>
 									</p>
@@ -155,7 +149,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 									<div class="why-brian--icon">
 										<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/icon_relationship.png" alt="" class="why-brian--icon__image">
 									</div> 
-									<h4 class="why-brian--title"><?php the_field('whybrian_item_2_title');?></h4>
+									<h3 class="why-brian--title"><?php the_field('whybrian_item_2_title');?></h3>
 									<p class="why-brian--text"> 
 										<?php the_field('whybrian_item_2_content');?>
 									</p>
@@ -164,7 +158,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 									<div class="why-brian--icon">
 										<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/icon_simplicity.png" alt="" class="why-brian--icon__image">
 									</div> 
-									<h4 class="why-brian--title"><?php the_field('whybrian_item_3_title');?></h4>
+									<h3 class="why-brian--title"><?php the_field('whybrian_item_3_title');?></h3>
 									<p class="why-brian--text"> 
 										<?php the_field('whybrian_item_3_content');?>
 									</p>
@@ -177,16 +171,147 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<?php endif; ?>
 						</div>
 						<div class="clients">
-							<h3 class="section-title">
+							<h2 class="section-title">
 								<?php the_field('quote_section_title');?>
-							</h3>
-							<div class="tab-pane fade show active" id="testimonial1" role="tabpanel" aria-labelledby="home-tab">
+							</h2>
+							<ul class="nav nav-tabs desktop-only" id="myTab" role="tablist">
+								<li class="nav-item">
+									<a class="nav-link active" id="home-tab" data-toggle="tab" href="#testimonial1" role="tab" aria-controls="home"
+										aria-selected="true">
+										<?php 
+											$image = get_field('quote_1_image');
+											if( !empty($image) ): ?>
+											<img src="<?php echo $image['url']; ?>" class="clients--logo" alt="<?php echo $image['alt']; ?>" />
+										<?php endif; ?>
+										<!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/clients_logo/logo_1.png" alt="" class="clients--logo"> -->
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" id="profile-tab" data-toggle="tab" href="#testimonial2" role="tab" aria-controls="profile"
+										aria-selected="false">
+										<?php 
+											$image = get_field('quote_2_image');
+											if( !empty($image) ): ?>
+											<img src="<?php echo $image['url']; ?>" class="clients--logo" alt="<?php echo $image['alt']; ?>" />
+										<?php endif; ?>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" id="contact-tab" data-toggle="tab" href="#testimonial3" role="tab" aria-controls="contact"
+										aria-selected="false">
+										<?php 
+											$image = get_field('quote_3_image');
+											if( !empty($image) ): ?>
+											<img src="<?php echo $image['url']; ?>" class="clients--logo" alt="<?php echo $image['alt']; ?>" />
+										<?php endif; ?>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" id="contact-tab" data-toggle="tab" href="#testimonial4" role="tab" aria-controls="contact"
+										aria-selected="false">
+										<?php 
+											$image = get_field('quote_4_image');
+											if( !empty($image) ): ?>
+											<img src="<?php echo $image['url']; ?>" class="clients--logo" alt="<?php echo $image['alt']; ?>" />
+										<?php endif; ?>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" id="contact-tab" data-toggle="tab" href="#testimonial5" role="tab" aria-controls="contact"
+										aria-selected="false">
+										<?php 
+											$image = get_field('quote_5_image');
+											if( !empty($image) ): ?>
+											<img src="<?php echo $image['url']; ?>" class="clients--logo" alt="<?php echo $image['alt']; ?>" />
+										<?php endif; ?>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" id="contact-tab" data-toggle="tab" href="#testimonial6" role="tab" aria-controls="contact"
+										aria-selected="false">
+										<?php 
+											$image = get_field('quote_6_image');
+											if( !empty($image) ): ?>
+											<img src="<?php echo $image['url']; ?>" class="clients--logo" alt="<?php echo $image['alt']; ?>" />
+										<?php endif; ?>
+									</a>
+								</li>
+							</ul>
+							<div class="tab-content desktop-only" id="myTabContent">
+								<div class="tab-pane fade show active" id="testimonial1" role="tabpanel" aria-labelledby="home-tab">
+									<p class="clients--quote"><?php the_field('quote_1_content');?></p>
+									<p class="clients--name"><?php the_field('quote_1_name');?></p>
+									<p class="clients--role"><?php the_field('quote_1_titre');?> 
+										<?php 
+											$link = get_field('quote_1_link');
+											if( $link ): ?>
+												<a href="<?php echo $link; ?>">chez <?php the_field('quote_1_company');?></a>
+										<?php endif; ?>
+									</p>
+								</div>
+								<div class="tab-pane fade" id="testimonial2" role="tabpanel" aria-labelledby="profile-tab">
+									<p class="clients--quote"><?php the_field('quote_2_content');?></p>
+									<p class="clients--name"><?php the_field('quote_2_name');?></p>
+									<p class="clients--role"><?php the_field('quote_2_titre');?>
+										<?php 
+											$link = get_field('quote_2_link');
+											if( $link ): ?>
+												<a href="<?php echo $link; ?>">chez <?php the_field('quote_2_company');?></a>
+										<?php endif; ?>
+									</p>
+								</div>
+								<div class="tab-pane fade" id="testimonial3" role="tabpanel" aria-labelledby="contact-tab">
+									<p class="clients--quote"><?php the_field('quote_3_content');?></p>
+									<p class="clients--name"><?php the_field('quote_3_name');?></p>
+									<p class="clients--role"><?php the_field('quote_3_titre');?>
+										<?php 
+											$link = get_field('quote_3_link');
+											if( $link ): ?>
+												<a href="<?php echo $link; ?>">chez <?php the_field('quote_3_company');?></a>
+										<?php endif; ?>
+									</p>
+								</div>
+								<div class="tab-pane fade" id="testimonial4" role="tabpanel" aria-labelledby="contact-tab">
+									<p class="clients--quote"><?php the_field('quote_4_content');?></p>
+									<p class="clients--name"><?php the_field('quote_4_name');?></p>
+									<p class="clients--role"><?php the_field('quote_4_titre');?>
+										<?php 
+											$link = get_field('quote_4_link');
+											if( $link ): ?>
+												<a href="<?php echo $link; ?>">chez <?php the_field('quote_4_company');?></a>
+										<?php endif; ?>
+									</p>
+								</div>
+								<div class="tab-pane fade" id="testimonial5" role="tabpanel" aria-labelledby="contact-tab">
+									<p class="clients--quote"><?php the_field('quote_5_content');?></p>
+									<p class="clients--name"><?php the_field('quote_5_name');?></p>
+									<p class="clients--role"><?php the_field('quote_5_titre');?>
+										<?php 
+											$link = get_field('quote_5_link');
+											if( $link ): ?>
+												<a href="<?php echo $link; ?>">chez <?php the_field('quote_5_company');?></a>
+										<?php endif; ?>
+									</p>
+								</div>
+								<div class="tab-pane fade" id="testimonial6" role="tabpanel" aria-labelledby="contact-tab">
+									<p class="clients--quote"><?php the_field('quote_6_content');?></p>
+									<p class="clients--name"><?php the_field('quote_6_name');?></p>
+									<p class="clients--role"><?php the_field('quote_6_titre');?>
+										<?php 
+											$link = get_field('quote_6_link');
+											if( $link ): ?>
+												<a href="<?php echo $link; ?>">chez <?php the_field('quote_6_company');?></a>
+										<?php endif; ?>
+									</p>
+								</div>
+							</div>
+							<div class="mobile-only tab-pane fade show active" id="testimonial1" role="tabpanel" aria-labelledby="home-tab">
 								<p class="clients--quote">"<?php the_field('client_quote');?>"</p>
 								<p class="clients--name"><?php the_field('client_name');?></p>
 								<p class="clients--role"><?php the_field('client_role');?></p>
 								<?php 
 									$image = get_field('client_logo');
-									$link = get_field('client_logo_link');	
+									$link = get_field('client_logo_link');
 									if( !empty($image) ): ?>
 									<a href="<?php echo $link; ?>">
 										<img src="<?php echo $image['url']; ?>" class="clients--logo" alt="<?php echo $image['alt']; ?>" />
@@ -195,9 +320,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 							</div>
 						</div>
 						<div class="partners">
-							<h3 class="section-title">
+							<h2 class="section-title">
 								<?php the_field('partner_section_title');?>
-							</h3>
+							</h2>
 							<div class="partners--logos">
 								<?php 
 									$image = get_field('partner_1_image');
@@ -257,9 +382,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</div>
 						
 						<div class="blog-preview">
-							<h3 class="section-title">
+							<h2 class="section-title">
 								<?php the_field('blog-preview_section_title');?>
-							</h3>
+							</h2>
 							<?php dynamic_sidebar( 'recent-posts-homepage' ); ?>
 							<?php 
 								$link = get_field('blog-preview_cta_link');
@@ -268,9 +393,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<?php endif; ?>
 						</div>
 						<div class="app-download">
-							<h3 class="section-title">
+							<h2 class="section-title">
 								<?php the_field('mobile-app_section_title');?>
-							</h3>
+							</h2>
 							<p class='app-download--text'><?php the_field('mobile-app_description');?></p>
 							<div class="stores--logos">
 								<?php 
@@ -289,18 +414,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 											<img src="<?php echo $image['url']; ?>" class="stores--logo" alt="<?php echo $image['alt']; ?>" />
 										</a>
 								<?php endif; ?>
-								<!-- <a href="#">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/downloadApp_logo/dispo_android.png" alt="" class="stores--logo">
-								</a>
-								<a href="#">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/downloadApp_logo/dispo_apple.png" alt="" class="stores--logo">
-								</a> -->
+								
 							</div>
 						</div>
 						<div class="press-articles">
-							<h3 class="section-title">
+							<h2 class="section-title">
 								<?php the_field('press_section_title');?>
-							</h3>
+							</h2>
 							<div class="press--logos">
 								
 								<?php 
@@ -365,11 +485,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				</main><!-- #main -->
 
-			<!-- </div>#primary
 
-		</div>.row end
-
-	</div>Container end -->
 
 </div><!-- Wrapper end -->
 

@@ -81,6 +81,8 @@
                 list-style: none;
                 text-align: center;
                 width: 100%;
+                margin: 0;
+                padding: 0;
             }
 
             .navigation__item {
@@ -262,6 +264,25 @@
 
     .clients {
         padding-top: 0;
+
+        .mobile-only {
+            display: block;
+        }
+
+        .desktop-only {
+            display: none;
+        }
+    }
+
+    .partners .partners--logos {
+        flex-wrap: wrap;
+        margin: 16px 32px;
+        padding: 0;
+
+        .partner--logo__container {
+            flex: 1 1 28%;
+            margin: 8px 12px;
+        }
     }
 
     .blog-preview .acf-rpw-ul {
@@ -274,5 +295,14 @@
 
     .app-download .section-title {
         font-size: 1.2rem;
+    }
+
+    .press-articles .press--logos {
+        flex-wrap: wrap;
+        padding: 8px;
+
+        .press--logo__container {
+            margin: 8px 12px
+        }
     }
  }

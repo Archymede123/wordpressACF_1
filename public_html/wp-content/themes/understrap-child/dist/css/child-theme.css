@@ -9334,7 +9334,9 @@ a {
       text-transform: uppercase;
       letter-spacing: 1px;
       font-family: arial;
-      color: #ffffff; }
+      color: #ffffff;
+      display: block;
+      margin-bottom: .5rem; }
       .landing-page .service-description  .service-description--subtitle::after {
         content: "";
         position: absolute;
@@ -9475,6 +9477,8 @@ a {
   max-width: 1200px;
   padding-top: 64px;
   text-align: center; }
+  .clients .mobile-only {
+    display: none; }
   .clients:hover .section-title::after {
     width: 100%;
     transition: width ease-out .6s; }
@@ -9492,7 +9496,8 @@ a {
     .clients .nav-link:hover .clients--logo {
       opacity: 1; }
   .clients .clients--logo {
-    width: 148px; }
+    width: 148px;
+    opacity: .4; }
   .clients .tab-pane {
     text-align: center; }
     .clients .tab-pane .clients--quote {
@@ -9773,7 +9778,9 @@ h5::after {
         transform: translate(-50%, -50%);
         list-style: none;
         text-align: center;
-        width: 100%; }
+        width: 100%;
+        margin: 0;
+        padding: 0; }
       .navigation.open .navigation__item {
         margin: 1rem; }
       .navigation.open .navigation__link {
@@ -9883,12 +9890,28 @@ h5::after {
       flex-wrap: wrap; }
   .clients {
     padding-top: 0; }
+    .clients .mobile-only {
+      display: block; }
+    .clients .desktop-only {
+      display: none; }
+  .partners .partners--logos {
+    flex-wrap: wrap;
+    margin: 16px 32px;
+    padding: 0; }
+    .partners .partners--logos .partner--logo__container {
+      flex: 1 1 28%;
+      margin: 8px 12px; }
   .blog-preview .acf-rpw-ul {
     flex-wrap: wrap; }
     .blog-preview .acf-rpw-ul .acf-rpw-li {
       flex: 0 0 95%; }
   .app-download .section-title {
-    font-size: 1.2rem; } }
+    font-size: 1.2rem; }
+  .press-articles .press--logos {
+    flex-wrap: wrap;
+    padding: 8px; }
+    .press-articles .press--logos .press--logo__container {
+      margin: 8px 12px; } }
 
 @font-face {
   font-family: icomoon;
