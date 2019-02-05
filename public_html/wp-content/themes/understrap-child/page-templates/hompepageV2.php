@@ -85,10 +85,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 										<a class="cta-header mobile" href="<?php echo $link; ?>"><?php the_field('homepage_myaccount_button_label');?></a>
 								<?php endif; ?>
 								<?php 
-									$image = get_field('top_left_logo');
+									$image = get_field('quote_1_image');
 									if( !empty($image) ): ?>
 									<img src="<?php echo $image['url']; ?>" class="logo" alt="<?php echo $image['alt']; ?>" />
 								<?php endif; ?>
+								<?php 
+									$image = get_field('quote_1_image');
+									$imageID = $image['ID'];
+									echo wp_get_attachment_image( $imageID, 'full', false, array( 'class' => 'lazyload logo', 'data-sizes' => 'auto' ) );
+								?>
 								
 								<div class="service-description--content">
 									
@@ -183,6 +188,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 											if( !empty($image) ): ?>
 											<img src="<?php echo $image['url']; ?>" class="clients--logo" alt="<?php echo $image['alt']; ?>" />
 										<?php endif; ?>
+										<?php 
+											$image = get_field('quote_1_image');
+											$imageID = $image['ID'];
+											echo wp_get_attachment_image( $imageID, 'full', false, array( 'class' => 'lazyload clients--logo', 'data-sizes' => 'auto' ) );
+										 ?>
+										 <!-- <img src="<?php echo $image['url']; ?>" class="clients--logo" alt="<?php echo $image['alt']; ?>" /> -->
 										<!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/src/img/clients_logo/logo_1.png" alt="" class="clients--logo"> -->
 									</a>
 								</li>
@@ -498,66 +509,68 @@ $container = get_theme_mod( 'understrap_container_type' );
 <script src="/static/js/1.3fe8f92f.chunk.js"></script>
 <script src="/static/js/main.949c7fdb.chunk.js"></script>
 
+
 <script>
-	const nav = document.querySelector(".navbar");
+	// const nav = document.querySelector(".navbar");
 	
 
-	function displayNav() {
-		if(window.scrollY > 200) {
-			document.body.classList.add("fixed-nav");
-		} else {
-			document.body.classList.remove("fixed-nav");
-		}
-	}
+	// function displayNav() {
+	// 	if(window.scrollY > 200) {
+	// 		document.body.classList.add("fixed-nav");
+	// 	} else {
+	// 		document.body.classList.remove("fixed-nav");
+	// 	}
+	// }
 
-	window.addEventListener("scroll", displayNav);
+	// window.addEventListener("scroll", displayNav);
 
-	const whyBrianHeight = document.querySelector(".why-brian").offsetHeight + 32
-	if (screen.width > 641) {
-		document.querySelector(".clients").style.marginTop = whyBrianHeight + "px"
-	}
+	// const whyBrianHeight = document.querySelector(".why-brian").offsetHeight + 32
+	// if (screen.width > 641) {
+	// 	document.querySelector(".clients").style.marginTop = whyBrianHeight + "px"
+	// }
 	
 
-	const navIcon = document.getElementById("nav-icon-mobile");
-	const topOfNavIcon = navIcon.offsetTop;
+	// const navIcon = document.getElementById("nav-icon-mobile");
+	// const topOfNavIcon = navIcon.offsetTop;
 	
-	function fixNavIcon() {
-		if(window.scrollY >= topOfNavIcon) {
-			document.querySelector(".navigation").classList.add("fixed-nav-icon");		
-		} else {
-			document.querySelector(".navigation").classList.remove("fixed-nav-icon");
-		} 
-	}
+	// function fixNavIcon() {
+	// 	if(window.scrollY >= topOfNavIcon) {
+	// 		document.querySelector(".navigation").classList.add("fixed-nav-icon");		
+	// 	} else {
+	// 		document.querySelector(".navigation").classList.remove("fixed-nav-icon");
+	// 	} 
+	// }
 		
-	window.addEventListener("scroll", fixNavIcon);
+	// window.addEventListener("scroll", fixNavIcon);
 
-	function displayMobileMenu() {
-		document.querySelector(".navigation").classList.toggle("open");
-	}
+	// function displayMobileMenu() {
+	// 	document.querySelector(".navigation").classList.toggle("open");
+	// }
 	
-	navIcon.addEventListener("click", displayMobileMenu);
+	// navIcon.addEventListener("click", displayMobileMenu);
 
-	function getMobileOperatingSystem() {
-		console.log("yo")
-		var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-		var link = document.getElementById("mobile-alert-link");
+	// function getMobileOperatingSystem() {
+	// 	console.log("yo")
+	// 	var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+	// 	var link = document.getElementById("mobile-alert-link");
 
-		if (/android/i.test(userAgent)) {
-			link.setAttribute('href', "https://play.google.com/store/apps/details?id=fr.mybrian.MyBrian&hl=fr");
-		}
+	// 	if (/android/i.test(userAgent)) {
+	// 		link.setAttribute('href', "https://play.google.com/store/apps/details?id=fr.mybrian.MyBrian&hl=fr");
+	// 	}
 
-		// iOS detection from: http://stackoverflow.com/a/9039885/177710
-		if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-			link.setAttribute('href', "https://itunes.apple.com/us/app/mybrian/id1291722929?mt=8");
-		}
-		else {
-			link.setAttribute('href', "https://itunes.apple.com/us/app/mybrian/id1291722929?mt=8");
-		}
-	}
+	// 	// iOS detection from: http://stackoverflow.com/a/9039885/177710
+	// 	if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+	// 		link.setAttribute('href', "https://itunes.apple.com/us/app/mybrian/id1291722929?mt=8");
+	// 	}
+	// 	else {
+	// 		link.setAttribute('href', "https://itunes.apple.com/us/app/mybrian/id1291722929?mt=8");
+	// 	}
+	// }
 
-	window.addEventListener("load", getMobileOperatingSystem);
+	// window.addEventListener("load", getMobileOperatingSystem);
 
-	!function(l){function e(e){for(var r,t,n=e[0],o=e[1],u=e[2],f=0,i=[];f<n.length;f++)t=n[f],p[t]&&i.push(p[t][0]),p[t]=0;for(r in o)Object.prototype.hasOwnProperty.call(o,r)&&(l[r]=o[r]);for(s&&s(e);i.length;)i.shift()();return c.push.apply(c,u||[]),a()}function a(){for(var e,r=0;r<c.length;r++){for(var t=c[r],n=!0,o=1;o<t.length;o++){var u=t[o];0!==p[u]&&(n=!1)}n&&(c.splice(r--,1),e=f(f.s=t[0]))}return e}var t={},p={2:0},c=[];function f(e){if(t[e])return t[e].exports;var r=t[e]={i:e,l:!1,exports:{}};return l[e].call(r.exports,r,r.exports,f),r.l=!0,r.exports}f.m=l,f.c=t,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(r,e){if(1&e&&(r=f(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var n in r)f.d(t,n,function(e){return r[e]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="/";var r=window.webpackJsonp=window.webpackJsonp||[],n=r.push.bind(r);r.push=e,r=r.slice();for(var o=0;o<r.length;o++)e(r[o]);var s=n;a()}([])</script><script src="/static/js/1.3fe8f92f.chunk.js">
+	// !function(l){function e(e){for(var r,t,n=e[0],o=e[1],u=e[2],f=0,i=[];f<n.length;f++)t=n[f],p[t]&&i.push(p[t][0]),p[t]=0;for(r in o)Object.prototype.hasOwnProperty.call(o,r)&&(l[r]=o[r]);for(s&&s(e);i.length;)i.shift()();return c.push.apply(c,u||[]),a()}function a(){for(var e,r=0;r<c.length;r++){for(var t=c[r],n=!0,o=1;o<t.length;o++){var u=t[o];0!==p[u]&&(n=!1)}n&&(c.splice(r--,1),e=f(f.s=t[0]))}return e}var t={},p={2:0},c=[];function f(e){if(t[e])return t[e].exports;var r=t[e]={i:e,l:!1,exports:{}};return l[e].call(r.exports,r,r.exports,f),r.l=!0,r.exports}f.m=l,f.c=t,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(r,e){if(1&e&&(r=f(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var n in r)f.d(t,n,function(e){return r[e]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="/";var r=window.webpackJsonp=window.webpackJsonp||[],n=r.push.bind(r);r.push=e,r=r.slice();for(var o=0;o<r.length;o++)e(r[o]);var s=n;a()}([])
+</script><script src="/static/js/1.3fe8f92f.chunk.js">
 
 
 	
